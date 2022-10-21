@@ -1,0 +1,5 @@
+getNextSymbol	helpers/unisort.html#getNextSymbol.i,string,seq[string]	unisort: getNextSymbol(str: string; ngraphset: seq[string]): string	
+unisort	helpers/unisort.html#unisort,openArray[Value],string,CompProc,bool,bool	unisort: unisort(a: var openArray[Value]; lang: string; cmp: CompProc;\n        sensitive: bool = false; order = SortOrder.Ascending;\n        ascii: bool = false)	
+unisort	helpers/unisort.html#unisort,openArray[Value],string,bool,bool	unisort: unisort(a: var openArray[Value]; lang: string; sensitive: bool = false;\n        order = SortOrder.Ascending; ascii: bool = false)	
+unisorted	helpers/unisort.html#unisorted,openArray[Value],string,CompProc,bool,bool	unisort: unisorted(a: openArray[Value]; lang: string; cmp: CompProc;\n          sensitive: bool = false; order = SortOrder.Ascending;\n          ascii: bool = false): seq[Value]	
+unisorted	helpers/unisort.html#unisorted,openArray[Value],string,bool,bool	unisort: unisorted(a: openArray[Value]; lang: string; sensitive: bool = false;\n          order = SortOrder.Ascending; ascii: bool = false): seq[Value]	

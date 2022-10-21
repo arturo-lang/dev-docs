@@ -1,0 +1,24 @@
+StackSize	vm/stack.html#StackSize	stack: StackSize	
+AttrsSize	vm/stack.html#AttrsSize	stack: AttrsSize	
+Stack	vm/stack.html#Stack	stack: Stack	
+Attrs	vm/stack.html#Attrs	stack: Attrs	
+SP	vm/stack.html#SP	stack: SP	
+push	vm/stack.html#push.t,Value	stack: push(v: Value)	
+push	vm/stack.html#push.t,ValueArray,int,int	stack: push(v: ValueArray; a: int; b: int; reversed = false; doMove = false)	
+pop	vm/stack.html#pop.t	stack: pop(): Value	
+popN	vm/stack.html#popN.t,int	stack: popN(n: int)	
+peek	vm/stack.html#peek.t,int	stack: peek(pos: int): Value	
+peekRange	vm/stack.html#peekRange.t,int,int	stack: peekRange(posFrom: int; posTo: int): ValueArray	
+sTop	vm/stack.html#sTop.t	stack: sTop(): Value	
+squeeze	vm/stack.html#squeeze.t,int,Value	stack: squeeze(pos: int; v: Value)	
+sTopsFrom	vm/stack.html#sTopsFrom.t,int	stack: sTopsFrom(start: int): ValueArray	
+emptyStack	vm/stack.html#emptyStack.t	stack: emptyStack()	
+createMainStack	vm/stack.html#createMainStack.t	stack: createMainStack()	
+pushAttr	vm/stack.html#pushAttr.t,string,Value	stack: pushAttr(label: string; v: Value)	
+emptyAttrs	vm/stack.html#emptyAttrs.t	stack: emptyAttrs()	
+createAttrsStack	vm/stack.html#createAttrsStack.t	stack: createAttrsStack()	
+getAttr	vm/stack.html#getAttr,string	stack: getAttr(attr: string): Value	
+popAttr	vm/stack.html#popAttr,string	stack: popAttr(attr: string): Value	
+checkAttr	vm/stack.html#checkAttr.m,untyped	stack: checkAttr(name: untyped): untyped	
+hadAttr	vm/stack.html#hadAttr.t,string	stack: hadAttr(attr: string): bool	
+getAttrsDict	vm/stack.html#getAttrsDict	stack: getAttrsDict(): Value	

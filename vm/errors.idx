@@ -1,0 +1,44 @@
+ReturnTriggered	vm/errors.html#ReturnTriggered	errors: ReturnTriggered	
+BreakTriggered	vm/errors.html#BreakTriggered	errors: BreakTriggered	
+ContinueTriggered	vm/errors.html#ContinueTriggered	errors: ContinueTriggered	
+VMError	vm/errors.html#VMError	errors: VMError	
+RuntimeError	vm/errors.html#RuntimeError	errors: RuntimeError	
+AssertionError	vm/errors.html#AssertionError	errors: AssertionError	
+SyntaxError	vm/errors.html#SyntaxError	errors: SyntaxError	
+ProgramError	vm/errors.html#ProgramError	errors: ProgramError	
+CompilerError	vm/errors.html#CompilerError	errors: CompilerError	
+Alternative	vm/errors.html#Alternative	errors: Alternative	
+CurrentFile	vm/errors.html#CurrentFile	errors: CurrentFile	
+CurrentPath	vm/errors.html#CurrentPath	errors: CurrentPath	
+CurrentLine	vm/errors.html#CurrentLine	errors: CurrentLine	
+ExecStack	vm/errors.html#ExecStack	errors: ExecStack	
+getLineError	vm/errors.html#getLineError	errors: getLineError(): string	
+panic	vm/errors.html#panic,string,string	errors: panic(context: string; error: string; throw = true)	
+showVMErrors	vm/errors.html#showVMErrors,ref.Exception	errors: showVMErrors(e: ref Exception)	
+CompilerError_ScriptNotExists	vm/errors.html#CompilerError_ScriptNotExists,string	errors: CompilerError_ScriptNotExists(name: string)	
+CompilerError_UnrecognizedOption	vm/errors.html#CompilerError_UnrecognizedOption,string	errors: CompilerError_UnrecognizedOption(name: string)	
+SyntaxError_MissingClosingBracket	vm/errors.html#SyntaxError_MissingClosingBracket,int,string	errors: SyntaxError_MissingClosingBracket(lineno: int; context: string)	
+SyntaxError_UnterminatedString	vm/errors.html#SyntaxError_UnterminatedString,string,int,string	errors: SyntaxError_UnterminatedString(strtype: string; lineno: int; context: string)	
+SyntaxError_NewlineInQuotedString	vm/errors.html#SyntaxError_NewlineInQuotedString,int,string	errors: SyntaxError_NewlineInQuotedString(lineno: int; context: string)	
+SyntaxError_EmptyLiteral	vm/errors.html#SyntaxError_EmptyLiteral,int,string	errors: SyntaxError_EmptyLiteral(lineno: int; context: string)	
+AssertionError_AssertionFailed	vm/errors.html#AssertionError_AssertionFailed,string	errors: AssertionError_AssertionFailed(context: string)	
+RuntimeError_IntegerParsingOverflow	vm/errors.html#RuntimeError_IntegerParsingOverflow,int,string	errors: RuntimeError_IntegerParsingOverflow(lineno: int; number: string)	
+RuntimeError_IntegerOperationOverflow	vm/errors.html#RuntimeError_IntegerOperationOverflow,string,string,string	errors: RuntimeError_IntegerOperationOverflow(operation: string; argA, argB: string)	
+RuntimeError_NumberOutOfPermittedRange	vm/errors.html#RuntimeError_NumberOutOfPermittedRange,string,string,string	errors: RuntimeError_NumberOutOfPermittedRange(operation: string; argA, argB: string)	
+RuntimeError_IncompatibleQuantityOperation	vm/errors.html#RuntimeError_IncompatibleQuantityOperation,string,string,string,string,string	errors: RuntimeError_IncompatibleQuantityOperation(operation: string;\n    argA, argB, kindA, kindB: string)	
+RuntimeError_CannotConvertQuantity	vm/errors.html#RuntimeError_CannotConvertQuantity,string,string,string,string,string	errors: RuntimeError_CannotConvertQuantity(val, argA, kindA, argB, kindB: string)	
+RuntimeError_OutOfBounds	vm/errors.html#RuntimeError_OutOfBounds,int,int	errors: RuntimeError_OutOfBounds(indx: int; maxRange: int)	
+RuntimeError_SymbolNotFound	vm/errors.html#RuntimeError_SymbolNotFound,string,seq[string]	errors: RuntimeError_SymbolNotFound(sym: string; alter: seq[string])	
+RuntimeError_CannotModifyConstant	vm/errors.html#RuntimeError_CannotModifyConstant,string	errors: RuntimeError_CannotModifyConstant(sym: string)	
+RuntimeError_FileNotFound	vm/errors.html#RuntimeError_FileNotFound,string	errors: RuntimeError_FileNotFound(path: string)	
+RuntimeError_AliasNotFound	vm/errors.html#RuntimeError_AliasNotFound,string	errors: RuntimeError_AliasNotFound(sym: string)	
+RuntimeError_KeyNotFound	vm/errors.html#RuntimeError_KeyNotFound,string,seq[string]	errors: RuntimeError_KeyNotFound(sym: string; alter: seq[string])	
+RuntimeError_NotEnoughArguments	vm/errors.html#RuntimeError_NotEnoughArguments,string,int	errors: RuntimeError_NotEnoughArguments(functionName: string; functionArity: int)	
+RuntimeError_WrongArgumentType	vm/errors.html#RuntimeError_WrongArgumentType,string,string,string,string	errors: RuntimeError_WrongArgumentType(functionName: string; actual: string;\n                               paramPos: string; accepted: string)	
+RuntimeError_CannotConvert	vm/errors.html#RuntimeError_CannotConvert,string,string,string	errors: RuntimeError_CannotConvert(arg, fromType, toType: string)	
+RuntimeError_ConversionFailed	vm/errors.html#RuntimeError_ConversionFailed,string,string,string	errors: RuntimeError_ConversionFailed(arg, fromType, toType: string)	
+RuntimeError_LibraryNotLoaded	vm/errors.html#RuntimeError_LibraryNotLoaded,string	errors: RuntimeError_LibraryNotLoaded(path: string)	
+RuntimeError_LibrarySymbolNotFound	vm/errors.html#RuntimeError_LibrarySymbolNotFound,string,string	errors: RuntimeError_LibrarySymbolNotFound(path: string; sym: string)	
+RuntimeError_ErrorLoadingLibrarySymbol	vm/errors.html#RuntimeError_ErrorLoadingLibrarySymbol,string,string	errors: RuntimeError_ErrorLoadingLibrarySymbol(path: string; sym: string)	
+RuntimeError_OperationNotPermitted	vm/errors.html#RuntimeError_OperationNotPermitted,string	errors: RuntimeError_OperationNotPermitted(operation: string)	
+ProgramError_panic	vm/errors.html#ProgramError_panic,string,int	errors: ProgramError_panic(message: string; code: int)	

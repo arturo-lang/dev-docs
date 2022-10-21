@@ -1,0 +1,13 @@
+VRegex	vm/values/custom/vregex.html#VRegex	vregex: VRegex	
+escapeForRegex	vm/values/custom/vregex.html#escapeForRegex,string	vregex: escapeForRegex(s: string): string	
+`$`	vm/values/custom/vregex.html#$,VRegex	vregex: `$`(rx: VRegex): string	
+newRegexObj	vm/values/custom/vregex.html#newRegexObj,string	vregex: newRegexObj(pattern: string): VRegex	
+contains	vm/values/custom/vregex.html#contains,string,VRegex	vregex: contains(str: string; rx: VRegex): bool	
+contains	vm/values/custom/vregex.html#contains,string,VRegex,int	vregex: contains(str: string; rx: VRegex; at: int): bool	
+startsWith	vm/values/custom/vregex.html#startsWith,string,VRegex	vregex: startsWith(str: string; rx: VRegex): bool	
+endsWith	vm/values/custom/vregex.html#endsWith,string,VRegex	vregex: endsWith(str: string; rx: VRegex): bool	
+replaceAll	vm/values/custom/vregex.html#replaceAll,string,VRegex,string	vregex: replaceAll(str: string; rx: VRegex; with: string): string	
+split	vm/values/custom/vregex.html#split,string,VRegex	vregex: split(str: string; rx: VRegex): seq[string]	
+matchAll	vm/values/custom/vregex.html#matchAll,string,VRegex	vregex: matchAll(str: string; rx: VRegex): seq[string]	
+matchAllGroups	vm/values/custom/vregex.html#matchAllGroups,string,VRegex	vregex: matchAllGroups(str: string; rx: VRegex): Table[string, string]	
+hash	vm/values/custom/vregex.html#hash,VRegex	vregex: hash(rx: VRegex): Hash	

@@ -1,0 +1,16 @@
+flattened	helpers/arrays.html#flattened,Value,int	arrays: flattened(v: Value; once = false; level = 0): Value	
+removeFirst	helpers/arrays.html#removeFirst,string,string	arrays: removeFirst(str: string; what: string): string	
+removeFirst	helpers/arrays.html#removeFirst,ValueArray,Value	arrays: removeFirst(arr: ValueArray; what: Value): ValueArray	
+removeAll	helpers/arrays.html#removeAll,ValueArray,Value	arrays: removeAll(arr: ValueArray; what: Value): ValueArray	
+removeByIndex	helpers/arrays.html#removeByIndex,ValueArray,int	arrays: removeByIndex(arr: ValueArray; index: int): ValueArray	
+removeFirst	helpers/arrays.html#removeFirst,ValueDict,Value,bool	arrays: removeFirst(dict: ValueDict; what: Value; key: bool): ValueDict	
+removeAll	helpers/arrays.html#removeAll,ValueDict,Value,bool	arrays: removeAll(dict: ValueDict; what: Value; key: bool): ValueDict	
+removeAll	helpers/arrays.html#removeAll,string,Value	arrays: removeAll(str: string; what: Value): string	
+powerset	helpers/arrays.html#powerset,HashSet[Value]	arrays: powerset(s: HashSet[Value]): HashSet[HashSet[Value]]	
+safeRepeat	helpers/arrays.html#safeRepeat,Value,int	arrays: safeRepeat(v: Value; times: int): ValueArray	
+safeCycle	helpers/arrays.html#safeCycle,ValueArray,int	arrays: safeCycle(va: ValueArray; times: int): ValueArray	
+isSorted	helpers/arrays.html#isSorted,ValueArray,bool	arrays: isSorted(s: ValueArray; ascending: bool = true): bool	
+deduplicated	helpers/arrays.html#deduplicated,openArray[T],bool	arrays: deduplicated[T](s: openArray[T]; isSorted: bool = false): seq[T]	
+cleanAppend	helpers/arrays.html#cleanAppend,ValueArray,ValueArray	arrays: cleanAppend(s: ValueArray; t: ValueArray): ValueArray	
+cleanAppend	helpers/arrays.html#cleanAppend,Value,Value,staticbool	arrays: cleanAppend(s: Value; t: Value; singleValue: static bool = false): ValueArray	
+cleanAppendInPlace	helpers/arrays.html#cleanAppendInPlace,Value,Value	arrays: cleanAppendInPlace(s: var Value; t: Value)	

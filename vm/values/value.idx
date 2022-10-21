@@ -1,0 +1,187 @@
+NoValues	vm/values/value.html#NoValues	value: NoValues	
+I0	vm/values/value.html#I0	value: I0	
+I1	vm/values/value.html#I1	value: I1	
+I2	vm/values/value.html#I2	value: I2	
+I3	vm/values/value.html#I3	value: I3	
+I4	vm/values/value.html#I4	value: I4	
+I5	vm/values/value.html#I5	value: I5	
+I6	vm/values/value.html#I6	value: I6	
+I7	vm/values/value.html#I7	value: I7	
+I8	vm/values/value.html#I8	value: I8	
+I9	vm/values/value.html#I9	value: I9	
+I10	vm/values/value.html#I10	value: I10	
+I11	vm/values/value.html#I11	value: I11	
+I12	vm/values/value.html#I12	value: I12	
+I13	vm/values/value.html#I13	value: I13	
+I14	vm/values/value.html#I14	value: I14	
+I15	vm/values/value.html#I15	value: I15	
+I1M	vm/values/value.html#I1M	value: I1M	
+F0	vm/values/value.html#F0	value: F0	
+F1	vm/values/value.html#F1	value: F1	
+F2	vm/values/value.html#F2	value: F2	
+F1M	vm/values/value.html#F1M	value: F1M	
+VTRUE	vm/values/value.html#VTRUE	value: VTRUE	
+VFALSE	vm/values/value.html#VFALSE	value: VFALSE	
+VMAYBE	vm/values/value.html#VMAYBE	value: VMAYBE	
+VNULL	vm/values/value.html#VNULL	value: VNULL	
+VEMPTYSTR	vm/values/value.html#VEMPTYSTR	value: VEMPTYSTR	
+VEMPTYARR	vm/values/value.html#VEMPTYARR	value: VEMPTYARR	
+VEMPTYDICT	vm/values/value.html#VEMPTYDICT	value: VEMPTYDICT	
+VSTRINGT	vm/values/value.html#VSTRINGT	value: VSTRINGT	
+VINTEGERT	vm/values/value.html#VINTEGERT	value: VINTEGERT	
+VNOTHING	vm/values/value.html#VNOTHING	value: VNOTHING	
+NoAliasBinding	vm/values/value.html#NoAliasBinding	value: NoAliasBinding	
+AddF	vm/values/value.html#AddF	value: AddF	
+SubF	vm/values/value.html#SubF	value: SubF	
+MulF	vm/values/value.html#MulF	value: MulF	
+DivF	vm/values/value.html#DivF	value: DivF	
+FdivF	vm/values/value.html#FdivF	value: FdivF	
+ModF	vm/values/value.html#ModF	value: ModF	
+PowF	vm/values/value.html#PowF	value: PowF	
+NegF	vm/values/value.html#NegF	value: NegF	
+BNotF	vm/values/value.html#BNotF	value: BNotF	
+BAndF	vm/values/value.html#BAndF	value: BAndF	
+BOrF	vm/values/value.html#BOrF	value: BOrF	
+ShlF	vm/values/value.html#ShlF	value: ShlF	
+ShrF	vm/values/value.html#ShrF	value: ShrF	
+NotF	vm/values/value.html#NotF	value: NotF	
+AndF	vm/values/value.html#AndF	value: AndF	
+OrF	vm/values/value.html#OrF	value: OrF	
+EqF	vm/values/value.html#EqF	value: EqF	
+NeF	vm/values/value.html#NeF	value: NeF	
+GtF	vm/values/value.html#GtF	value: GtF	
+GeF	vm/values/value.html#GeF	value: GeF	
+LtF	vm/values/value.html#LtF	value: LtF	
+LeF	vm/values/value.html#LeF	value: LeF	
+IfF	vm/values/value.html#IfF	value: IfF	
+IfEF	vm/values/value.html#IfEF	value: IfEF	
+ElseF	vm/values/value.html#ElseF	value: ElseF	
+WhileF	vm/values/value.html#WhileF	value: WhileF	
+ReturnF	vm/values/value.html#ReturnF	value: ReturnF	
+GetF	vm/values/value.html#GetF	value: GetF	
+SetF	vm/values/value.html#SetF	value: SetF	
+ToF	vm/values/value.html#ToF	value: ToF	
+PrintF	vm/values/value.html#PrintF	value: PrintF	
+ArrayF	vm/values/value.html#ArrayF	value: ArrayF	
+DictF	vm/values/value.html#DictF	value: DictF	
+FuncF	vm/values/value.html#FuncF	value: FuncF	
+RangeF	vm/values/value.html#RangeF	value: RangeF	
+LoopF	vm/values/value.html#LoopF	value: LoopF	
+MapF	vm/values/value.html#MapF	value: MapF	
+SelectF	vm/values/value.html#SelectF	value: SelectF	
+SizeF	vm/values/value.html#SizeF	value: SizeF	
+ReplaceF	vm/values/value.html#ReplaceF	value: ReplaceF	
+SplitF	vm/values/value.html#SplitF	value: SplitF	
+JoinF	vm/values/value.html#JoinF	value: JoinF	
+ReverseF	vm/values/value.html#ReverseF	value: ReverseF	
+IncF	vm/values/value.html#IncF	value: IncF	
+DecF	vm/values/value.html#DecF	value: DecF	
+newNull	vm/values/value.html#newNull.t	value: newNull(): Value	
+newNothing	vm/values/value.html#newNothing.t	value: newNothing(): Value	
+newLogical	vm/values/value.html#newLogical,VLogical	value: newLogical(b: VLogical): Value	
+newLogical	vm/values/value.html#newLogical,bool	value: newLogical(b: bool): Value	
+newLogical	vm/values/value.html#newLogical,string	value: newLogical(s: string): Value	
+newLogical	vm/values/value.html#newLogical,int	value: newLogical(i: int): Value	
+newInteger	vm/values/value.html#newInteger,Int	value: newInteger(bi: Int): Value	
+newInteger	vm/values/value.html#newInteger,int_2	value: newInteger(i: int): Value	
+newInteger	vm/values/value.html#newInteger,int64	value: newInteger(i: int64): Value	
+newInteger	vm/values/value.html#newInteger,string,int	value: newInteger(i: string; lineno: int = 1): Value	
+newBigInteger	vm/values/value.html#newBigInteger,int	value: newBigInteger(i: int): Value	
+newFloating	vm/values/value.html#newFloating,float	value: newFloating(f: float): Value	
+newFloating	vm/values/value.html#newFloating,int	value: newFloating(f: int): Value	
+newFloating	vm/values/value.html#newFloating,string	value: newFloating(f: string): Value	
+newComplex	vm/values/value.html#newComplex,VComplex	value: newComplex(com: VComplex): Value	
+newComplex	vm/values/value.html#newComplex,float,float	value: newComplex(fre: float; fim: float): Value	
+newComplex	vm/values/value.html#newComplex,Value,Value	value: newComplex(fre: Value; fim: Value): Value	
+newRational	vm/values/value.html#newRational,VRational	value: newRational(rat: VRational): Value	
+newRational	vm/values/value.html#newRational,int,int	value: newRational(num: int; den: int): Value	
+newRational	vm/values/value.html#newRational,int	value: newRational(n: int): Value	
+newRational	vm/values/value.html#newRational,float	value: newRational(n: float): Value	
+newRational	vm/values/value.html#newRational,Value,Value	value: newRational(num: Value; den: Value): Value	
+newVersion	vm/values/value.html#newVersion,string	value: newVersion(v: string): Value	
+newType	vm/values/value.html#newType,ValueKind	value: newType(t: ValueKind): Value	
+newUserType	vm/values/value.html#newUserType,string,ValueArray	value: newUserType(n: string; f: ValueArray = @[]): Value	
+newType	vm/values/value.html#newType,string	value: newType(t: string): Value	
+newChar	vm/values/value.html#newChar,Rune	value: newChar(c: Rune): Value	
+newChar	vm/values/value.html#newChar,char	value: newChar(c: char): Value	
+newChar	vm/values/value.html#newChar,string	value: newChar(c: string): Value	
+newString	vm/values/value.html#newString,sinkstring,staticbool	value: newString(s: sink string; dedented: static bool = false): Value	
+newString	vm/values/value.html#newString,cstring,staticbool	value: newString(s: cstring; dedented: static bool = false): Value	
+newWord	vm/values/value.html#newWord,sinkstring	value: newWord(w: sink string): Value	
+newLiteral	vm/values/value.html#newLiteral,sinkstring	value: newLiteral(l: sink string): Value	
+newLabel	vm/values/value.html#newLabel,sinkstring	value: newLabel(l: sink string): Value	
+newAttribute	vm/values/value.html#newAttribute,sinkstring	value: newAttribute(a: sink string): Value	
+newAttributeLabel	vm/values/value.html#newAttributeLabel,sinkstring	value: newAttributeLabel(a: sink string): Value	
+newPath	vm/values/value.html#newPath,sinkValueArray	value: newPath(p: sink ValueArray): Value	
+newPathLabel	vm/values/value.html#newPathLabel,sinkValueArray	value: newPathLabel(p: sink ValueArray): Value	
+newSymbol	vm/values/value.html#newSymbol,VSymbol	value: newSymbol(m: VSymbol): Value	
+newSymbol	vm/values/value.html#newSymbol,sinkstring	value: newSymbol(m: sink string): Value	
+newSymbolLiteral	vm/values/value.html#newSymbolLiteral,VSymbol	value: newSymbolLiteral(m: VSymbol): Value	
+newSymbolLiteral	vm/values/value.html#newSymbolLiteral,string	value: newSymbolLiteral(m: string): Value	
+newQuantity	vm/values/value.html#newQuantity,Value,VQuantity	value: newQuantity(nm: Value; unit: VQuantity): Value	
+newQuantity	vm/values/value.html#newQuantity,Value,UnitName	value: newQuantity(nm: Value; name: UnitName): Value	
+convertToTemperatureUnit	vm/values/value.html#convertToTemperatureUnit,Value,UnitName,UnitName	value: convertToTemperatureUnit(v: Value; src: UnitName; tgt: UnitName): Value	
+convertQuantityValue	vm/values/value.html#convertQuantityValue,Value,UnitName,UnitName,string	value: convertQuantityValue(nm: Value; fromU: UnitName; toU: UnitName;\n                     fromKind = NoUnit; toKind = NoUnit; op = &quot;&quot;): Value	
+newRegex	vm/values/value.html#newRegex,sinkVRegex	value: newRegex(rx: sink VRegex): Value	
+newRegex	vm/values/value.html#newRegex,string	value: newRegex(rx: string): Value	
+newColor	vm/values/value.html#newColor,VColor	value: newColor(l: VColor): Value	
+newColor	vm/values/value.html#newColor,RGB	value: newColor(rgb: RGB): Value	
+newColor	vm/values/value.html#newColor,string	value: newColor(l: string): Value	
+newDate	vm/values/value.html#newDate,sinkDateTime	value: newDate(dt: sink DateTime): Value	
+newBinary	vm/values/value.html#newBinary,ByteArray	value: newBinary(n: ByteArray = @[]): Value	
+newDictionary	vm/values/value.html#newDictionary,sinkValueDict	value: newDictionary(d: sink ValueDict = initOrderedTable()): Value	
+newObject	vm/values/value.html#newObject,sinkValueDict,sinkPrototype	value: newObject(o: sink ValueDict = initOrderedTable(); proto: sink Prototype): Value	
+newObject	vm/values/value.html#newObject,ValueArray,Prototype,proc(Value,Prototype),ValueDict	value: newObject(args: ValueArray; prot: Prototype;\n          initializer: proc (self: Value; prot: Prototype);\n          o: ValueDict = initOrderedTable()): Value	
+newObject	vm/values/value.html#newObject,ValueDict,Prototype,proc(Value,Prototype),ValueDict	value: newObject(args: ValueDict; prot: Prototype;\n          initializer: proc (self: Value; prot: Prototype);\n          o: ValueDict = initOrderedTable()): Value	
+newFunction	vm/values/value.html#newFunction,Value,Value,Value,Value,bool,bool	value: newFunction(params: Value; main: Value; imports: Value = nil;\n            exports: Value = nil; exportable: bool = false;\n            memoize: bool = false): Value	
+newBuiltin	vm/values/value.html#newBuiltin,sinkstring,int,sinkOrderedTable[string,ValueSpec],sinkOrderedTable[string,],ValueSpec,sinkstring,BuiltinAction	value: newBuiltin(desc: sink string; ar: int; ag: sink OrderedTable[string, ValueSpec];\n           at: sink OrderedTable[string, (ValueSpec, string)]; ret: ValueSpec;\n           exa: sink string; act: BuiltinAction): Value	
+newDatabase	vm/values/value.html#newDatabase	value: newDatabase(db: sqlite.DbConn): Value	
+newBytecode	vm/values/value.html#newBytecode,sinkTranslation	value: newBytecode(t: sink Translation): Value	
+newInline	vm/values/value.html#newInline,sinkValueArray	value: newInline(a: sink ValueArray = @[]; dirty = false): Value	
+newBlock	vm/values/value.html#newBlock,sinkValueArray,sinkValue	value: newBlock(a: sink ValueArray = @[]; data: sink Value = nil; dirty = false): Value	
+newIntegerBlock	vm/values/value.html#newIntegerBlock,sinkseq[T]	value: newIntegerBlock[T](a: sink seq[T]): Value	
+newStringBlock	vm/values/value.html#newStringBlock,sinkseq[string]	value: newStringBlock(a: sink seq[string]): Value	
+newStringBlock	vm/values/value.html#newStringBlock,sinkseq[cstring]	value: newStringBlock(a: sink seq[cstring]): Value	
+newNewline	vm/values/value.html#newNewline,int	value: newNewline(l: int): Value	
+newStringDictionary	vm/values/value.html#newStringDictionary,Table[string,string]	value: newStringDictionary(a: Table[string, string]): Value	
+newStringDictionary	vm/values/value.html#newStringDictionary,TableRef[string,seq[string]]	value: newStringDictionary(a: TableRef[string, seq[string]]; collapseBlocks = false): Value	
+copyValue	vm/values/value.html#copyValue,Value	value: copyValue(v: Value): Value	
+isNull	vm/values/value.html#isNull.t,Value	value: isNull(v: Value): bool	
+isNothing	vm/values/value.html#isNothing.t,Value	value: isNothing(v: Value): bool	
+asFloat	vm/values/value.html#asFloat,Value	value: asFloat(v: Value): float	
+asInt	vm/values/value.html#asInt,Value	value: asInt(v: Value): int	
+getArity	vm/values/value.html#getArity,Value	value: getArity(x: Value): int	
+safeMulI	vm/values/value.html#safeMulI,T,T	value: safeMulI[T: SomeInteger](x: var T; y: T)	
+safePow	vm/values/value.html#safePow,T,Natural	value: safePow[T: SomeNumber](x: T; y: Natural): T	
+valueAsString	vm/values/value.html#valueAsString,Value	value: valueAsString(v: Value): string	
+`+`	vm/values/value.html#+,Value,Value	value: `+`(x: Value; y: Value): Value	
+`+=`	vm/values/value.html#+=,Value,Value	value: `+=`(x: var Value; y: Value)	
+`-`	vm/values/value.html#-,Value,Value	value: `-`(x: Value; y: Value): Value	
+`-=`	vm/values/value.html#-=,Value,Value	value: `-=`(x: var Value; y: Value)	
+`*`	vm/values/value.html#*,Value,Value	value: `*`(x: Value; y: Value): Value	
+`*=`	vm/values/value.html#*=,Value,Value	value: `*=`(x: var Value; y: Value)	
+`/`	vm/values/value.html#/,Value,Value	value: `/`(x: Value; y: Value): Value	
+`/=`	vm/values/value.html#/=,Value,Value	value: `/=`(x: var Value; y: Value)	
+`//`	vm/values/value.html#//,Value,Value	value: `//`(x: Value; y: Value): Value	
+`//=`	vm/values/value.html#//=,Value,Value	value: `//=`(x: var Value; y: Value)	
+`%`	vm/values/value.html#%,Value,Value	value: `%`(x: Value; y: Value): Value	
+`%=`	vm/values/value.html#%=,Value,Value	value: `%=`(x: var Value; y: Value)	
+`/%`	vm/values/value.html#/%,Value,Value	value: `/%`(x: Value; y: Value): Value	
+`/%=`	vm/values/value.html#/%=,Value,Value	value: `/%=`(x: var Value; y: Value)	
+`^`	vm/values/value.html#^,Value,Value	value: `^`(x: Value; y: Value): Value	
+`^=`	vm/values/value.html#^=,Value,Value	value: `^=`(x: var Value; y: Value)	
+`&amp;&amp;`	vm/values/value.html#&&,Value,Value	value: `&amp;&amp;`(x: Value; y: Value): Value	
+`&amp;&amp;=`	vm/values/value.html#&&=,Value,Value	value: `&amp;&amp;=`(x: var Value; y: Value)	
+`||`	vm/values/value.html#||,Value,Value	value: `||`(x: Value; y: Value): Value	
+`||=`	vm/values/value.html#||=,Value,Value	value: `||=`(x: var Value; y: Value)	
+`^^`	vm/values/value.html#^^,Value,Value	value: `^^`(x: Value; y: Value): Value	
+`^^=`	vm/values/value.html#^^=,Value,Value	value: `^^=`(x: var Value; y: Value)	
+`&gt;&gt;`	vm/values/value.html#>>,Value,Value	value: `&gt;&gt;`(x: Value; y: Value): Value	
+`&gt;&gt;=`	vm/values/value.html#>>=,Value,Value	value: `&gt;&gt;=`(x: var Value; y: Value)	
+`&lt;&lt;`	vm/values/value.html#<<,Value,Value	value: `&lt;&lt;`(x: Value; y: Value): Value	
+`&lt;&lt;=`	vm/values/value.html#<<=,Value,Value	value: `&lt;&lt;=`(x: var Value; y: Value)	
+`!!`	vm/values/value.html#!!,Value	value: `!!`(x: Value): Value	
+`!!=`	vm/values/value.html#!!=,Value	value: `!!=`(x: var Value)	
+factorial	vm/values/value.html#factorial,Value	value: factorial(x: Value): Value	
+sameValue	vm/values/value.html#sameValue,Value,Value	value: sameValue(x: Value; y: Value): bool	
+hash	vm/values/value.html#hash,Value	value: hash(v: Value): Hash	

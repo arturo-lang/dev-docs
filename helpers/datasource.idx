@@ -1,0 +1,6 @@
+WebData	helpers/datasource.html#WebData	DataSourceKind.WebData	
+FileData	helpers/datasource.html#FileData	DataSourceKind.FileData	
+TextData	helpers/datasource.html#TextData	DataSourceKind.TextData	
+DataSourceKind	helpers/datasource.html#DataSourceKind	datasource: DataSourceKind	
+DataSource	helpers/datasource.html#DataSource	datasource: DataSource	
+getSource	helpers/datasource.html#getSource,string	datasource: getSource(src: string): DataSource	

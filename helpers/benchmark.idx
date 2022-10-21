@@ -1,0 +1,2 @@
+benchmark	helpers/benchmark.html#benchmark.t,string,untyped	benchmark: benchmark(benchmarkName: string; code: untyped)	
+getBenchmark	helpers/benchmark.html#getBenchmark.t,untyped	benchmark: getBenchmark(code: untyped): float	

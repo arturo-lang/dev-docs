@@ -1,0 +1,2 @@
+parseXMLNode	helpers/xml.html#parseXMLNode,XmlNode,int	xml: parseXMLNode(n: XmlNode; level: int = 0): Value	
+parseXMLInput	helpers/xml.html#parseXMLInput,string	xml: parseXMLInput(input: string): Value	

@@ -1,0 +1,67 @@
+VComplexObj	vm/values/custom/vcomplex.html#VComplexObj	vcomplex: VComplexObj	
+Complex32	vm/values/custom/vcomplex.html#Complex32	vcomplex: Complex32	
+VComplex	vm/values/custom/vcomplex.html#VComplex	vcomplex: VComplex	
+complex	vm/values/custom/vcomplex.html#complex,T,T	vcomplex: complex[T: SomeFloat](re: T; im: T = 0.0): VComplexObj[T]	
+complex32	vm/values/custom/vcomplex.html#complex32,float32,float32	vcomplex: complex32(re: float32; im: float32 = 0.0): Complex32	
+complex64	vm/values/custom/vcomplex.html#complex64,float64,float64	vcomplex: complex64(re: float64; im: float64 = 0.0): VComplex	
+im	vm/values/custom/vcomplex.html#im.t,typedesc[float32]	vcomplex: im(arg: typedesc[float32]): Complex32	
+im	vm/values/custom/vcomplex.html#im.t,typedesc[float64]	vcomplex: im(arg: typedesc[float64]): VComplex	
+im	vm/values/custom/vcomplex.html#im.t,float32	vcomplex: im(arg: float32): Complex32	
+im	vm/values/custom/vcomplex.html#im.t,float64	vcomplex: im(arg: float64): VComplex	
+abs	vm/values/custom/vcomplex.html#abs,VComplexObj[T]	vcomplex: abs[T](z: VComplexObj[T]): T	
+abs2	vm/values/custom/vcomplex.html#abs2,VComplexObj[T]	vcomplex: abs2[T](z: VComplexObj[T]): T	
+conjugate	vm/values/custom/vcomplex.html#conjugate,VComplexObj[T]	vcomplex: conjugate[T](z: VComplexObj[T]): VComplexObj[T]	
+inv	vm/values/custom/vcomplex.html#inv,VComplexObj[T]	vcomplex: inv[T](z: VComplexObj[T]): VComplexObj[T]	
+`==`	vm/values/custom/vcomplex.html#==,VComplexObj[T],VComplexObj[T]	vcomplex: `==`[T](x, y: VComplexObj[T]): bool	
+`+`	vm/values/custom/vcomplex.html#+,T,VComplexObj[T]	vcomplex: `+`[T](x: T; y: VComplexObj[T]): VComplexObj[T]	
+`+`	vm/values/custom/vcomplex.html#+,VComplexObj[T],T	vcomplex: `+`[T](x: VComplexObj[T]; y: T): VComplexObj[T]	
+`+`	vm/values/custom/vcomplex.html#+,VComplexObj[T],VComplexObj[T]	vcomplex: `+`[T](x, y: VComplexObj[T]): VComplexObj[T]	
+`-`	vm/values/custom/vcomplex.html#-,VComplexObj[T]	vcomplex: `-`[T](z: VComplexObj[T]): VComplexObj[T]	
+`-`	vm/values/custom/vcomplex.html#-,T,VComplexObj[T]	vcomplex: `-`[T](x: T; y: VComplexObj[T]): VComplexObj[T]	
+`-`	vm/values/custom/vcomplex.html#-,VComplexObj[T],T	vcomplex: `-`[T](x: VComplexObj[T]; y: T): VComplexObj[T]	
+`-`	vm/values/custom/vcomplex.html#-,VComplexObj[T],VComplexObj[T]	vcomplex: `-`[T](x, y: VComplexObj[T]): VComplexObj[T]	
+`*`	vm/values/custom/vcomplex.html#*,T,VComplexObj[T]	vcomplex: `*`[T](x: T; y: VComplexObj[T]): VComplexObj[T]	
+`*`	vm/values/custom/vcomplex.html#*,VComplexObj[T],T	vcomplex: `*`[T](x: VComplexObj[T]; y: T): VComplexObj[T]	
+`*`	vm/values/custom/vcomplex.html#*,VComplexObj[T],VComplexObj[T]	vcomplex: `*`[T](x, y: VComplexObj[T]): VComplexObj[T]	
+`/`	vm/values/custom/vcomplex.html#/,VComplexObj[T],T	vcomplex: `/`[T](x: VComplexObj[T]; y: T): VComplexObj[T]	
+`/`	vm/values/custom/vcomplex.html#/,T,VComplexObj[T]	vcomplex: `/`[T](x: T; y: VComplexObj[T]): VComplexObj[T]	
+`/`	vm/values/custom/vcomplex.html#/,VComplexObj[T],VComplexObj[T]	vcomplex: `/`[T](x, y: VComplexObj[T]): VComplexObj[T]	
+`+=`	vm/values/custom/vcomplex.html#+=,VComplexObj[T],VComplexObj[T]	vcomplex: `+=`[T](x: var VComplexObj[T]; y: VComplexObj[T])	
+`-=`	vm/values/custom/vcomplex.html#-=,VComplexObj[T],VComplexObj[T]	vcomplex: `-=`[T](x: var VComplexObj[T]; y: VComplexObj[T])	
+`*=`	vm/values/custom/vcomplex.html#*=,VComplexObj[T],VComplexObj[T]	vcomplex: `*=`[T](x: var VComplexObj[T]; y: VComplexObj[T])	
+`/=`	vm/values/custom/vcomplex.html#/=,VComplexObj[T],VComplexObj[T]	vcomplex: `/=`[T](x: var VComplexObj[T]; y: VComplexObj[T])	
+sqrt	vm/values/custom/vcomplex.html#sqrt,VComplexObj[T]	vcomplex: sqrt[T](z: VComplexObj[T]): VComplexObj[T]	
+exp	vm/values/custom/vcomplex.html#exp,VComplexObj[T]	vcomplex: exp[T](z: VComplexObj[T]): VComplexObj[T]	
+ln	vm/values/custom/vcomplex.html#ln,VComplexObj[T]	vcomplex: ln[T](z: VComplexObj[T]): VComplexObj[T]	
+log10	vm/values/custom/vcomplex.html#log10,VComplexObj[T]	vcomplex: log10[T](z: VComplexObj[T]): VComplexObj[T]	
+log2	vm/values/custom/vcomplex.html#log2,VComplexObj[T]	vcomplex: log2[T](z: VComplexObj[T]): VComplexObj[T]	
+pow	vm/values/custom/vcomplex.html#pow,VComplexObj[T],VComplexObj[T]	vcomplex: pow[T](x, y: VComplexObj[T]): VComplexObj[T]	
+pow	vm/values/custom/vcomplex.html#pow,VComplexObj[T],T	vcomplex: pow[T](x: VComplexObj[T]; y: T): VComplexObj[T]	
+sin	vm/values/custom/vcomplex.html#sin,VComplexObj[T]	vcomplex: sin[T](z: VComplexObj[T]): VComplexObj[T]	
+arcsin	vm/values/custom/vcomplex.html#arcsin,VComplexObj[T]	vcomplex: arcsin[T](z: VComplexObj[T]): VComplexObj[T]	
+cos	vm/values/custom/vcomplex.html#cos,VComplexObj[T]	vcomplex: cos[T](z: VComplexObj[T]): VComplexObj[T]	
+arccos	vm/values/custom/vcomplex.html#arccos,VComplexObj[T]	vcomplex: arccos[T](z: VComplexObj[T]): VComplexObj[T]	
+tan	vm/values/custom/vcomplex.html#tan,VComplexObj[T]	vcomplex: tan[T](z: VComplexObj[T]): VComplexObj[T]	
+arctan	vm/values/custom/vcomplex.html#arctan,VComplexObj[T]	vcomplex: arctan[T](z: VComplexObj[T]): VComplexObj[T]	
+cot	vm/values/custom/vcomplex.html#cot,VComplexObj[T]	vcomplex: cot[T](z: VComplexObj[T]): VComplexObj[T]	
+arccot	vm/values/custom/vcomplex.html#arccot,VComplexObj[T]	vcomplex: arccot[T](z: VComplexObj[T]): VComplexObj[T]	
+sec	vm/values/custom/vcomplex.html#sec,VComplexObj[T]	vcomplex: sec[T](z: VComplexObj[T]): VComplexObj[T]	
+arcsec	vm/values/custom/vcomplex.html#arcsec,VComplexObj[T]	vcomplex: arcsec[T](z: VComplexObj[T]): VComplexObj[T]	
+csc	vm/values/custom/vcomplex.html#csc,VComplexObj[T]	vcomplex: csc[T](z: VComplexObj[T]): VComplexObj[T]	
+arccsc	vm/values/custom/vcomplex.html#arccsc,VComplexObj[T]	vcomplex: arccsc[T](z: VComplexObj[T]): VComplexObj[T]	
+sinh	vm/values/custom/vcomplex.html#sinh,VComplexObj[T]	vcomplex: sinh[T](z: VComplexObj[T]): VComplexObj[T]	
+arcsinh	vm/values/custom/vcomplex.html#arcsinh,VComplexObj[T]	vcomplex: arcsinh[T](z: VComplexObj[T]): VComplexObj[T]	
+cosh	vm/values/custom/vcomplex.html#cosh,VComplexObj[T]	vcomplex: cosh[T](z: VComplexObj[T]): VComplexObj[T]	
+arccosh	vm/values/custom/vcomplex.html#arccosh,VComplexObj[T]	vcomplex: arccosh[T](z: VComplexObj[T]): VComplexObj[T]	
+tanh	vm/values/custom/vcomplex.html#tanh,VComplexObj[T]	vcomplex: tanh[T](z: VComplexObj[T]): VComplexObj[T]	
+arctanh	vm/values/custom/vcomplex.html#arctanh,VComplexObj[T]	vcomplex: arctanh[T](z: VComplexObj[T]): VComplexObj[T]	
+coth	vm/values/custom/vcomplex.html#coth,VComplexObj[T]	vcomplex: coth[T](z: VComplexObj[T]): VComplexObj[T]	
+arccoth	vm/values/custom/vcomplex.html#arccoth,VComplexObj[T]	vcomplex: arccoth[T](z: VComplexObj[T]): VComplexObj[T]	
+sech	vm/values/custom/vcomplex.html#sech,VComplexObj[T]	vcomplex: sech[T](z: VComplexObj[T]): VComplexObj[T]	
+arcsech	vm/values/custom/vcomplex.html#arcsech,VComplexObj[T]	vcomplex: arcsech[T](z: VComplexObj[T]): VComplexObj[T]	
+csch	vm/values/custom/vcomplex.html#csch,VComplexObj[T]	vcomplex: csch[T](z: VComplexObj[T]): VComplexObj[T]	
+arccsch	vm/values/custom/vcomplex.html#arccsch,VComplexObj[T]	vcomplex: arccsch[T](z: VComplexObj[T]): VComplexObj[T]	
+phase	vm/values/custom/vcomplex.html#phase,VComplexObj[T]	vcomplex: phase[T](z: VComplexObj[T]): T	
+polar	vm/values/custom/vcomplex.html#polar,VComplexObj[T]	vcomplex: polar[T](z: VComplexObj[T]): tuple[r, phi: T]	
+rect	vm/values/custom/vcomplex.html#rect,T,T	vcomplex: rect[T](r, phi: T): VComplexObj[T]	
+`$`	vm/values/custom/vcomplex.html#$,VComplexObj	vcomplex: `$`(z: VComplexObj): string	

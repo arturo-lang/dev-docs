@@ -1,0 +1,16 @@
+LinenoiseCompletions	extras/linenoise.html#LinenoiseCompletions	linenoise: LinenoiseCompletions	
+LinenoiseCompletionCallback	extras/linenoise.html#LinenoiseCompletionCallback	linenoise: LinenoiseCompletionCallback	
+LinenoiseHintsCallback	extras/linenoise.html#LinenoiseHintsCallback	linenoise: LinenoiseHintsCallback	
+LinenoiseFreeHintsCallback	extras/linenoise.html#LinenoiseFreeHintsCallback	linenoise: LinenoiseFreeHintsCallback	
+linenoiseSetCompletionCallback	extras/linenoise.html#linenoiseSetCompletionCallback,ptr.LinenoiseCompletionCallback	linenoise: linenoiseSetCompletionCallback(cback: ptr LinenoiseCompletionCallback)	
+linenoiseSetHintsCallback	extras/linenoise.html#linenoiseSetHintsCallback,ptr.LinenoiseHintsCallback	linenoise: linenoiseSetHintsCallback(cback: ptr LinenoiseHintsCallback)	
+linenoiseAddCompletion	extras/linenoise.html#linenoiseAddCompletion,ptr.LinenoiseCompletions,cstring	linenoise: linenoiseAddCompletion(a2: ptr LinenoiseCompletions; a3: cstring)	
+linenoiseReadLine	extras/linenoise.html#linenoiseReadLine,cstring	linenoise: linenoiseReadLine(prompt: cstring): cstring	
+linenoiseHistoryAdd	extras/linenoise.html#linenoiseHistoryAdd,cstring	linenoise: linenoiseHistoryAdd(line: cstring): cint	
+linenoiseHistorySetMaxLen	extras/linenoise.html#linenoiseHistorySetMaxLen,cint	linenoise: linenoiseHistorySetMaxLen(len: cint): cint	
+linenoiseHistorySave	extras/linenoise.html#linenoiseHistorySave,cstring	linenoise: linenoiseHistorySave(filename: cstring): cint	
+linenoiseHistoryLoad	extras/linenoise.html#linenoiseHistoryLoad,cstring	linenoise: linenoiseHistoryLoad(filename: cstring): cint	
+linenoiseClearScreen	extras/linenoise.html#linenoiseClearScreen	linenoise: linenoiseClearScreen()	
+linenoiseSetMultiLine	extras/linenoise.html#linenoiseSetMultiLine,cint	linenoise: linenoiseSetMultiLine(ml: cint)	
+linenoisePrintKeyCodes	extras/linenoise.html#linenoisePrintKeyCodes	linenoise: linenoisePrintKeyCodes()	
+free	extras/linenoise.html#free,cstring	linenoise: free(s: cstring)	

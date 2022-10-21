@@ -1,0 +1,12 @@
+RequestHandler	helpers/servers.html#RequestHandler	servers: RequestHandler	
+ServerRequest	helpers/servers.html#ServerRequest	servers: ServerRequest	
+ServerSettings	helpers/servers.html#ServerSettings	servers: ServerSettings	
+ServerResponse	helpers/servers.html#ServerResponse	servers: ServerResponse	
+ip	helpers/servers.html#ip,ServerRequest	servers: ip(req: ServerRequest): string	
+path	helpers/servers.html#path,ServerRequest	servers: path(req: ServerRequest): string	
+action	helpers/servers.html#action,ServerRequest	servers: action(req: ServerRequest): HttpMethod	
+headers	helpers/servers.html#headers,ServerRequest	servers: headers(req: ServerRequest): HttpHeaders	
+body	helpers/servers.html#body,ServerRequest	servers: body(req: ServerRequest): string	
+newServerResponse	helpers/servers.html#newServerResponse,string,string	servers: newServerResponse(body = &quot;&quot;; status = Http200; headers = &quot;&quot;): ServerResponse	
+respond	helpers/servers.html#respond,ServerRequest,ServerResponse	servers: respond(req: ServerRequest; resp: ServerResponse)	
+startServer	helpers/servers.html#startServer,RequestHandler,int	servers: startServer(handler: RequestHandler; port: int = 18966)	

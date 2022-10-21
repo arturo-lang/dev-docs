@@ -1,0 +1,3 @@
+`$`	vm/values/printable.html#$,Value	printable: `$`(v: Value): string	
+dump	vm/values/printable.html#dump,Value,int,bool,bool,string	printable: dump(v: Value; level: int = 0; isLast: bool = false; muted: bool = false;\n     prepend = &quot;&quot;)	
+codify	vm/values/printable.html#codify,Value,int,bool,bool,bool	printable: codify(v: Value; pretty = false; unwrapped = false; level: int = 0;\n       isLast: bool = false; isKeyVal: bool = false; safeStrings: bool = false): string	

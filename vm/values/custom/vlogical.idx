@@ -1,0 +1,9 @@
+False	vm/values/custom/vlogical.html#False	VLogical.False	
+True	vm/values/custom/vlogical.html#True	VLogical.True	
+Maybe	vm/values/custom/vlogical.html#Maybe	VLogical.Maybe	
+VLogical	vm/values/custom/vlogical.html#VLogical	vlogical: VLogical	
+And	vm/values/custom/vlogical.html#And,VLogical,VLogical	vlogical: And(x, y: VLogical): VLogical	
+Not	vm/values/custom/vlogical.html#Not,VLogical	vlogical: Not(x: VLogical): VLogical	
+Or	vm/values/custom/vlogical.html#Or,VLogical,VLogical	vlogical: Or(x, y: VLogical): VLogical	
+Xor	vm/values/custom/vlogical.html#Xor,VLogical,VLogical	vlogical: Xor(x, y: VLogical): VLogical	
+`$`	vm/values/custom/vlogical.html#$,VLogical	vlogical: `$`(b: VLogical): string	

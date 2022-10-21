@@ -1,0 +1,4 @@
+getPermutations	helpers/combinatorics.html#getPermutations,ValueArray,int,bool	combinatorics: getPermutations(lst: ValueArray; size: int; repeated: bool = false): seq[\n    ValueArray]	
+getCombinations	helpers/combinatorics.html#getCombinations,ValueArray,int,bool	combinatorics: getCombinations(lst: ValueArray; size: int; repeated: bool = false): seq[\n    ValueArray]	
+countPermutations	helpers/combinatorics.html#countPermutations,ValueArray,int,bool	combinatorics: countPermutations(lst: ValueArray; size: int; repeated: bool = false): Value	
+countCombinations	helpers/combinatorics.html#countCombinations,ValueArray,int,bool	combinatorics: countCombinations(lst: ValueArray; size: int; repeated: bool = false): Value	

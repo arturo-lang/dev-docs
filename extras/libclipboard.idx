@@ -1,0 +1,8 @@
+ClipboardMode	extras/libclipboard.html#ClipboardMode	libclipboard: ClipboardMode	
+ClipboardStruct	extras/libclipboard.html#ClipboardStruct	libclipboard: ClipboardStruct	
+ClipboardObj	extras/libclipboard.html#ClipboardObj	libclipboard: ClipboardObj	
+clipboard_new	extras/libclipboard.html#clipboard_new,pointer	libclipboard: clipboard_new(cb_opts: pointer): ClipboardObj	
+clipboard_clear	extras/libclipboard.html#clipboard_clear,ClipboardObj,ClipboardMode	libclipboard: clipboard_clear(cb: ClipboardObj; mode: ClipboardMode)	
+clipboard_free	extras/libclipboard.html#clipboard_free,ClipboardObj	libclipboard: clipboard_free(cb: ClipboardObj)	
+clipboard_set_text	extras/libclipboard.html#clipboard_set_text,ClipboardObj,cstring	libclipboard: clipboard_set_text(cb: ClipboardObj; src: cstring)	
+clipboard_text	extras/libclipboard.html#clipboard_text,ClipboardObj	libclipboard: clipboard_text(cb: ClipboardObj): cstring	

@@ -1,0 +1,2 @@
+setClipboard	helpers/clipboard.html#setClipboard,string	clipboard: setClipboard(content: string)	
+getClipboard	helpers/clipboard.html#getClipboard	clipboard: getClipboard(): string	

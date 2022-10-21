@@ -1,0 +1,38 @@
+mm_mpfr_struct	extras/mpfr.html#mm_mpfr_struct	mpfr: mm_mpfr_struct	
+mpfr	extras/mpfr.html#mpfr	mpfr: mpfr	
+MPFR_RNDN	extras/mpfr.html#MPFR_RNDN	mpfr: MPFR_RNDN	
+MPFR_RNDZ	extras/mpfr.html#MPFR_RNDZ	mpfr: MPFR_RNDZ	
+MPFR_RNDU	extras/mpfr.html#MPFR_RNDU	mpfr: MPFR_RNDU	
+MPFR_RNDD	extras/mpfr.html#MPFR_RNDD	mpfr: MPFR_RNDD	
+MPFR_RNDA	extras/mpfr.html#MPFR_RNDA	mpfr: MPFR_RNDA	
+MPFR_RNDF	extras/mpfr.html#MPFR_RNDF	mpfr: MPFR_RNDF	
+MPFR_RNDNA	extras/mpfr.html#MPFR_RNDNA	mpfr: MPFR_RNDNA	
+mpfr_clear	extras/mpfr.html#mpfr_clear,mm_mpfr_struct	mpfr: mpfr_clear(a: var mpfr)	
+mpfr_init	extras/mpfr.html#mpfr_init,mm_mpfr_struct	mpfr: mpfr_init(a: var mpfr)	
+mpfr_set_d	extras/mpfr.html#mpfr_set_d,mm_mpfr_struct,cdouble,mpfr_rnd_t	mpfr: mpfr_set_d(a: var mpfr; b: cdouble; c: mpfr_rnd_t)	
+mpfr_set_si	extras/mpfr.html#mpfr_set_si,mm_mpfr_struct,clong,mpfr_rnd_t	mpfr: mpfr_set_si(a: var mpfr; b: clong; c: mpfr_rnd_t)	
+mpfr_set_ui	extras/mpfr.html#mpfr_set_ui,mm_mpfr_struct,culong,mpfr_rnd_t	mpfr: mpfr_set_ui(a: var mpfr; b: culong; c: mpfr_rnd_t)	
+mpfr_set_z	extras/mpfr.html#mpfr_set_z,mm_mpfr_struct,mm_mpz_struct,mpfr_rnd_t	mpfr: mpfr_set_z(a: var mpfr; b: mpz_t; c: mpfr_rnd_t)	
+mpfr_set_str	extras/mpfr.html#mpfr_set_str,mm_mpfr_struct,cstring,cint,mpfr_rnd_t	mpfr: mpfr_set_str(a: var mpfr; b: cstring; c: cint; d: mpfr_rnd_t): cint	
+mpfr_get_d	extras/mpfr.html#mpfr_get_d,mm_mpfr_struct,mpfr_rnd_t	mpfr: mpfr_get_d(a: mpfr; b: mpfr_rnd_t): cdouble	
+mpfr_cmp	extras/mpfr.html#mpfr_cmp,mm_mpfr_struct,mm_mpfr_struct	mpfr: mpfr_cmp(a: mpfr; b: mpfr): cint	
+mpfr_cmp_d	extras/mpfr.html#mpfr_cmp_d,mm_mpfr_struct,cdouble	mpfr: mpfr_cmp_d(a: mpfr; b: cdouble): cint	
+mpfr_cmp_si	extras/mpfr.html#mpfr_cmp_si,mm_mpfr_struct,clong	mpfr: mpfr_cmp_si(a: mpfr; b: clong): cint	
+mpfr_cmp_ui	extras/mpfr.html#mpfr_cmp_ui,mm_mpfr_struct,culong	mpfr: mpfr_cmp_ui(a: mpfr; b: culong): cint	
+mpfr_get_str	extras/mpfr.html#mpfr_get_str,cstring,mp_exp_t,cint,csize_t,mm_mpfr_struct,mpfr_rnd_t	mpfr: mpfr_get_str(a: cstring; b: var mp_exp_t; c: cint; d: csize_t; e: mpfr;\n             f: mpfr_rnd_t): cstring	
+mpfr_fits_uint_p	extras/mpfr.html#mpfr_fits_uint_p,mm_mpfr_struct,mpfr_rnd_t	mpfr: mpfr_fits_uint_p(a: mpfr; b: mpfr_rnd_t): cint	
+mpfr_add	extras/mpfr.html#mpfr_add,mm_mpfr_struct,mm_mpfr_struct,mm_mpfr_struct,mpfr_rnd_t	mpfr: mpfr_add(a: var mpfr; b: mpfr; c: mpfr; d: mpfr_rnd_t)	
+mpfr_add_z	extras/mpfr.html#mpfr_add_z,mm_mpfr_struct,mm_mpfr_struct,mm_mpz_struct,mpfr_rnd_t	mpfr: mpfr_add_z(a: var mpfr; b: mpfr; c: mpz_t; d: mpfr_rnd_t)	
+mpfr_add_d	extras/mpfr.html#mpfr_add_d,mm_mpfr_struct,mm_mpfr_struct,cdouble,mpfr_rnd_t	mpfr: mpfr_add_d(a: var mpfr; b: mpfr; c: cdouble; d: mpfr_rnd_t)	
+mpfr_sub	extras/mpfr.html#mpfr_sub,mm_mpfr_struct,mm_mpfr_struct,mm_mpfr_struct,mpfr_rnd_t	mpfr: mpfr_sub(a: var mpfr; b: mpfr; c: mpfr; d: mpfr_rnd_t)	
+mpfr_sub_z	extras/mpfr.html#mpfr_sub_z,mm_mpfr_struct,mm_mpfr_struct,mm_mpz_struct,mpfr_rnd_t	mpfr: mpfr_sub_z(a: var mpfr; b: mpfr; c: mpz_t; d: mpfr_rnd_t)	
+mpfr_sub_d	extras/mpfr.html#mpfr_sub_d,mm_mpfr_struct,mm_mpfr_struct,cdouble,mpfr_rnd_t	mpfr: mpfr_sub_d(a: var mpfr; b: mpfr; c: cdouble; d: mpfr_rnd_t)	
+mpfr_mul	extras/mpfr.html#mpfr_mul,mm_mpfr_struct,mm_mpfr_struct,mm_mpfr_struct,mpfr_rnd_t	mpfr: mpfr_mul(a: var mpfr; b: mpfr; c: mpfr; d: mpfr_rnd_t)	
+mpfr_mul_z	extras/mpfr.html#mpfr_mul_z,mm_mpfr_struct,mm_mpfr_struct,mm_mpz_struct,mpfr_rnd_t	mpfr: mpfr_mul_z(a: var mpfr; b: mpfr; c: mpz_t; d: mpfr_rnd_t)	
+mpfr_mul_d	extras/mpfr.html#mpfr_mul_d,mm_mpfr_struct,mm_mpfr_struct,cdouble,mpfr_rnd_t	mpfr: mpfr_mul_d(a: var mpfr; b: mpfr; c: cdouble; d: mpfr_rnd_t)	
+mpfr_div	extras/mpfr.html#mpfr_div,mm_mpfr_struct,mm_mpfr_struct,mm_mpfr_struct,mpfr_rnd_t	mpfr: mpfr_div(a: var mpfr; b: mpfr; c: mpfr; d: mpfr_rnd_t)	
+mpfr_div_z	extras/mpfr.html#mpfr_div_z,mm_mpfr_struct,mm_mpfr_struct,mm_mpz_struct,mpfr_rnd_t	mpfr: mpfr_div_z(a: var mpfr; b: mpfr; c: mpz_t; d: mpfr_rnd_t)	
+mpfr_div_d	extras/mpfr.html#mpfr_div_d,mm_mpfr_struct,mm_mpfr_struct,cdouble,mpfr_rnd_t	mpfr: mpfr_div_d(a: var mpfr; b: mpfr; c: cdouble; d: mpfr_rnd_t)	
+mpfr_pow	extras/mpfr.html#mpfr_pow,mm_mpfr_struct,mm_mpfr_struct,mm_mpfr_struct,mpfr_rnd_t	mpfr: mpfr_pow(a: var mpfr; b: mpfr; c: mpfr; d: mpfr_rnd_t)	
+mpfr_pow_z	extras/mpfr.html#mpfr_pow_z,mm_mpfr_struct,mm_mpfr_struct,mm_mpz_struct,mpfr_rnd_t	mpfr: mpfr_pow_z(a: var mpfr; b: mpfr; c: mpz_t; d: mpfr_rnd_t)	
+finalizeFloat	extras/mpfr.html#finalizeFloat,ref.mm_mpfr_struct	mpfr: finalizeFloat(z: ref mpfr)	

@@ -1,0 +1,3 @@
+splitExamples	helpers/helper.html#splitExamples,string	helper: splitExamples(ex: string): seq[string]	
+getInfo	helpers/helper.html#getInfo,string,Value,SymbolDict	helper: getInfo(n: string; v: Value; aliases: SymbolDict): ValueDict	
+printInfo	helpers/helper.html#printInfo,string,Value,SymbolDict	helper: printInfo(n: string; v: Value; aliases: SymbolDict; withExamples = false)	

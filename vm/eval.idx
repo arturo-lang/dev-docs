@@ -1,0 +1,4 @@
+TmpArities	vm/eval.html#TmpArities	eval: TmpArities	
+indexOfValue	vm/eval.html#indexOfValue,seq[Value],Value	eval: indexOfValue(a: seq[Value]; item: Value): int	
+doEval	vm/eval.html#doEval,Value	eval: doEval(root: Value; isDictionary = false): Translation	
+evalOrGet	vm/eval.html#evalOrGet.t,Value	eval: evalOrGet(item: Value): untyped	

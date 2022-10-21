@@ -1,0 +1,10 @@
+`==`	vm/values/comparison.html#==,Value,Value	comparison: `==`(x: Value; y: Value): bool	
+`&lt;`	vm/values/comparison.html#<,Value,Value	comparison: `&lt;`(x: Value; y: Value): bool	
+`&gt;`	vm/values/comparison.html#>,Value,Value	comparison: `&gt;`(x: Value; y: Value): bool	
+`&lt;=`	vm/values/comparison.html#<=,Value,Value	comparison: `&lt;=`(x: Value; y: Value): bool	
+`&gt;=`	vm/values/comparison.html#>=,Value,Value	comparison: `&gt;=`(x: Value; y: Value): bool	
+`!=`	vm/values/comparison.html#!=,Value,Value	comparison: `!=`(x: Value; y: Value): bool	
+cmp	vm/values/comparison.html#cmp,Value,Value	comparison: cmp(x: Value; y: Value): int	
+contains	vm/values/comparison.html#contains,openArray[Value],Value	comparison: contains(x: openArray[Value]; y: Value): bool	
+find	vm/values/comparison.html#find,openArray[Value],Value	comparison: find(a: openArray[Value]; item: Value): int	
+identical	vm/values/comparison.html#identical,Value,Value	comparison: identical(x: Value; y: Value): bool	

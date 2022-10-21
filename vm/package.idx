@@ -1,0 +1,2 @@
+getWordsInBlock	vm/package.html#getWordsInBlock,Value	package: getWordsInBlock(bl: Value): seq[string]	
+showPackageInfo	vm/package.html#showPackageInfo,string	package: showPackageInfo(filepath: string)	

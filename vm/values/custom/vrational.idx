@@ -1,0 +1,42 @@
+VRationalObj	vm/values/custom/vrational.html#VRationalObj	vrational: VRationalObj	
+VRational	vm/values/custom/vrational.html#VRational	vrational: VRational	
+reduce	vm/values/custom/vrational.html#reduce,VRationalObj[T: SomeInteger]	vrational: reduce[T: SomeInteger](x: var VRationalObj[T])	
+initRational	vm/values/custom/vrational.html#initRational,T,T	vrational: initRational[T: SomeInteger](num, den: T): VRationalObj[T]	
+`//`	vm/values/custom/vrational.html#//,T,T	vrational: `//`[T](num, den: T): VRationalObj[T]	
+`$`	vm/values/custom/vrational.html#$,VRationalObj[T]	vrational: `$`[T](x: VRationalObj[T]): string	
+toRational	vm/values/custom/vrational.html#toRational,T	vrational: toRational[T: SomeInteger](x: T): VRationalObj[T]	
+toRational	vm/values/custom/vrational.html#toRational,float,int	vrational: toRational(x: float; n: int = high(int) shr 32): VRationalObj[int]	
+toFloat	vm/values/custom/vrational.html#toFloat,VRationalObj[T]	vrational: toFloat[T](x: VRationalObj[T]): float	
+toInt	vm/values/custom/vrational.html#toInt,VRationalObj[T]	vrational: toInt[T](x: VRationalObj[T]): int	
+`+`	vm/values/custom/vrational.html#+,VRationalObj[T],VRationalObj[T]	vrational: `+`[T](x, y: VRationalObj[T]): VRationalObj[T]	
+`+`	vm/values/custom/vrational.html#+,VRationalObj[T],T	vrational: `+`[T](x: VRationalObj[T]; y: T): VRationalObj[T]	
+`+`	vm/values/custom/vrational.html#+,T,VRationalObj[T]	vrational: `+`[T](x: T; y: VRationalObj[T]): VRationalObj[T]	
+`+=`	vm/values/custom/vrational.html#+=,VRationalObj[T],VRationalObj[T]	vrational: `+=`[T](x: var VRationalObj[T]; y: VRationalObj[T])	
+`+=`	vm/values/custom/vrational.html#+=,VRationalObj[T],T	vrational: `+=`[T](x: var VRationalObj[T]; y: T)	
+`-`	vm/values/custom/vrational.html#-,VRationalObj[T]	vrational: `-`[T](x: VRationalObj[T]): VRationalObj[T]	
+`-`	vm/values/custom/vrational.html#-,VRationalObj[T],VRationalObj[T]	vrational: `-`[T](x, y: VRationalObj[T]): VRationalObj[T]	
+`-`	vm/values/custom/vrational.html#-,VRationalObj[T],T	vrational: `-`[T](x: VRationalObj[T]; y: T): VRationalObj[T]	
+`-`	vm/values/custom/vrational.html#-,T,VRationalObj[T]	vrational: `-`[T](x: T; y: VRationalObj[T]): VRationalObj[T]	
+`-=`	vm/values/custom/vrational.html#-=,VRationalObj[T],VRationalObj[T]	vrational: `-=`[T](x: var VRationalObj[T]; y: VRationalObj[T])	
+`-=`	vm/values/custom/vrational.html#-=,VRationalObj[T],T	vrational: `-=`[T](x: var VRationalObj[T]; y: T)	
+`*`	vm/values/custom/vrational.html#*,VRationalObj[T],VRationalObj[T]	vrational: `*`[T](x, y: VRationalObj[T]): VRationalObj[T]	
+`*`	vm/values/custom/vrational.html#*,VRationalObj[T],T	vrational: `*`[T](x: VRationalObj[T]; y: T): VRationalObj[T]	
+`*`	vm/values/custom/vrational.html#*,T,VRationalObj[T]	vrational: `*`[T](x: T; y: VRationalObj[T]): VRationalObj[T]	
+`*=`	vm/values/custom/vrational.html#*=,VRationalObj[T],VRationalObj[T]	vrational: `*=`[T](x: var VRationalObj[T]; y: VRationalObj[T])	
+`*=`	vm/values/custom/vrational.html#*=,VRationalObj[T],T	vrational: `*=`[T](x: var VRationalObj[T]; y: T)	
+reciprocal	vm/values/custom/vrational.html#reciprocal,VRationalObj[T]	vrational: reciprocal[T](x: VRationalObj[T]): VRationalObj[T]	
+`/`	vm/values/custom/vrational.html#/,VRationalObj[T],VRationalObj[T]	vrational: `/`[T](x, y: VRationalObj[T]): VRationalObj[T]	
+`/`	vm/values/custom/vrational.html#/,VRationalObj[T],T	vrational: `/`[T](x: VRationalObj[T]; y: T): VRationalObj[T]	
+`/`	vm/values/custom/vrational.html#/,T,VRationalObj[T]	vrational: `/`[T](x: T; y: VRationalObj[T]): VRationalObj[T]	
+`/=`	vm/values/custom/vrational.html#/=,VRationalObj[T],VRationalObj[T]	vrational: `/=`[T](x: var VRationalObj[T]; y: VRationalObj[T])	
+`/=`	vm/values/custom/vrational.html#/=,VRationalObj[T],T	vrational: `/=`[T](x: var VRationalObj[T]; y: T)	
+cmp	vm/values/custom/vrational.html#cmp,VRationalObj,VRationalObj	vrational: cmp(x, y: VRationalObj): int	
+`&lt;`	vm/values/custom/vrational.html#<,VRationalObj,VRationalObj	vrational: `&lt;`(x, y: VRationalObj): bool	
+`&lt;=`	vm/values/custom/vrational.html#<=,VRationalObj,VRationalObj	vrational: `&lt;=`(x, y: VRationalObj): bool	
+`==`	vm/values/custom/vrational.html#==,VRationalObj,VRationalObj	vrational: `==`(x, y: VRationalObj): bool	
+abs	vm/values/custom/vrational.html#abs,VRationalObj[T]	vrational: abs[T](x: VRationalObj[T]): VRationalObj[T]	
+`div`	vm/values/custom/vrational.html#div,VRationalObj[T: SomeInteger],VRationalObj[T: SomeInteger]	vrational: `div`[T: SomeInteger](x, y: VRationalObj[T]): T	
+`mod`	vm/values/custom/vrational.html#mod,VRationalObj[T: SomeInteger],VRationalObj[T: SomeInteger]	vrational: `mod`[T: SomeInteger](x, y: VRationalObj[T]): VRationalObj[T]	
+floorDiv	vm/values/custom/vrational.html#floorDiv,VRationalObj[T: SomeInteger],VRationalObj[T: SomeInteger]	vrational: floorDiv[T: SomeInteger](x, y: VRationalObj[T]): T	
+floorMod	vm/values/custom/vrational.html#floorMod,VRationalObj[T: SomeInteger],VRationalObj[T: SomeInteger]	vrational: floorMod[T: SomeInteger](x, y: VRationalObj[T]): VRationalObj[T]	
+hash	vm/values/custom/vrational.html#hash,VRationalObj[T]	vrational: hash[T](x: VRationalObj[T]): Hash	

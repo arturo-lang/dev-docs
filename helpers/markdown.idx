@@ -1,0 +1,1 @@
+parseMarkdownInput	helpers/markdown.html#parseMarkdownInput,string	markdown: parseMarkdownInput(input: string): Value	

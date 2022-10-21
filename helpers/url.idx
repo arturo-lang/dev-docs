@@ -1,0 +1,3 @@
+isUrl	helpers/url.html#isUrl,string	url: isUrl(s: string): bool	
+parseUrlComponents	helpers/url.html#parseUrlComponents,string	url: parseUrlComponents(s: string): OrderedTable[string, Value]	
+urlencode	helpers/url.html#urlencode,string	url: urlencode(s: string; encodeSpaces = false; encodeSlashes = false): string	

@@ -1,0 +1,19 @@
+V_Caller	helpers/ffi.html#V_Caller	ffi: V_Caller	
+I_Caller	helpers/ffi.html#I_Caller	ffi: I_Caller	
+F_Caller	helpers/ffi.html#F_Caller	ffi: F_Caller	
+S_Caller	helpers/ffi.html#S_Caller	ffi: S_Caller	
+II_Caller	helpers/ffi.html#II_Caller	ffi: II_Caller	
+IF_Caller	helpers/ffi.html#IF_Caller	ffi: IF_Caller	
+IS_Caller	helpers/ffi.html#IS_Caller	ffi: IS_Caller	
+FI_Caller	helpers/ffi.html#FI_Caller	ffi: FI_Caller	
+FF_Caller	helpers/ffi.html#FF_Caller	ffi: FF_Caller	
+FS_Caller	helpers/ffi.html#FS_Caller	ffi: FS_Caller	
+SI_Caller	helpers/ffi.html#SI_Caller	ffi: SI_Caller	
+SF_Caller	helpers/ffi.html#SF_Caller	ffi: SF_Caller	
+SS_Caller	helpers/ffi.html#SS_Caller	ffi: SS_Caller	
+loadLibrary	helpers/ffi.html#loadLibrary,string	ffi: loadLibrary(path: string): LibHandle	
+unloadLibrary	helpers/ffi.html#unloadLibrary,LibHandle	ffi: unloadLibrary(lib: LibHandle)	
+checkRunner	helpers/ffi.html#checkRunner.t,pointer	ffi: checkRunner(r: pointer): untyped	
+resolveLibrary	helpers/ffi.html#resolveLibrary,string	ffi: resolveLibrary(path: string): string	
+boolToInt	helpers/ffi.html#boolToInt,Value	ffi: boolToInt(v: Value): int	
+execForeignMethod	helpers/ffi.html#execForeignMethod,string,string,ValueArray,ValueKind	ffi: execForeignMethod(path: string; meth: string; params: ValueArray = @[];\n                  expected: ValueKind = Nothing): Value	

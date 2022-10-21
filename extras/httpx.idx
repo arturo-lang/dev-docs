@@ -1,0 +1,18 @@
+Request	extras/httpx.html#Request	httpx: Request	
+OnRequest	extras/httpx.html#OnRequest	httpx: OnRequest	
+Settings	extras/httpx.html#Settings	httpx: Settings	
+HttpxDefect	extras/httpx.html#HttpxDefect	httpx: HttpxDefect	
+initSettings	extras/httpx.html#initSettings,string,int,Startup	httpx: initSettings(port = Port(8080); bindAddr = &quot;&quot;; numThreads = 0; startup: Startup): Settings	
+initSettings	extras/httpx.html#initSettings,string,int	httpx: initSettings(port = Port(8080); bindAddr = &quot;&quot;; numThreads = 0): Settings	
+unsafeSend	extras/httpx.html#unsafeSend,Request,string	httpx: unsafeSend(req: Request; data: string)	
+send	extras/httpx.html#send,Request,HttpCode,string,Option[string],string	httpx: send(req: Request; code: HttpCode; body: string; contentLength: Option[string];\n     headers = &quot;&quot;)	
+send	extras/httpx.html#send.t,Request,HttpCode,string,string	httpx: send(req: Request; code: HttpCode; body: string; headers = &quot;&quot;)	
+send	extras/httpx.html#send,Request,HttpCode	httpx: send(req: Request; code: HttpCode)	
+send	extras/httpx.html#send,Request,string	httpx: send(req: Request; body: string; code = Http200)	
+httpMethod	extras/httpx.html#httpMethod,Request	httpx: httpMethod(req: Request): Option[HttpMethod]	
+path	extras/httpx.html#path,Request	httpx: path(req: Request): Option[string]	
+headers	extras/httpx.html#headers,Request	httpx: headers(req: Request): Option[HttpHeaders]	
+ip	extras/httpx.html#ip,Request	httpx: ip(req: Request): string	
+forget	extras/httpx.html#forget,Request	httpx: forget(req: Request)	
+run	extras/httpx.html#run,OnRequest,Settings	httpx: run(onRequest: OnRequest; settings: Settings)	
+run	extras/httpx.html#run,OnRequest	httpx: run(onRequest: OnRequest)	

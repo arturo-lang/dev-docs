@@ -1,0 +1,5 @@
+getLiteralDialogResult	helpers/dialogs.html#getLiteralDialogResult,DialogType,DialogResult	dialogs: getLiteralDialogResult(dialog: DialogType; res: DialogResult): string	
+getBooleanDialogResult	helpers/dialogs.html#getBooleanDialogResult,DialogType,DialogResult	dialogs: getBooleanDialogResult(dialog: DialogType; res: DialogResult): bool	
+showAlertDialog	helpers/dialogs.html#showAlertDialog,string,string,DialogIcon	dialogs: showAlertDialog(title: string; msg: string; icon: DialogIcon = NoIcon)	
+showPopupDialog	helpers/dialogs.html#showPopupDialog,string,string,DialogType,DialogIcon	dialogs: showPopupDialog(title: string; msg: string; dialog: DialogType;\n                icon: DialogIcon = NoIcon): DialogResult	
+showSelectionDialog	helpers/dialogs.html#showSelectionDialog,string,string	dialogs: showSelectionDialog(title: string; path: string; files = true): string	

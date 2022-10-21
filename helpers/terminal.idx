@@ -1,0 +1,18 @@
+NoColors	helpers/terminal.html#NoColors	terminal: NoColors	
+noColor	helpers/terminal.html#noColor	terminal: noColor	
+blackColor	helpers/terminal.html#blackColor	terminal: blackColor	
+redColor	helpers/terminal.html#redColor	terminal: redColor	
+greenColor	helpers/terminal.html#greenColor	terminal: greenColor	
+yellowColor	helpers/terminal.html#yellowColor	terminal: yellowColor	
+blueColor	helpers/terminal.html#blueColor	terminal: blueColor	
+magentaColor	helpers/terminal.html#magentaColor	terminal: magentaColor	
+cyanColor	helpers/terminal.html#cyanColor	terminal: cyanColor	
+whiteColor	helpers/terminal.html#whiteColor	terminal: whiteColor	
+grayColor	helpers/terminal.html#grayColor	terminal: grayColor	
+resetColor	helpers/terminal.html#resetColor.t	terminal: resetColor(): string	
+fg	helpers/terminal.html#fg.t,string	terminal: fg(color: string = &quot;&quot;): string	
+bold	helpers/terminal.html#bold.t,string	terminal: bold(color: string = &quot;&quot;): string	
+underline	helpers/terminal.html#underline.t,string	terminal: underline(color: string = &quot;&quot;): string	
+rgb	helpers/terminal.html#rgb.t,string	terminal: rgb(color: string = &quot;&quot;): string	
+rgb	helpers/terminal.html#rgb.t,tuple[int,int,int]	terminal: rgb(color: tuple[r, g, b: int]): string	
+clearTerminal	helpers/terminal.html#clearTerminal	terminal: clearTerminal()	

@@ -1,0 +1,12 @@
+convertToAscii	helpers/strings.html#convertToAscii,string	strings: convertToAscii(input: string): string	
+truncatePreserving	helpers/strings.html#truncatePreserving,string,int,string	strings: truncatePreserving(s: string; at: int; with: string = &quot;...&quot;): string	
+truncate	helpers/strings.html#truncate,string,int,string	strings: truncate(s: string; at: int; with: string = &quot;...&quot;): string	
+tokenize	helpers/strings.html#tokenize.i,string,openArray[string]	strings: tokenize(text: string; sep: openArray[string]): string	
+centerUnicode	helpers/strings.html#centerUnicode,string,int	strings: centerUnicode(s: string; width: int; padding = &apos; &apos;.Rune): string	
+levenshteinAlign	helpers/strings.html#levenshteinAlign,string,string,Rune	strings: levenshteinAlign(astr, bstr: string; filler: Rune): tuple[a, b: string]	
+TCrc32	helpers/strings.html#TCrc32	strings: TCrc32	
+InitCrc32	helpers/strings.html#InitCrc32	strings: InitCrc32	
+crc32	helpers/strings.html#crc32,string	strings: crc32(s: string): string	
+jaro	helpers/strings.html#jaro,string,string	strings: jaro(s1, s2: string): float	
+replaceAll	helpers/strings.html#replaceAll.t,string,string,string	strings: replaceAll(original, match, replacement: string): string	
+replaceOnce	helpers/strings.html#replaceOnce,string,string,string	strings: replaceOnce(s, sub: string; by = &quot;&quot;): string	

@@ -1,0 +1,2 @@
+writeToFile	helpers/io.html#writeToFile,string,string	io: writeToFile(path: string; contents: string; append = false)	
+writeToFile	helpers/io.html#writeToFile,string,ByteArray	io: writeToFile(path: string; contents: ByteArray; append = false)	

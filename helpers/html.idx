@@ -1,0 +1,1 @@
+parseHtmlInput	helpers/html.html#parseHtmlInput,string	html: parseHtmlInput(input: string): Value	

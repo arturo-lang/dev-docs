@@ -1,0 +1,74 @@
+None	extras/parsetoml.html#None	Sign.None	
+Pos	extras/parsetoml.html#Pos	Sign.Pos	
+Neg	extras/parsetoml.html#Neg	Sign.Neg	
+Sign	extras/parsetoml.html#Sign	parsetoml: Sign	
+TomlValueKind	extras/parsetoml.html#TomlValueKind	parsetoml: TomlValueKind	
+TomlDate	extras/parsetoml.html#TomlDate	parsetoml: TomlDate	
+TomlTime	extras/parsetoml.html#TomlTime	parsetoml: TomlTime	
+TomlDateTime	extras/parsetoml.html#TomlDateTime	parsetoml: TomlDateTime	
+TomlTable	extras/parsetoml.html#TomlTable	parsetoml: TomlTable	
+TomlTableRef	extras/parsetoml.html#TomlTableRef	parsetoml: TomlTableRef	
+TomlValueRef	extras/parsetoml.html#TomlValueRef	parsetoml: TomlValueRef	
+TomlValue	extras/parsetoml.html#TomlValue	parsetoml: TomlValue	
+TomlError	extras/parsetoml.html#TomlError	parsetoml: TomlError	
+parseStream	extras/parsetoml.html#parseStream,,string	parsetoml: parseStream(inputStream: streams.Stream; fileName: string = &quot;&quot;): TomlValueRef	
+parseString	extras/parsetoml.html#parseString,string,string	parsetoml: parseString(tomlStr: string; fileName: string = &quot;&quot;): TomlValueRef	
+parseFile	extras/parsetoml.html#parseFile,File,string	parsetoml: parseFile(f: File; fileName: string = &quot;&quot;): TomlValueRef	
+parseFile	extras/parsetoml.html#parseFile,string	parsetoml: parseFile(fileName: string): TomlValueRef	
+`$`	extras/parsetoml.html#$,TomlDate	parsetoml: `$`(val: TomlDate): string	
+`$`	extras/parsetoml.html#$,TomlTime	parsetoml: `$`(val: TomlTime): string	
+`$`	extras/parsetoml.html#$,TomlDateTime	parsetoml: `$`(val: TomlDateTime): string	
+`$`	extras/parsetoml.html#$,TomlValueRef	parsetoml: `$`(val: TomlValueRef): string	
+`$`	extras/parsetoml.html#$,TomlValue	parsetoml: `$`(val: TomlValue): string	
+dump	extras/parsetoml.html#dump,TomlTableRef,int	parsetoml: dump(table: TomlTableRef; indentLevel: int = 0)	
+toJson	extras/parsetoml.html#toJson,TomlTableRef	parsetoml: toJson(table: TomlTableRef): JsonNode	
+toJson	extras/parsetoml.html#toJson,TomlValueRef	parsetoml: toJson(value: TomlValueRef): JsonNode	
+toTomlString	extras/parsetoml.html#toTomlString,TomlTableRef,string	parsetoml: toTomlString(value: TomlTableRef; parents = &quot;&quot;): string	
+toTomlString	extras/parsetoml.html#toTomlString,TomlValueRef	parsetoml: toTomlString(value: TomlValueRef): string	
+newTString	extras/parsetoml.html#newTString,string	parsetoml: newTString(s: string): TomlValueRef	
+newTInt	extras/parsetoml.html#newTInt,int64	parsetoml: newTInt(n: int64): TomlValueRef	
+newTFloat	extras/parsetoml.html#newTFloat,float	parsetoml: newTFloat(n: float): TomlValueRef	
+newTBool	extras/parsetoml.html#newTBool,bool	parsetoml: newTBool(b: bool): TomlValueRef	
+newTNull	extras/parsetoml.html#newTNull	parsetoml: newTNull(): TomlValueRef	
+newTTable	extras/parsetoml.html#newTTable	parsetoml: newTTable(): TomlValueRef	
+newTArray	extras/parsetoml.html#newTArray	parsetoml: newTArray(): TomlValueRef	
+getStr	extras/parsetoml.html#getStr,TomlValueRef,string	parsetoml: getStr(n: TomlValueRef; default: string = &quot;&quot;): string	
+getInt	extras/parsetoml.html#getInt,TomlValueRef,int	parsetoml: getInt(n: TomlValueRef; default: int = 0): int	
+getBiggestInt	extras/parsetoml.html#getBiggestInt,TomlValueRef,int64	parsetoml: getBiggestInt(n: TomlValueRef; default: int64 = 0): int64	
+getFloat	extras/parsetoml.html#getFloat,TomlValueRef,float	parsetoml: getFloat(n: TomlValueRef; default: float = 0.0): float	
+getBool	extras/parsetoml.html#getBool,TomlValueRef,bool	parsetoml: getBool(n: TomlValueRef; default: bool = false): bool	
+getTable	extras/parsetoml.html#getTable,TomlValueRef	parsetoml: getTable(n: TomlValueRef; default = new(TomlTableRef)): TomlTableRef	
+getElems	extras/parsetoml.html#getElems,TomlValueRef,seq[TomlValueRef]	parsetoml: getElems(n: TomlValueRef; default: seq[TomlValueRef] = @[]): seq[TomlValueRef]	
+add	extras/parsetoml.html#add,TomlValueRef,TomlValueRef	parsetoml: add(father, child: TomlValueRef)	
+add	extras/parsetoml.html#add,TomlValueRef,string,TomlValueRef	parsetoml: add(obj: TomlValueRef; key: string; val: TomlValueRef)	
+`?`	extras/parsetoml.html#?,string	parsetoml: `?`(s: string): TomlValueRef	
+`?`	extras/parsetoml.html#?,int64	parsetoml: `?`(n: int64): TomlValueRef	
+`?`	extras/parsetoml.html#?,float	parsetoml: `?`(n: float): TomlValueRef	
+`?`	extras/parsetoml.html#?,bool	parsetoml: `?`(b: bool): TomlValueRef	
+`?`	extras/parsetoml.html#?,openArray[tuple[string,TomlValueRef]]	parsetoml: `?`(keyVals: openArray[tuple[key: string, val: TomlValueRef]]): TomlValueRef	
+`?`	extras/parsetoml.html#?.t,TomlValueRef	parsetoml: `?`(j: TomlValueRef): TomlValueRef	
+`?`	extras/parsetoml.html#?,openArray[T]	parsetoml: `?`[T](elements: openArray[T]): TomlValueRef	
+`?`	extras/parsetoml.html#?	parsetoml: `?`(o: object): TomlValueRef	
+`?`	extras/parsetoml.html#?,ref.	parsetoml: `?`(o: ref object): TomlValueRef	
+`?`	extras/parsetoml.html#?_2	parsetoml: `?`(o: enum): TomlValueRef	
+`?*`	extras/parsetoml.html#?*.m,untyped	parsetoml: `?*`(x: untyped): untyped	
+parseToml	extras/parsetoml.html#parseToml.m,untyped	parsetoml: parseToml(x: untyped): untyped	
+`==`	extras/parsetoml.html#==,TomlValueRef,TomlValueRef	parsetoml: `==`(a, b: TomlValueRef): bool	
+hash	extras/parsetoml.html#hash,TomlValueRef	parsetoml: hash(n: TomlValueRef): Hash	
+hash	extras/parsetoml.html#hash,OrderedTable[string,TomlValueRef]	parsetoml: hash(n: OrderedTable[string, TomlValueRef]): Hash	
+len	extras/parsetoml.html#len,TomlValueRef	parsetoml: len(n: TomlValueRef): int	
+`[]`	extras/parsetoml.html#[],TomlValueRef,string	parsetoml: `[]`(node: TomlValueRef; name: string): TomlValueRef	
+`[]`	extras/parsetoml.html#[],TomlValueRef,int	parsetoml: `[]`(node: TomlValueRef; index: int): TomlValueRef	
+hasKey	extras/parsetoml.html#hasKey,TomlValueRef,string	parsetoml: hasKey(node: TomlValueRef; key: string): bool	
+contains	extras/parsetoml.html#contains,TomlValueRef,string	parsetoml: contains(node: TomlValueRef; key: string): bool	
+contains	extras/parsetoml.html#contains,TomlValueRef,TomlValueRef	parsetoml: contains(node: TomlValueRef; val: TomlValueRef): bool	
+existsKey	extras/parsetoml.html#existsKey,TomlValueRef,string	parsetoml: existsKey(node: TomlValueRef; key: string): bool	
+`[]=`	extras/parsetoml.html#[]=,TomlValueRef,string,TomlValueRef	parsetoml: `[]=`(obj: TomlValueRef; key: string; val: TomlValueRef)	
+`{}`	extras/parsetoml.html#{},TomlValueRef,varargs[string]	parsetoml: `{}`(node: TomlValueRef; keys: varargs[string]): TomlValueRef	
+getOrDefault	extras/parsetoml.html#getOrDefault,TomlValueRef,string	parsetoml: getOrDefault(node: TomlValueRef; key: string): TomlValueRef	
+simpleGetOrDefault	extras/parsetoml.html#simpleGetOrDefault.t,TomlValueRef,string	parsetoml: simpleGetOrDefault{\n  `{}`(node, [key])\n}(node: TomlValueRef; key: string): TomlValueRef	
+`{}=`	extras/parsetoml.html#{}=,TomlValueRef,varargs[string],TomlValueRef	parsetoml: `{}=`(node: TomlValueRef; keys: varargs[string]; value: TomlValueRef)	
+delete	extras/parsetoml.html#delete,TomlValueRef,string	parsetoml: delete(obj: TomlValueRef; key: string)	
+copy	extras/parsetoml.html#copy,TomlValueRef	parsetoml: copy(p: TomlValueRef): TomlValueRef	
+Introduction	extras/parsetoml.html#introduction	 Introduction	
+Source	extras/parsetoml.html#source	 Source	

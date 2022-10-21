@@ -1,0 +1,2 @@
+parseTomlNode	helpers/toml.html#parseTomlNode,TomlValueRef	toml: parseTomlNode(n: TomlValueRef): Value	
+parseTomlString	helpers/toml.html#parseTomlString,string	toml: parseTomlString(src: string): Value	

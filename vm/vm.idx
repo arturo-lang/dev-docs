@@ -1,0 +1,5 @@
+setupLibrary	vm/vm.html#setupLibrary	vm: setupLibrary()	
+initialize	vm/vm.html#initialize.t,seq[string],string,bool,Value,bool,string	vm: initialize(args: seq[string]; filename: string; isFile: bool;\n           scriptData: Value = nil; mutedColors: bool = false; portableData = &quot;&quot;)	
+handleVMErrors	vm/vm.html#handleVMErrors.t,untyped	vm: handleVMErrors(blk: untyped): untyped	
+runBytecode	vm/vm.html#runBytecode,Translation,string,seq[string]	vm: runBytecode(code: Translation; filename: string; args: seq[string])	
+run	vm/vm.html#run,string,seq[string],bool,bool,string	vm: run(code: var string; args: seq[string]; isFile: bool; doExecute: bool = true;\n    withData = &quot;&quot;): Translation	

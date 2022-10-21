@@ -1,0 +1,6 @@
+NoArgs	vm/lib.html#NoArgs	lib: NoArgs	
+NoAttrs	vm/lib.html#NoAttrs	lib: NoAttrs	
+builtin	vm/lib.html#builtin.t,string,VSymbol,PrecedenceKind,string,untyped,untyped,ValueSpec,string,untyped	lib: builtin(n: string; alias: VSymbol; rule: PrecedenceKind; description: string;\n        args: untyped; attrs: untyped; returns: ValueSpec; example: string;\n        act: untyped): untyped	
+constant	vm/lib.html#constant.t,string,VSymbol,string,Value	lib: constant(n: string; alias: VSymbol; description: string; v: Value): untyped	
+showWrongArgumentTypeError	vm/lib.html#showWrongArgumentTypeError,string,int,openArray[Value],openArray[]	lib: showWrongArgumentTypeError(name: string; pos: int; params: openArray[Value];\n                           expected: openArray[(string, set[ValueKind])])	
+require	vm/lib.html#require.t,string,untyped	lib: require(name: string; spec: untyped): untyped	

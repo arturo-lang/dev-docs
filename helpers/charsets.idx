@@ -1,0 +1,6 @@
+getCharsetRunes	helpers/charsets.html#getCharsetRunes,string	charsets: getCharsetRunes(locale: string; withExtras = false; doUppercase = false;\n                filterNgraphs = true): seq[Rune]	
+getCharsetForSorting	helpers/charsets.html#getCharsetForSorting,string	charsets: getCharsetForSorting(locale: string): seq[Rune]	
+getExtraCharsetForSorting	helpers/charsets.html#getExtraCharsetForSorting,string	charsets: getExtraCharsetForSorting(locale: string): seq[Rune]	
+getCharsetWithNgraphs	helpers/charsets.html#getCharsetWithNgraphs,string	charsets: getCharsetWithNgraphs(locale: string): seq[string]	
+hasNgraphs	helpers/charsets.html#hasNgraphs,string	charsets: hasNgraphs(locale: string): bool	
+getCharset	helpers/charsets.html#getCharset,string	charsets: getCharset(locale: string; withExtras = false; doUppercase = false): ValueArray	

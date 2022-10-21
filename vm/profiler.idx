@@ -1,0 +1,9 @@
+getMetric	vm/profiler.html#getMetric.t,untyped	profiler: getMetric(actionContent: untyped): int	
+addMetricIfNotExists	vm/profiler.html#addMetricIfNotExists.t,string,untyped	profiler: addMetricIfNotExists(name: string; metric: untyped): untyped	
+printProfilerHeader	vm/profiler.html#printProfilerHeader.t	profiler: printProfilerHeader()	
+printProfilerDataTable	vm/profiler.html#printProfilerDataTable.t,string	profiler: printProfilerDataTable(what: string)	
+hookFunctionProfiler	vm/profiler.html#hookFunctionProfiler.t,string,untyped	profiler: hookFunctionProfiler(name: string; actionContent: untyped): untyped	
+hookOpProfiler	vm/profiler.html#hookOpProfiler.t,string,untyped	profiler: hookOpProfiler(name: string; actionContent: untyped): untyped	
+hookProcProfiler	vm/profiler.html#hookProcProfiler.t,string,untyped	profiler: hookProcProfiler(name: string; actionContent: untyped): untyped	
+initProfiler	vm/profiler.html#initProfiler	profiler: initProfiler()	
+showProfilerData	vm/profiler.html#showProfilerData	profiler: showProfilerData()	

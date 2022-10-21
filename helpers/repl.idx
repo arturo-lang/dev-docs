@@ -1,0 +1,2 @@
+initRepl	helpers/repl.html#initRepl,string,ValueArray,ValueDict	repl: initRepl(path: string; completionsArray: ValueArray = @[];\n         hintsTable: ValueDict = initOrderedTable())	
+replInput	helpers/repl.html#replInput,string,string,ValueArray,ValueDict	repl: replInput(prompt: string; historyPath: string = ReplHistoryPath;\n          completionsArray: ValueArray = @[];\n          hintsTable: ValueDict = initOrderedTable()): string	

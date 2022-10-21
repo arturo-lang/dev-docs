@@ -1,0 +1,8 @@
+Byte	helpers/bytes.html#Byte	bytes: Byte	
+ByteArray	helpers/bytes.html#ByteArray	bytes: ByteArray	
+`and`	helpers/bytes.html#and,ByteArray,ByteArray	bytes: `and`(a: ByteArray; b: ByteArray): ByteArray	
+`or`	helpers/bytes.html#or,ByteArray,ByteArray	bytes: `or`(a: ByteArray; b: ByteArray): ByteArray	
+`xor`	helpers/bytes.html#xor,ByteArray,ByteArray	bytes: `xor`(a: ByteArray; b: ByteArray): ByteArray	
+`not`	helpers/bytes.html#not,ByteArray	bytes: `not`(a: ByteArray): ByteArray	
+substitute	helpers/bytes.html#substitute,ByteArray,ByteArray,ByteArray	bytes: substitute(a: ByteArray; needle: ByteArray; replacement: ByteArray): ByteArray	
+numberToBinary	helpers/bytes.html#numberToBinary	bytes: numberToBinary(i: int | float): ByteArray	

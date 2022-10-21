@@ -1,0 +1,19 @@
+addmod	helpers/maths.html#addmod,T,T,T	maths: addmod[T: SomeInteger](a, b, modulus: T): T	
+mulmod	helpers/maths.html#mulmod,T,T,T	maths: mulmod[T: SomeInteger](a, b, modulus: T): T	
+expmod	helpers/maths.html#expmod,T,T,T	maths: expmod[T: SomeInteger](base, exponent, modulus: T): T	
+miller_rabin_test	helpers/maths.html#miller_rabin_test,T,seq[uint64]	maths: miller_rabin_test[T: SomeInteger](num: T; witnesses: seq[uint64]): bool	
+selectWitnesses	helpers/maths.html#selectWitnesses,T	maths: selectWitnesses[T: SomeInteger](num: T): seq[uint64]	
+isPrime	helpers/maths.html#isPrime,T	maths: isPrime[T: SomeInteger](n: T): bool	
+pollardG	helpers/maths.html#pollardG,Int,Int	maths: pollardG(n: var Int; m: Int)	
+pollardRho	helpers/maths.html#pollardRho,Int	maths: pollardRho(n: Int): Int	
+factors	helpers/maths.html#factors,int	maths: factors(n: int): seq[int]	
+primeFactorization	helpers/maths.html#primeFactorization,int	maths: primeFactorization(n: int): seq[int]	
+primeFactors	helpers/maths.html#primeFactors,int	maths: primeFactors(n: int): seq[int]	
+getDigits	helpers/maths.html#getDigits,int,int	maths: getDigits(n: int; base: int = 10): seq[int]	
+getDigits	helpers/maths.html#getDigits,Int,int_2	maths: getDigits(n: Int; base: int = 10): seq[int]	
+primeFactors	helpers/maths.html#primeFactors,Int_2	maths: primeFactors(num: Int): seq[Int]	
+primeFactorization	helpers/maths.html#primeFactorization,Int_2	maths: primeFactorization(n: Int): seq[Int]	
+factors	helpers/maths.html#factors,Int_2	maths: factors(n: Int): seq[Int]	
+isqrt	helpers/maths.html#isqrt,T	maths: isqrt[T: SomeSignedInt | Int](x: T): T	
+powmod	helpers/maths.html#powmod,Value,Value,Value	maths: powmod(x: Value; y: Value; z: Value): Value	
+cartesianProduct	helpers/maths.html#cartesianProduct,varargs[seq[T]]	maths: cartesianProduct[T](a: varargs[seq[T]]): seq[seq[T]]	

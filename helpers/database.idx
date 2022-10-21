@@ -1,0 +1,9 @@
+EmptyQueryResult	helpers/database.html#EmptyQueryResult	QueryResultKind.EmptyQueryResult	
+ValidQueryResult	helpers/database.html#ValidQueryResult	QueryResultKind.ValidQueryResult	
+QueryResultKind	helpers/database.html#QueryResultKind	database: QueryResultKind	
+QueryResult	helpers/database.html#QueryResult	database: QueryResult	
+openSqliteDb	helpers/database.html#openSqliteDb,string	database: openSqliteDb(name: string): sqlite.DbConn	
+execSqliteDb	helpers/database.html#execSqliteDb,,string,seq[string]	database: execSqliteDb(db: sqlite.DbConn; command: string; with: seq[string] = @[]): QueryResult	
+execManySqliteDb	helpers/database.html#execManySqliteDb,,seq[string],seq[string]	database: execManySqliteDb(db: sqlite.DbConn; commands: seq[string];\n                 with: seq[string] = @[]): QueryResult	
+getLastIdSqliteDb	helpers/database.html#getLastIdSqliteDb	database: getLastIdSqliteDb(db: sqlite.DbConn): int64	
+closeSqliteDb	helpers/database.html#closeSqliteDb	database: closeSqliteDb(db: sqlite.DbConn)	

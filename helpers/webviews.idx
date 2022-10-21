@@ -1,0 +1,14 @@
+FunctionCall	helpers/webviews.html#FunctionCall	WebviewCallKind.FunctionCall	
+ExecuteCode	helpers/webviews.html#ExecuteCode	WebviewCallKind.ExecuteCode	
+BackendAction	helpers/webviews.html#BackendAction	WebviewCallKind.BackendAction	
+WebviewEvent	helpers/webviews.html#WebviewEvent	WebviewCallKind.WebviewEvent	
+UnrecognizedCall	helpers/webviews.html#UnrecognizedCall	WebviewCallKind.UnrecognizedCall	
+WebviewCallKind	helpers/webviews.html#WebviewCallKind	webviews: WebviewCallKind	
+WebviewCallHandler	helpers/webviews.html#WebviewCallHandler	webviews: WebviewCallHandler	
+mainWebview	helpers/webviews.html#mainWebview	webviews: mainWebview	
+mainCallHandler	helpers/webviews.html#mainCallHandler	webviews: mainCallHandler	
+openChromeWindow	helpers/webviews.html#openChromeWindow,int,seq[string]	webviews: openChromeWindow(port: int; flags: seq[string] = @[])	
+newWebView	helpers/webviews.html#newWebView,string,string,int,int,bool,bool,bool,bool,bool,bool,string,WebviewCallHandler	webviews: newWebView(title: string = &quot;Arturo&quot;; url: string = &quot;&quot;; width: int = 640;\n           height: int = 480; resizable: bool = true; maximized: bool = false;\n           fullscreen: bool = false; borderless: bool = false;\n           topmost: bool = false; debug: bool = false; initializer: string = &quot;&quot;;\n           callHandler: WebviewCallHandler = nil): Webview	
+show	helpers/webviews.html#show,Webview	webviews: show(w: Webview)	
+evaluate	helpers/webviews.html#evaluate,Webview,string	webviews: evaluate(w: Webview; js: string)	
+getWindow	helpers/webviews.html#getWindow,Webview	webviews: getWindow(w: Webview): Window	

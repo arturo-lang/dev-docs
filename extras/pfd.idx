@@ -1,0 +1,7 @@
+DialogIcon	extras/pfd.html#DialogIcon	pfd: DialogIcon	
+DialogType	extras/pfd.html#DialogType	pfd: DialogType	
+DialogResult	extras/pfd.html#DialogResult	pfd: DialogResult	
+pfd_notification	extras/pfd.html#pfd_notification,cstring,cstring,DialogIcon	pfd: pfd_notification(title: cstring; message: cstring; ic: DialogIcon)	
+pfd_message	extras/pfd.html#pfd_message,cstring,cstring,DialogType,DialogIcon	pfd: pfd_message(title: cstring; message: cstring; tp: DialogType; ic: DialogIcon): DialogResult	
+pfd_select_folder	extras/pfd.html#pfd_select_folder,cstring,cstring	pfd: pfd_select_folder(title: cstring; path: cstring): cstring	
+pfd_select_file	extras/pfd.html#pfd_select_file,cstring,cstring	pfd: pfd_select_file(title: cstring; path: cstring): cstring	

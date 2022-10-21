@@ -1,0 +1,4 @@
+memBuffer	extras/md4c.html#memBuffer	md4c: memBuffer	
+mdCallback	extras/md4c.html#mdCallback	md4c: mdCallback	
+toMarkdown	extras/md4c.html#toMarkdown,cstring,cint,memBuffer,cint,cint	md4c: toMarkdown(input: cstring; input_size: cint; userdata: memBuffer;\n           parser_flags: cint; renderer_flags: cint): cint	
+freeMarkdownBuffer	extras/md4c.html#freeMarkdownBuffer,memBuffer	md4c: freeMarkdownBuffer(userdata: memBuffer)	

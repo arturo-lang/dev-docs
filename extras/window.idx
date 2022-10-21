@@ -1,0 +1,13 @@
+Window	extras/window.html#Window	window: Window	
+is_maximized_window	extras/window.html#is_maximized_window,Window	window: is_maximized_window(w: Window): bool	
+maximize_window	extras/window.html#maximize_window,Window	window: maximize_window(w: Window)	
+unmaximize_window	extras/window.html#unmaximize_window,Window	window: unmaximize_window(w: Window)	
+is_visible_window	extras/window.html#is_visible_window,Window	window: is_visible_window(w: Window): bool	
+show_window	extras/window.html#show_window,Window	window: show_window(w: Window)	
+hide_window	extras/window.html#hide_window,Window	window: hide_window(w: Window)	
+is_fullscreen_window	extras/window.html#is_fullscreen_window,Window	window: is_fullscreen_window(w: Window): bool	
+fullscreen_window	extras/window.html#fullscreen_window,Window	window: fullscreen_window(w: Window)	
+unfullscreen_window	extras/window.html#unfullscreen_window,Window	window: unfullscreen_window(w: Window)	
+set_topmost_window	extras/window.html#set_topmost_window,Window	window: set_topmost_window(w: Window)	
+unset_topmost_window	extras/window.html#unset_topmost_window,Window	window: unset_topmost_window(w: Window)	
+make_borderless_window	extras/window.html#make_borderless_window,Window	window: make_borderless_window(w: Window)	

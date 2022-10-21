@@ -1,0 +1,7 @@
+cleanBlock	vm/values/clean.html#cleanBlock.t,Value	clean: cleanBlock(v: Value)	
+cleanedBlockImpl	vm/values/clean.html#cleanedBlockImpl,ValueArray	clean: cleanedBlockImpl(va: ValueArray): ValueArray	
+cleanedBlock	vm/values/clean.html#cleanedBlock.t,ValueArray	clean: cleanedBlock(va: ValueArray; inplace = false): untyped	
+cleanedBlockValuesCopy	vm/values/clean.html#cleanedBlockValuesCopy.t,Value	clean: cleanedBlockValuesCopy(v: Value): untyped	
+cleanedBlockValues	vm/values/clean.html#cleanedBlockValues.i,Value,int	clean: cleanedBlockValues(v: Value; L: int): lent Value	
+cleanedBlockValues	vm/values/clean.html#cleanedBlockValues.t,Value	clean: cleanedBlockValues(v: Value): untyped	
+ensureCleaned	vm/values/clean.html#ensureCleaned.m,untyped	clean: ensureCleaned(name: untyped): untyped	

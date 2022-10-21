@@ -1,0 +1,273 @@
+mz_ulong	extras/miniz.html#mz_ulong	miniz: mz_ulong	
+mz_free	extras/miniz.html#mz_free,pointer	miniz: mz_free(p: pointer)	
+MZ_ADLER32_INIT	extras/miniz.html#MZ_ADLER32_INIT	miniz: MZ_ADLER32_INIT	
+mz_adler32	extras/miniz.html#mz_adler32,mz_ulong,ptr.uint8,csize_t	miniz: mz_adler32(adler: mz_ulong; pointr: ptr uint8; buf_len: csize_t): mz_ulong	
+MZ_CRC32_INIT	extras/miniz.html#MZ_CRC32_INIT	miniz: MZ_CRC32_INIT	
+mz_crc32	extras/miniz.html#mz_crc32,mz_ulong,ptr.uint8,csize_t	miniz: mz_crc32(crc: mz_ulong; pointr: ptr uint8; buf_len: csize_t): mz_ulong	
+MZ_DEFAULT_STRATEGY	extras/miniz.html#MZ_DEFAULT_STRATEGY	miniz: MZ_DEFAULT_STRATEGY	
+MZ_FILTERED	extras/miniz.html#MZ_FILTERED	miniz: MZ_FILTERED	
+MZ_HUFFMAN_ONLY	extras/miniz.html#MZ_HUFFMAN_ONLY	miniz: MZ_HUFFMAN_ONLY	
+MZ_RLE	extras/miniz.html#MZ_RLE	miniz: MZ_RLE	
+MZ_FIXED	extras/miniz.html#MZ_FIXED	miniz: MZ_FIXED	
+MZ_DEFLATED	extras/miniz.html#MZ_DEFLATED	miniz: MZ_DEFLATED	
+mz_alloc_func	extras/miniz.html#mz_alloc_func	miniz: mz_alloc_func	
+mz_free_func	extras/miniz.html#mz_free_func	miniz: mz_free_func	
+mz_realloc_func	extras/miniz.html#mz_realloc_func	miniz: mz_realloc_func	
+MZ_VERSION	extras/miniz.html#MZ_VERSION	miniz: MZ_VERSION	
+MZ_VERNUM	extras/miniz.html#MZ_VERNUM	miniz: MZ_VERNUM	
+MZ_VER_MAJOR	extras/miniz.html#MZ_VER_MAJOR	miniz: MZ_VER_MAJOR	
+MZ_VER_MINOR	extras/miniz.html#MZ_VER_MINOR	miniz: MZ_VER_MINOR	
+MZ_VER_REVISION	extras/miniz.html#MZ_VER_REVISION	miniz: MZ_VER_REVISION	
+MZ_VER_SUBREVISION	extras/miniz.html#MZ_VER_SUBREVISION	miniz: MZ_VER_SUBREVISION	
+MZ_NO_FLUSH	extras/miniz.html#MZ_NO_FLUSH	miniz: MZ_NO_FLUSH	
+MZ_PARTIAL_FLUSH	extras/miniz.html#MZ_PARTIAL_FLUSH	miniz: MZ_PARTIAL_FLUSH	
+MZ_SYNC_FLUSH	extras/miniz.html#MZ_SYNC_FLUSH	miniz: MZ_SYNC_FLUSH	
+MZ_FULL_FLUSH	extras/miniz.html#MZ_FULL_FLUSH	miniz: MZ_FULL_FLUSH	
+MZ_FINISH	extras/miniz.html#MZ_FINISH	miniz: MZ_FINISH	
+MZ_BLOCK	extras/miniz.html#MZ_BLOCK	miniz: MZ_BLOCK	
+MZ_OK	extras/miniz.html#MZ_OK	miniz: MZ_OK	
+MZ_STREAM_END	extras/miniz.html#MZ_STREAM_END	miniz: MZ_STREAM_END	
+MZ_NEED_DICT	extras/miniz.html#MZ_NEED_DICT	miniz: MZ_NEED_DICT	
+MZ_ERRNO	extras/miniz.html#MZ_ERRNO	miniz: MZ_ERRNO	
+MZ_STREAM_ERROR	extras/miniz.html#MZ_STREAM_ERROR	miniz: MZ_STREAM_ERROR	
+MZ_DATA_ERROR	extras/miniz.html#MZ_DATA_ERROR	miniz: MZ_DATA_ERROR	
+MZ_MEM_ERROR	extras/miniz.html#MZ_MEM_ERROR	miniz: MZ_MEM_ERROR	
+MZ_BUF_ERROR	extras/miniz.html#MZ_BUF_ERROR	miniz: MZ_BUF_ERROR	
+MZ_VERSION_ERROR	extras/miniz.html#MZ_VERSION_ERROR	miniz: MZ_VERSION_ERROR	
+MZ_PARAM_ERROR	extras/miniz.html#MZ_PARAM_ERROR	miniz: MZ_PARAM_ERROR	
+MZ_NO_COMPRESSION	extras/miniz.html#MZ_NO_COMPRESSION	miniz: MZ_NO_COMPRESSION	
+MZ_BEST_SPEED	extras/miniz.html#MZ_BEST_SPEED	miniz: MZ_BEST_SPEED	
+MZ_BEST_COMPRESSION	extras/miniz.html#MZ_BEST_COMPRESSION	miniz: MZ_BEST_COMPRESSION	
+MZ_UBER_COMPRESSION	extras/miniz.html#MZ_UBER_COMPRESSION	miniz: MZ_UBER_COMPRESSION	
+MZ_DEFAULT_LEVEL	extras/miniz.html#MZ_DEFAULT_LEVEL	miniz: MZ_DEFAULT_LEVEL	
+MZ_DEFAULT_COMPRESSION	extras/miniz.html#MZ_DEFAULT_COMPRESSION	miniz: MZ_DEFAULT_COMPRESSION	
+MZ_DEFAULT_WINDOW_BITS	extras/miniz.html#MZ_DEFAULT_WINDOW_BITS	miniz: MZ_DEFAULT_WINDOW_BITS	
+mz_internal_state	extras/miniz.html#mz_internal_state	miniz: mz_internal_state	
+mz_stream	extras/miniz.html#mz_stream	miniz: mz_stream	
+mz_streamp	extras/miniz.html#mz_streamp	miniz: mz_streamp	
+mz_version	extras/miniz.html#mz_version_2	miniz: mz_version(): cstring	
+mz_deflateInit	extras/miniz.html#mz_deflateInit,mz_streamp,cint	miniz: mz_deflateInit(pStream: mz_streamp; level: cint): cint	
+mz_deflateInit2	extras/miniz.html#mz_deflateInit2,mz_streamp,cint,cint,cint,cint,cint	miniz: mz_deflateInit2(pStream: mz_streamp; level: cint; meth: cint; window_bits: cint;\n                mem_level: cint; strategy: cint): cint	
+mz_deflateReset	extras/miniz.html#mz_deflateReset,mz_streamp	miniz: mz_deflateReset(pStream: mz_streamp): cint	
+mz_deflate	extras/miniz.html#mz_deflate,mz_streamp,cint	miniz: mz_deflate(pStream: mz_streamp; flush: cint): cint	
+mz_deflateEnd	extras/miniz.html#mz_deflateEnd,mz_streamp	miniz: mz_deflateEnd(pStream: mz_streamp): cint	
+mz_deflateBound	extras/miniz.html#mz_deflateBound,mz_streamp,mz_ulong	miniz: mz_deflateBound(pStream: mz_streamp; source_len: mz_ulong): mz_ulong	
+mz_compress	extras/miniz.html#mz_compress,ptr.uint8,ptr.mz_ulong,ptr.uint8,mz_ulong	miniz: mz_compress(pDest: ptr uint8; pDest_len: ptr mz_ulong; pSource: ptr uint8;\n            source_len: mz_ulong): cint	
+mz_compress2	extras/miniz.html#mz_compress2,ptr.uint8,ptr.mz_ulong,ptr.uint8,mz_ulong,cint	miniz: mz_compress2(pDest: ptr uint8; pDest_len: ptr mz_ulong; pSource: ptr uint8;\n             source_len: mz_ulong; level: cint): cint	
+mz_compressBound	extras/miniz.html#mz_compressBound,mz_ulong	miniz: mz_compressBound(source_len: mz_ulong): mz_ulong	
+mz_inflateInit	extras/miniz.html#mz_inflateInit,mz_streamp	miniz: mz_inflateInit(pStream: mz_streamp): cint	
+mz_inflateInit2	extras/miniz.html#mz_inflateInit2,mz_streamp,cint	miniz: mz_inflateInit2(pStream: mz_streamp; window_bits: cint): cint	
+mz_inflate	extras/miniz.html#mz_inflate,mz_streamp,cint	miniz: mz_inflate(pStream: mz_streamp; flush: cint): cint	
+mz_inflateEnd	extras/miniz.html#mz_inflateEnd,mz_streamp	miniz: mz_inflateEnd(pStream: mz_streamp): cint	
+mz_uncompress	extras/miniz.html#mz_uncompress,ptr.uint8,ptr.mz_ulong,ptr.uint8,mz_ulong	miniz: mz_uncompress(pDest: ptr uint8; pDest_len: ptr mz_ulong; pSource: ptr uint8;\n              source_len: mz_ulong): cint	
+mz_error	extras/miniz.html#mz_error,cint	miniz: mz_error(err: cint): cstring	
+Byte	extras/miniz.html#Byte	miniz: Byte	
+uInt	extras/miniz.html#uInt	miniz: uInt	
+uLong	extras/miniz.html#uLong	miniz: uLong	
+Bytef	extras/miniz.html#Bytef	miniz: Bytef	
+uIntf	extras/miniz.html#uIntf	miniz: uIntf	
+charf	extras/miniz.html#charf	miniz: charf	
+intf	extras/miniz.html#intf	miniz: intf	
+voidpf	extras/miniz.html#voidpf	miniz: voidpf	
+uLongf	extras/miniz.html#uLongf	miniz: uLongf	
+voidp	extras/miniz.html#voidp	miniz: voidp	
+voidpc	extras/miniz.html#voidpc	miniz: voidpc	
+Z_NULL	extras/miniz.html#Z_NULL	miniz: Z_NULL	
+Z_NO_FLUSH	extras/miniz.html#Z_NO_FLUSH	miniz: Z_NO_FLUSH	
+Z_PARTIAL_FLUSH	extras/miniz.html#Z_PARTIAL_FLUSH	miniz: Z_PARTIAL_FLUSH	
+Z_SYNC_FLUSH	extras/miniz.html#Z_SYNC_FLUSH	miniz: Z_SYNC_FLUSH	
+Z_FULL_FLUSH	extras/miniz.html#Z_FULL_FLUSH	miniz: Z_FULL_FLUSH	
+Z_FINISH	extras/miniz.html#Z_FINISH	miniz: Z_FINISH	
+Z_BLOCK	extras/miniz.html#Z_BLOCK	miniz: Z_BLOCK	
+Z_OK	extras/miniz.html#Z_OK	miniz: Z_OK	
+Z_STREAM_END	extras/miniz.html#Z_STREAM_END	miniz: Z_STREAM_END	
+Z_NEED_DICT	extras/miniz.html#Z_NEED_DICT	miniz: Z_NEED_DICT	
+Z_ERRNO	extras/miniz.html#Z_ERRNO	miniz: Z_ERRNO	
+Z_STREAM_ERROR	extras/miniz.html#Z_STREAM_ERROR	miniz: Z_STREAM_ERROR	
+Z_DATA_ERROR	extras/miniz.html#Z_DATA_ERROR	miniz: Z_DATA_ERROR	
+Z_MEM_ERROR	extras/miniz.html#Z_MEM_ERROR	miniz: Z_MEM_ERROR	
+Z_BUF_ERROR	extras/miniz.html#Z_BUF_ERROR	miniz: Z_BUF_ERROR	
+Z_VERSION_ERROR	extras/miniz.html#Z_VERSION_ERROR	miniz: Z_VERSION_ERROR	
+Z_PARAM_ERROR	extras/miniz.html#Z_PARAM_ERROR	miniz: Z_PARAM_ERROR	
+Z_NO_COMPRESSION	extras/miniz.html#Z_NO_COMPRESSION	miniz: Z_NO_COMPRESSION	
+Z_BEST_SPEED	extras/miniz.html#Z_BEST_SPEED	miniz: Z_BEST_SPEED	
+Z_BEST_COMPRESSION	extras/miniz.html#Z_BEST_COMPRESSION	miniz: Z_BEST_COMPRESSION	
+Z_DEFAULT_COMPRESSION	extras/miniz.html#Z_DEFAULT_COMPRESSION	miniz: Z_DEFAULT_COMPRESSION	
+Z_DEFAULT_STRATEGY	extras/miniz.html#Z_DEFAULT_STRATEGY	miniz: Z_DEFAULT_STRATEGY	
+Z_FILTERED	extras/miniz.html#Z_FILTERED	miniz: Z_FILTERED	
+Z_HUFFMAN_ONLY	extras/miniz.html#Z_HUFFMAN_ONLY	miniz: Z_HUFFMAN_ONLY	
+Z_RLE	extras/miniz.html#Z_RLE	miniz: Z_RLE	
+Z_FIXED	extras/miniz.html#Z_FIXED	miniz: Z_FIXED	
+Z_DEFLATED	extras/miniz.html#Z_DEFLATED	miniz: Z_DEFLATED	
+Z_DEFAULT_WINDOW_BITS	extras/miniz.html#Z_DEFAULT_WINDOW_BITS	miniz: Z_DEFAULT_WINDOW_BITS	
+alloc_func	extras/miniz.html#alloc_func	miniz: alloc_func	
+free_func	extras/miniz.html#free_func	miniz: free_func	
+internal_state	extras/miniz.html#internal_state	miniz: internal_state	
+z_stream	extras/miniz.html#z_stream	miniz: z_stream	
+deflateInit	extras/miniz.html#deflateInit	miniz: deflateInit	
+deflateInit2	extras/miniz.html#deflateInit2	miniz: deflateInit2	
+deflateReset	extras/miniz.html#deflateReset	miniz: deflateReset	
+deflate	extras/miniz.html#deflate	miniz: deflate	
+deflateEnd	extras/miniz.html#deflateEnd	miniz: deflateEnd	
+deflateBound	extras/miniz.html#deflateBound	miniz: deflateBound	
+compress	extras/miniz.html#compress	miniz: compress	
+compress2	extras/miniz.html#compress2	miniz: compress2	
+compressBound	extras/miniz.html#compressBound	miniz: compressBound	
+inflateInit	extras/miniz.html#inflateInit	miniz: inflateInit	
+inflateInit2	extras/miniz.html#inflateInit2	miniz: inflateInit2	
+inflate	extras/miniz.html#inflate	miniz: inflate	
+inflateEnd	extras/miniz.html#inflateEnd	miniz: inflateEnd	
+uncompress	extras/miniz.html#uncompress	miniz: uncompress	
+crc32	extras/miniz.html#crc32	miniz: crc32	
+adler32	extras/miniz.html#adler32	miniz: adler32	
+MAX_WBITS	extras/miniz.html#MAX_WBITS	miniz: MAX_WBITS	
+MAX_MEM_LEVEL	extras/miniz.html#MAX_MEM_LEVEL	miniz: MAX_MEM_LEVEL	
+zError	extras/miniz.html#zError	miniz: zError	
+ZLIB_VERSION	extras/miniz.html#ZLIB_VERSION	miniz: ZLIB_VERSION	
+ZLIB_VERNUM	extras/miniz.html#ZLIB_VERNUM	miniz: ZLIB_VERNUM	
+ZLIB_VER_MAJOR	extras/miniz.html#ZLIB_VER_MAJOR	miniz: ZLIB_VER_MAJOR	
+ZLIB_VER_MINOR	extras/miniz.html#ZLIB_VER_MINOR	miniz: ZLIB_VER_MINOR	
+ZLIB_VER_REVISION	extras/miniz.html#ZLIB_VER_REVISION	miniz: ZLIB_VER_REVISION	
+ZLIB_VER_SUBREVISION	extras/miniz.html#ZLIB_VER_SUBREVISION	miniz: ZLIB_VER_SUBREVISION	
+zlibVersion	extras/miniz.html#zlibVersion	miniz: zlibVersion	
+mz_uint8	extras/miniz.html#mz_uint8	miniz: mz_uint8	
+mz_int16	extras/miniz.html#mz_int16	miniz: mz_int16	
+mz_uint16	extras/miniz.html#mz_uint16	miniz: mz_uint16	
+mz_uint32	extras/miniz.html#mz_uint32	miniz: mz_uint32	
+mz_uint	extras/miniz.html#mz_uint	miniz: mz_uint	
+mz_int64	extras/miniz.html#mz_int64	miniz: mz_int64	
+mz_uint64	extras/miniz.html#mz_uint64	miniz: mz_uint64	
+mz_bool	extras/miniz.html#mz_bool	miniz: mz_bool	
+MZ_FALSE	extras/miniz.html#MZ_FALSE	miniz: MZ_FALSE	
+MZ_TRUE	extras/miniz.html#MZ_TRUE	miniz: MZ_TRUE	
+MZ_ZIP_MAX_IO_BUF_SIZE	extras/miniz.html#MZ_ZIP_MAX_IO_BUF_SIZE	miniz: MZ_ZIP_MAX_IO_BUF_SIZE	
+MZ_ZIP_MAX_ARCHIVE_FILENAME_SIZE	extras/miniz.html#MZ_ZIP_MAX_ARCHIVE_FILENAME_SIZE	miniz: MZ_ZIP_MAX_ARCHIVE_FILENAME_SIZE	
+MZ_ZIP_MAX_ARCHIVE_FILE_COMMENT_SIZE	extras/miniz.html#MZ_ZIP_MAX_ARCHIVE_FILE_COMMENT_SIZE	miniz: MZ_ZIP_MAX_ARCHIVE_FILE_COMMENT_SIZE	
+mz_zip_archive_file_stat	extras/miniz.html#mz_zip_archive_file_stat	miniz: mz_zip_archive_file_stat	
+mz_file_read_func	extras/miniz.html#mz_file_read_func	miniz: mz_file_read_func	
+mz_file_write_func	extras/miniz.html#mz_file_write_func	miniz: mz_file_write_func	
+mz_zip_internal_state_tag	extras/miniz.html#mz_zip_internal_state_tag	miniz: mz_zip_internal_state_tag	
+mz_zip_internal_state	extras/miniz.html#mz_zip_internal_state	miniz: mz_zip_internal_state	
+MZ_ZIP_MODE_INVALID	extras/miniz.html#MZ_ZIP_MODE_INVALID	mz_zip_mode.MZ_ZIP_MODE_INVALID	
+MZ_ZIP_MODE_READING	extras/miniz.html#MZ_ZIP_MODE_READING	mz_zip_mode.MZ_ZIP_MODE_READING	
+MZ_ZIP_MODE_WRITING	extras/miniz.html#MZ_ZIP_MODE_WRITING	mz_zip_mode.MZ_ZIP_MODE_WRITING	
+MZ_ZIP_MODE_WRITING_HAS_BEEN_FINALIZED	extras/miniz.html#MZ_ZIP_MODE_WRITING_HAS_BEEN_FINALIZED	mz_zip_mode.MZ_ZIP_MODE_WRITING_HAS_BEEN_FINALIZED	
+mz_zip_mode	extras/miniz.html#mz_zip_mode	miniz: mz_zip_mode	
+mz_zip_archive	extras/miniz.html#mz_zip_archive	miniz: mz_zip_archive	
+mz_zip_flags	extras/miniz.html#mz_zip_flags	miniz: mz_zip_flags	
+mz_zip_reader_init	extras/miniz.html#mz_zip_reader_init,ptr.mz_zip_archive,mz_uint64,mz_uint32	miniz: mz_zip_reader_init(pZip: ptr mz_zip_archive; size: mz_uint64; flags: mz_uint32): mz_bool	
+mz_zip_reader_init_mem	extras/miniz.html#mz_zip_reader_init_mem,ptr.mz_zip_archive,pointer,csize_t,mz_uint32	miniz: mz_zip_reader_init_mem(pZip: ptr mz_zip_archive; pMem: pointer; size: csize_t;\n                       flags: mz_uint32): mz_bool	
+mz_zip_reader_init_file	extras/miniz.html#mz_zip_reader_init_file,ptr.mz_zip_archive,cstring,mz_uint32	miniz: mz_zip_reader_init_file(pZip: ptr mz_zip_archive; pFilename: cstring;\n                        flags: mz_uint32): mz_bool	
+mz_zip_reader_get_num_files	extras/miniz.html#mz_zip_reader_get_num_files,ptr.mz_zip_archive	miniz: mz_zip_reader_get_num_files(pZip: ptr mz_zip_archive): mz_uint	
+mz_zip_reader_file_stat	extras/miniz.html#mz_zip_reader_file_stat,ptr.mz_zip_archive,mz_uint,ptr.mz_zip_archive_file_stat	miniz: mz_zip_reader_file_stat(pZip: ptr mz_zip_archive; file_index: mz_uint;\n                        pStat: ptr mz_zip_archive_file_stat): mz_bool	
+mz_zip_reader_is_file_a_directory	extras/miniz.html#mz_zip_reader_is_file_a_directory,ptr.mz_zip_archive,mz_uint	miniz: mz_zip_reader_is_file_a_directory(pZip: ptr mz_zip_archive; file_index: mz_uint): mz_bool	
+mz_zip_reader_is_file_encrypted	extras/miniz.html#mz_zip_reader_is_file_encrypted,ptr.mz_zip_archive,mz_uint	miniz: mz_zip_reader_is_file_encrypted(pZip: ptr mz_zip_archive; file_index: mz_uint): mz_bool	
+mz_zip_reader_get_filename	extras/miniz.html#mz_zip_reader_get_filename,ptr.mz_zip_archive,mz_uint,cstring,mz_uint	miniz: mz_zip_reader_get_filename(pZip: ptr mz_zip_archive; file_index: mz_uint;\n                           pFilename: cstring; filename_buf_size: mz_uint): mz_uint	
+mz_zip_reader_locate_file	extras/miniz.html#mz_zip_reader_locate_file,ptr.mz_zip_archive,cstring,cstring,mz_uint	miniz: mz_zip_reader_locate_file(pZip: ptr mz_zip_archive; pName: cstring;\n                          pComment: cstring; flags: mz_uint): cint	
+mz_zip_reader_extract_to_mem_no_alloc	extras/miniz.html#mz_zip_reader_extract_to_mem_no_alloc,ptr.mz_zip_archive,mz_uint,pointer,csize_t,mz_uint,pointer,csize_t	miniz: mz_zip_reader_extract_to_mem_no_alloc(pZip: ptr mz_zip_archive;\n                                      file_index: mz_uint; pBuf: pointer;\n                                      buf_size: csize_t; flags: mz_uint;\n                                      pUser_read_buf: pointer;\n                                      user_read_buf_size: csize_t): mz_bool	
+mz_zip_reader_extract_file_to_mem_no_alloc	extras/miniz.html#mz_zip_reader_extract_file_to_mem_no_alloc,ptr.mz_zip_archive,cstring,pointer,csize_t,mz_uint,pointer,csize_t	miniz: mz_zip_reader_extract_file_to_mem_no_alloc(pZip: ptr mz_zip_archive;\n    pFilename: cstring; pBuf: pointer; buf_size: csize_t; flags: mz_uint;\n    pUser_read_buf: pointer; user_read_buf_size: csize_t): mz_bool	
+mz_zip_reader_extract_to_mem	extras/miniz.html#mz_zip_reader_extract_to_mem,ptr.mz_zip_archive,mz_uint,pointer,csize_t,mz_uint	miniz: mz_zip_reader_extract_to_mem(pZip: ptr mz_zip_archive; file_index: mz_uint;\n                             pBuf: pointer; buf_size: csize_t; flags: mz_uint): mz_bool	
+mz_zip_reader_extract_file_to_mem	extras/miniz.html#mz_zip_reader_extract_file_to_mem,ptr.mz_zip_archive,cstring,pointer,csize_t,mz_uint	miniz: mz_zip_reader_extract_file_to_mem(pZip: ptr mz_zip_archive; pFilename: cstring;\n                                  pBuf: pointer; buf_size: csize_t;\n                                  flags: mz_uint): mz_bool	
+mz_zip_reader_extract_to_heap	extras/miniz.html#mz_zip_reader_extract_to_heap,ptr.mz_zip_archive,mz_uint,ptr.csize_t,mz_uint	miniz: mz_zip_reader_extract_to_heap(pZip: ptr mz_zip_archive; file_index: mz_uint;\n                              pSize: ptr csize_t; flags: mz_uint): pointer	
+mz_zip_reader_extract_file_to_heap	extras/miniz.html#mz_zip_reader_extract_file_to_heap,ptr.mz_zip_archive,cstring,ptr.csize_t,mz_uint	miniz: mz_zip_reader_extract_file_to_heap(pZip: ptr mz_zip_archive; pFilename: cstring;\n                                   pSize: ptr csize_t; flags: mz_uint): pointer	
+mz_zip_reader_extract_to_callback	extras/miniz.html#mz_zip_reader_extract_to_callback,ptr.mz_zip_archive,mz_uint,mz_file_write_func,pointer,mz_uint	miniz: mz_zip_reader_extract_to_callback(pZip: ptr mz_zip_archive; file_index: mz_uint;\n                                  pCallback: mz_file_write_func;\n                                  pOpaque: pointer; flags: mz_uint): mz_bool	
+mz_zip_reader_extract_file_to_callback	extras/miniz.html#mz_zip_reader_extract_file_to_callback,ptr.mz_zip_archive,cstring,mz_file_write_func,pointer,mz_uint	miniz: mz_zip_reader_extract_file_to_callback(pZip: ptr mz_zip_archive;\n                                       pFilename: cstring;\n                                       pCallback: mz_file_write_func;\n                                       pOpaque: pointer; flags: mz_uint): mz_bool	
+mz_zip_reader_extract_to_file	extras/miniz.html#mz_zip_reader_extract_to_file,ptr.mz_zip_archive,mz_uint,cstring,mz_uint	miniz: mz_zip_reader_extract_to_file(pZip: ptr mz_zip_archive; file_index: mz_uint;\n                              pDst_filename: cstring; flags: mz_uint): mz_bool	
+mz_zip_reader_extract_file_to_file	extras/miniz.html#mz_zip_reader_extract_file_to_file,ptr.mz_zip_archive,cstring,cstring,mz_uint	miniz: mz_zip_reader_extract_file_to_file(pZip: ptr mz_zip_archive;\n                                   pArchive_filename: cstring;\n                                   pDst_filename: cstring; flags: mz_uint): mz_bool	
+mz_zip_reader_end	extras/miniz.html#mz_zip_reader_end,ptr.mz_zip_archive	miniz: mz_zip_reader_end(pZip: ptr mz_zip_archive): mz_bool	
+mz_zip_writer_init	extras/miniz.html#mz_zip_writer_init,ptr.mz_zip_archive,mz_uint64	miniz: mz_zip_writer_init(pZip: ptr mz_zip_archive; existing_size: mz_uint64): mz_bool	
+mz_zip_writer_init_heap	extras/miniz.html#mz_zip_writer_init_heap,ptr.mz_zip_archive,csize_t,csize_t	miniz: mz_zip_writer_init_heap(pZip: ptr mz_zip_archive;\n                        size_to_reserve_at_beginning: csize_t;\n                        initial_allocation_size: csize_t): mz_bool	
+mz_zip_writer_init_file	extras/miniz.html#mz_zip_writer_init_file,ptr.mz_zip_archive,cstring,mz_uint64	miniz: mz_zip_writer_init_file(pZip: ptr mz_zip_archive; pFilename: cstring;\n                        size_to_reserve_at_beginning: mz_uint64): mz_bool	
+mz_zip_writer_init_from_reader	extras/miniz.html#mz_zip_writer_init_from_reader,ptr.mz_zip_archive,cstring	miniz: mz_zip_writer_init_from_reader(pZip: ptr mz_zip_archive; pFilename: cstring): mz_bool	
+mz_zip_writer_add_mem	extras/miniz.html#mz_zip_writer_add_mem,ptr.mz_zip_archive,cstring,pointer,csize_t,mz_uint	miniz: mz_zip_writer_add_mem(pZip: ptr mz_zip_archive; pArchive_name: cstring;\n                      pBuf: pointer; buf_size: csize_t; level_and_flags: mz_uint): mz_bool	
+mz_zip_writer_add_mem_ex	extras/miniz.html#mz_zip_writer_add_mem_ex,ptr.mz_zip_archive,cstring,pointer,csize_t,pointer,mz_uint16,mz_uint,mz_uint64,mz_uint32	miniz: mz_zip_writer_add_mem_ex(pZip: ptr mz_zip_archive; pArchive_name: cstring;\n                         pBuf: pointer; buf_size: csize_t; pComment: pointer;\n                         comment_size: mz_uint16; level_and_flags: mz_uint;\n                         uncomp_size: mz_uint64; uncomp_crc32: mz_uint32): mz_bool	
+mz_zip_writer_add_file	extras/miniz.html#mz_zip_writer_add_file,ptr.mz_zip_archive,cstring,cstring,pointer,mz_uint16,mz_uint	miniz: mz_zip_writer_add_file(pZip: ptr mz_zip_archive; pArchive_name: cstring;\n                       pSrc_filename: cstring; pComment: pointer;\n                       comment_size: mz_uint16; level_and_flags: mz_uint): mz_bool	
+mz_zip_writer_add_from_zip_reader	extras/miniz.html#mz_zip_writer_add_from_zip_reader,ptr.mz_zip_archive,ptr.mz_zip_archive,mz_uint	miniz: mz_zip_writer_add_from_zip_reader(pZip: ptr mz_zip_archive;\n                                  pSource_zip: ptr mz_zip_archive;\n                                  file_index: mz_uint): mz_bool	
+mz_zip_writer_finalize_archive	extras/miniz.html#mz_zip_writer_finalize_archive,ptr.mz_zip_archive	miniz: mz_zip_writer_finalize_archive(pZip: ptr mz_zip_archive): mz_bool	
+mz_zip_writer_finalize_heap_archive	extras/miniz.html#mz_zip_writer_finalize_heap_archive,ptr.mz_zip_archive,ptr.pointer,ptr.csize_t	miniz: mz_zip_writer_finalize_heap_archive(pZip: ptr mz_zip_archive; pBuf: ptr pointer;\n                                    pSize: ptr csize_t): mz_bool	
+mz_zip_writer_end	extras/miniz.html#mz_zip_writer_end,ptr.mz_zip_archive	miniz: mz_zip_writer_end(pZip: ptr mz_zip_archive): mz_bool	
+mz_zip_add_mem_to_archive_file_in_place	extras/miniz.html#mz_zip_add_mem_to_archive_file_in_place,cstring,cstring,pointer,csize_t,pointer,mz_uint16,mz_uint	miniz: mz_zip_add_mem_to_archive_file_in_place(pZip_filename: cstring;\n                                        pArchive_name: cstring; pBuf: pointer;\n                                        buf_size: csize_t; pComment: pointer;\n                                        comment_size: mz_uint16;\n                                        level_and_flags: mz_uint): mz_bool	
+mz_zip_extract_archive_file_to_heap	extras/miniz.html#mz_zip_extract_archive_file_to_heap,cstring,cstring,ptr.csize_t,mz_uint	miniz: mz_zip_extract_archive_file_to_heap(pZip_filename: cstring;\n                                    pArchive_name: cstring; pSize: ptr csize_t;\n                                    zip_flags: mz_uint): pointer	
+TINFL_FLAG_PARSE_ZLIB_HEADER	extras/miniz.html#TINFL_FLAG_PARSE_ZLIB_HEADER	miniz: TINFL_FLAG_PARSE_ZLIB_HEADER	
+TINFL_FLAG_HAS_MORE_INPUT	extras/miniz.html#TINFL_FLAG_HAS_MORE_INPUT	miniz: TINFL_FLAG_HAS_MORE_INPUT	
+TINFL_FLAG_USING_NON_WRAPPING_OUTPUT_BUF	extras/miniz.html#TINFL_FLAG_USING_NON_WRAPPING_OUTPUT_BUF	miniz: TINFL_FLAG_USING_NON_WRAPPING_OUTPUT_BUF	
+TINFL_FLAG_COMPUTE_ADLER32	extras/miniz.html#TINFL_FLAG_COMPUTE_ADLER32	miniz: TINFL_FLAG_COMPUTE_ADLER32	
+tinfl_decompress_mem_to_heap	extras/miniz.html#tinfl_decompress_mem_to_heap,pointer,csize_t,ptr.csize_t,cint	miniz: tinfl_decompress_mem_to_heap(pSrc_buf: pointer; src_buf_len: csize_t;\n                             pOut_len: ptr csize_t; flags: cint): pointer	
+TINFL_DECOMPRESS_MEM_TO_MEM_FAILED	extras/miniz.html#TINFL_DECOMPRESS_MEM_TO_MEM_FAILED	miniz: TINFL_DECOMPRESS_MEM_TO_MEM_FAILED	
+tinfl_decompress_mem_to_mem	extras/miniz.html#tinfl_decompress_mem_to_mem,pointer,csize_t,pointer,csize_t,cint	miniz: tinfl_decompress_mem_to_mem(pOut_buf: pointer; out_buf_len: csize_t;\n                            pSrc_buf: pointer; src_buf_len: csize_t; flags: cint): csize_t	
+tinfl_put_buf_func_ptr	extras/miniz.html#tinfl_put_buf_func_ptr	miniz: tinfl_put_buf_func_ptr	
+tinfl_decompress_mem_to_callback	extras/miniz.html#tinfl_decompress_mem_to_callback,pointer,ptr.csize_t,tinfl_put_buf_func_ptr,pointer,cint	miniz: tinfl_decompress_mem_to_callback(pIn_buf: pointer; pIn_buf_size: ptr csize_t;\n                                 pPut_buf_func: tinfl_put_buf_func_ptr;\n                                 pPut_buf_user: pointer; flags: cint): cint	
+tinfl_decompressor_tag	extras/miniz.html#tinfl_decompressor_tag	miniz: tinfl_decompressor_tag	
+tinfl_decompressor	extras/miniz.html#tinfl_decompressor	miniz: tinfl_decompressor	
+TINFL_LZ_DICT_SIZE	extras/miniz.html#TINFL_LZ_DICT_SIZE	miniz: TINFL_LZ_DICT_SIZE	
+tinfl_status	extras/miniz.html#tinfl_status	miniz: tinfl_status	
+tinfl_init	extras/miniz.html#tinfl_init.t,typed	miniz: tinfl_init(r: typed): void	
+tinfl_get_adler32	extras/miniz.html#tinfl_get_adler32.t,typed	miniz: tinfl_get_adler32(r: typed): void	
+tinfl_decompress	extras/miniz.html#tinfl_decompress,ptr.tinfl_decompressor_tag,ptr.mz_uint8,ptr.csize_t,ptr.mz_uint8,ptr.mz_uint8,ptr.csize_t,mz_uint32	miniz: tinfl_decompress(r: ptr tinfl_decompressor; pIn_buf_next: ptr mz_uint8;\n                 pIn_buf_size: ptr csize_t; pOut_buf_start: ptr mz_uint8;\n                 pOut_buf_next: ptr mz_uint8; pOut_buf_size: ptr csize_t;\n                 decomp_flags: mz_uint32): tinfl_status	
+TINFL_MAX_HUFF_TABLES	extras/miniz.html#TINFL_MAX_HUFF_TABLES	miniz: TINFL_MAX_HUFF_TABLES	
+TINFL_MAX_HUFF_SYMBOLS_0	extras/miniz.html#TINFL_MAX_HUFF_SYMBOLS_0	miniz: TINFL_MAX_HUFF_SYMBOLS_0	
+TINFL_MAX_HUFF_SYMBOLS_1	extras/miniz.html#TINFL_MAX_HUFF_SYMBOLS_1	miniz: TINFL_MAX_HUFF_SYMBOLS_1	
+TINFL_MAX_HUFF_SYMBOLS_2	extras/miniz.html#TINFL_MAX_HUFF_SYMBOLS_2	miniz: TINFL_MAX_HUFF_SYMBOLS_2	
+TINFL_FAST_LOOKUP_BITS	extras/miniz.html#TINFL_FAST_LOOKUP_BITS	miniz: TINFL_FAST_LOOKUP_BITS	
+TINFL_FAST_LOOKUP_SIZE	extras/miniz.html#TINFL_FAST_LOOKUP_SIZE	miniz: TINFL_FAST_LOOKUP_SIZE	
+tinfl_huff_table	extras/miniz.html#tinfl_huff_table	miniz: tinfl_huff_table	
+tinfl_bit_buf_t	extras/miniz.html#tinfl_bit_buf_t	miniz: tinfl_bit_buf_t	
+TINFL_BITBUF_SIZE	extras/miniz.html#TINFL_BITBUF_SIZE	miniz: TINFL_BITBUF_SIZE	
+tinfl_decompressor_tag_obj	extras/miniz.html#tinfl_decompressor_tag_obj	miniz: tinfl_decompressor_tag_obj	
+TDEFL_LESS_MEMORY	extras/miniz.html#TDEFL_LESS_MEMORY	miniz: TDEFL_LESS_MEMORY	
+TDEFL_HUFFMAN_ONLY	extras/miniz.html#TDEFL_HUFFMAN_ONLY	miniz: TDEFL_HUFFMAN_ONLY	
+TDEFL_DEFAULT_MAX_PROBES	extras/miniz.html#TDEFL_DEFAULT_MAX_PROBES	miniz: TDEFL_DEFAULT_MAX_PROBES	
+TDEFL_MAX_PROBES_MASK	extras/miniz.html#TDEFL_MAX_PROBES_MASK	miniz: TDEFL_MAX_PROBES_MASK	
+TDEFL_WRITE_ZLIB_HEADER	extras/miniz.html#TDEFL_WRITE_ZLIB_HEADER	miniz: TDEFL_WRITE_ZLIB_HEADER	
+TDEFL_COMPUTE_ADLER32	extras/miniz.html#TDEFL_COMPUTE_ADLER32	miniz: TDEFL_COMPUTE_ADLER32	
+TDEFL_GREEDY_PARSING_FLAG	extras/miniz.html#TDEFL_GREEDY_PARSING_FLAG	miniz: TDEFL_GREEDY_PARSING_FLAG	
+TDEFL_NONDETERMINISTIC_PARSING_FLAG	extras/miniz.html#TDEFL_NONDETERMINISTIC_PARSING_FLAG	miniz: TDEFL_NONDETERMINISTIC_PARSING_FLAG	
+TDEFL_RLE_MATCHES	extras/miniz.html#TDEFL_RLE_MATCHES	miniz: TDEFL_RLE_MATCHES	
+TDEFL_FILTER_MATCHES	extras/miniz.html#TDEFL_FILTER_MATCHES	miniz: TDEFL_FILTER_MATCHES	
+TDEFL_FORCE_ALL_STATIC_BLOCKS	extras/miniz.html#TDEFL_FORCE_ALL_STATIC_BLOCKS	miniz: TDEFL_FORCE_ALL_STATIC_BLOCKS	
+TDEFL_FORCE_ALL_RAW_BLOCKS	extras/miniz.html#TDEFL_FORCE_ALL_RAW_BLOCKS	miniz: TDEFL_FORCE_ALL_RAW_BLOCKS	
+tdefl_compress_mem_to_heap	extras/miniz.html#tdefl_compress_mem_to_heap,pointer,csize_t,ptr.csize_t,cint	miniz: tdefl_compress_mem_to_heap(pSrc_buf: pointer; src_buf_len: csize_t;\n                           pOut_len: ptr csize_t; flags: cint): pointer	
+tdefl_compress_mem_to_mem	extras/miniz.html#tdefl_compress_mem_to_mem,pointer,csize_t,pointer,csize_t,cint	miniz: tdefl_compress_mem_to_mem(pOut_buf: pointer; out_buf_len: csize_t;\n                          pSrc_buf: pointer; src_buf_len: csize_t; flags: cint): csize_t	
+tdefl_write_image_to_png_file_in_memory_ex	extras/miniz.html#tdefl_write_image_to_png_file_in_memory_ex,pointer,cint,cint,cint,ptr.csize_t,mz_uint,mz_bool	miniz: tdefl_write_image_to_png_file_in_memory_ex(pImage: pointer; w: cint; h: cint;\n    num_chans: cint; pLen_out: ptr csize_t; level: mz_uint; flip: mz_bool): pointer	
+tdefl_write_image_to_png_file_in_memory	extras/miniz.html#tdefl_write_image_to_png_file_in_memory,pointer,cint,cint,cint,ptr.csize_t	miniz: tdefl_write_image_to_png_file_in_memory(pImage: pointer; w: cint; h: cint;\n                                        num_chans: cint; pLen_out: ptr csize_t): pointer	
+tdefl_put_buf_func_ptr	extras/miniz.html#tdefl_put_buf_func_ptr	miniz: tdefl_put_buf_func_ptr	
+tdefl_compress_mem_to_output	extras/miniz.html#tdefl_compress_mem_to_output,pointer,csize_t,tdefl_put_buf_func_ptr,pointer,cint	miniz: tdefl_compress_mem_to_output(pBuf: pointer; buf_len: csize_t;\n                             pPut_buf_func: tdefl_put_buf_func_ptr;\n                             pPut_buf_user: pointer; flags: cint): mz_bool	
+TDEFL_MAX_HUFF_TABLES	extras/miniz.html#TDEFL_MAX_HUFF_TABLES	miniz: TDEFL_MAX_HUFF_TABLES	
+TDEFL_MAX_HUFF_SYMBOLS_0	extras/miniz.html#TDEFL_MAX_HUFF_SYMBOLS_0	miniz: TDEFL_MAX_HUFF_SYMBOLS_0	
+TDEFL_MAX_HUFF_SYMBOLS_1	extras/miniz.html#TDEFL_MAX_HUFF_SYMBOLS_1	miniz: TDEFL_MAX_HUFF_SYMBOLS_1	
+TDEFL_MAX_HUFF_SYMBOLS_2	extras/miniz.html#TDEFL_MAX_HUFF_SYMBOLS_2	miniz: TDEFL_MAX_HUFF_SYMBOLS_2	
+TDEFL_LZ_DICT_SIZE	extras/miniz.html#TDEFL_LZ_DICT_SIZE	miniz: TDEFL_LZ_DICT_SIZE	
+TDEFL_LZ_DICT_SIZE_MASK	extras/miniz.html#TDEFL_LZ_DICT_SIZE_MASK	miniz: TDEFL_LZ_DICT_SIZE_MASK	
+TDEFL_MIN_MATCH_LEN	extras/miniz.html#TDEFL_MIN_MATCH_LEN	miniz: TDEFL_MIN_MATCH_LEN	
+TDEFL_MAX_MATCH_LEN	extras/miniz.html#TDEFL_MAX_MATCH_LEN	miniz: TDEFL_MAX_MATCH_LEN	
+TDEFL_LZ_CODE_BUF_SIZE	extras/miniz.html#TDEFL_LZ_CODE_BUF_SIZE	miniz: TDEFL_LZ_CODE_BUF_SIZE	
+TDEFL_OUT_BUF_SIZE	extras/miniz.html#TDEFL_OUT_BUF_SIZE	miniz: TDEFL_OUT_BUF_SIZE	
+TDEFL_MAX_HUFF_SYMBOLS	extras/miniz.html#TDEFL_MAX_HUFF_SYMBOLS	miniz: TDEFL_MAX_HUFF_SYMBOLS	
+TDEFL_LZ_HASH_BITS	extras/miniz.html#TDEFL_LZ_HASH_BITS	miniz: TDEFL_LZ_HASH_BITS	
+TDEFL_LEVEL1_HASH_SIZE_MASK	extras/miniz.html#TDEFL_LEVEL1_HASH_SIZE_MASK	miniz: TDEFL_LEVEL1_HASH_SIZE_MASK	
+TDEFL_LZ_HASH_SHIFT	extras/miniz.html#TDEFL_LZ_HASH_SHIFT	miniz: TDEFL_LZ_HASH_SHIFT	
+TDEFL_LZ_HASH_SIZE	extras/miniz.html#TDEFL_LZ_HASH_SIZE	miniz: TDEFL_LZ_HASH_SIZE	
+tdefl_status	extras/miniz.html#tdefl_status	miniz: tdefl_status	
+tdefl_flush	extras/miniz.html#tdefl_flush	miniz: tdefl_flush	
+tdefl_compressor	extras/miniz.html#tdefl_compressor	miniz: tdefl_compressor	
+tdefl_init	extras/miniz.html#tdefl_init,ptr.tdefl_compressor,tdefl_put_buf_func_ptr,pointer,cint	miniz: tdefl_init(d: ptr tdefl_compressor; pPut_buf_func: tdefl_put_buf_func_ptr;\n           pPut_buf_user: pointer; flags: cint): tdefl_status	
+tdefl_compress	extras/miniz.html#tdefl_compress,ptr.tdefl_compressor,pointer,ptr.csize_t,pointer,ptr.csize_t,tdefl_flush	miniz: tdefl_compress(d: ptr tdefl_compressor; pIn_buf: pointer;\n               pIn_buf_size: ptr csize_t; pOut_buf: pointer;\n               pOut_buf_size: ptr csize_t; flush: tdefl_flush): tdefl_status	
+tdefl_compress_buffer	extras/miniz.html#tdefl_compress_buffer,ptr.tdefl_compressor,pointer,csize_t,tdefl_flush	miniz: tdefl_compress_buffer(d: ptr tdefl_compressor; pIn_buf: pointer;\n                      in_buf_size: csize_t; flush: tdefl_flush): tdefl_status	
+tdefl_get_prev_return_status	extras/miniz.html#tdefl_get_prev_return_status,ptr.tdefl_compressor	miniz: tdefl_get_prev_return_status(d: ptr tdefl_compressor): tdefl_status	
+tdefl_get_adler32	extras/miniz.html#tdefl_get_adler32,ptr.tdefl_compressor	miniz: tdefl_get_adler32(d: ptr tdefl_compressor): mz_uint32	
+tdefl_create_comp_flags_from_zip_params	extras/miniz.html#tdefl_create_comp_flags_from_zip_params,cint,cint,cint	miniz: tdefl_create_comp_flags_from_zip_params(level: cint; window_bits: cint;\n                                        strategy: cint): mz_uint	
+compressString	extras/miniz.html#compressString,string,int	miniz: compressString(src: string; level: int = 6): string	
+compressBytes	extras/miniz.html#compressBytes,seq[byte],int	miniz: compressBytes(src: seq[byte]; level: int = 6): seq[byte]	
+uncompressString	extras/miniz.html#uncompressString,string	miniz: uncompressString(zsrc: string): string	
+uncompressBytes	extras/miniz.html#uncompressBytes,seq[byte]	miniz: uncompressBytes(zsrc: seq[byte]): seq[byte]	
+zip	extras/miniz.html#zip,seq[string],string	miniz: zip(files: seq[string]; filepath: string)	
+unzip	extras/miniz.html#unzip,string,string	miniz: unzip(src, dst: string)	
+Zip	extras/miniz.html#Zip	miniz: Zip	
+len	extras/miniz.html#len,Zip	miniz: len(zip: var Zip): int	
+open	extras/miniz.html#open,Zip,string,FileMode	miniz: open(zip: var Zip; path: string; mode: FileMode = fmRead): bool	
+add_file	extras/miniz.html#add_file,Zip,string,string	miniz: add_file(zip: var Zip; path: string; archivePath: string = &quot;&quot;)	
+close	extras/miniz.html#close,Zip	miniz: close(zip: var Zip)	
+pairs	extras/miniz.html#pairs.i,Zip	miniz: pairs(zip: var Zip): (int, string)	
+extract_file	extras/miniz.html#extract_file,Zip,string,string	miniz: extract_file(zip: var Zip; path: string; destDir: string = &quot;&quot;): string	
+extract_file_to_string	extras/miniz.html#extract_file_to_string,Zip,string	miniz: extract_file_to_string(zip: var Zip; path: string): string	
+Public Library	extras/miniz.html#public-library	 Public Library	

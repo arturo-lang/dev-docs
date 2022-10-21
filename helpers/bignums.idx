@@ -1,0 +1,161 @@
+Int	helpers/bignums.html#Int	bignums: Int	
+Float	helpers/bignums.html#Float	bignums: Float	
+Rat	helpers/bignums.html#Rat	bignums: Rat	
+FloatOverflow	helpers/bignums.html#FloatOverflow	bignums: FloatOverflow	
+fitsDouble	helpers/bignums.html#fitsDouble,Float	bignums: fitsDouble(x: Float): bool	
+sign	helpers/bignums.html#sign,Int	bignums: sign(x: Int): cint	
+newInt	helpers/bignums.html#newInt,culong	bignums: newInt(x: culong): Int	
+newInt	helpers/bignums.html#newInt,int	bignums: newInt(x: int = 0): Int	
+newInt	helpers/bignums.html#newInt,Float	bignums: newInt(x: Float): Int	
+newInt	helpers/bignums.html#newInt,string,cint	bignums: newInt(s: string; base: cint = 10): Int	
+newFloat	helpers/bignums.html#newFloat,float	bignums: newFloat(x: float): Float	
+newFloat	helpers/bignums.html#newFloat,culong	bignums: newFloat(x: culong): Float	
+newFloat	helpers/bignums.html#newFloat,int	bignums: newFloat(x: int = 0): Float	
+newFloat	helpers/bignums.html#newFloat,Int_2	bignums: newFloat(x: Int): Float	
+newFloat	helpers/bignums.html#newFloat,string,cint	bignums: newFloat(s: string; base: cint = 10): Float	
+set	helpers/bignums.html#set,Int,Int	bignums: set(z, x: Int): Int	
+set	helpers/bignums.html#set,Int,culong	bignums: set(z: Int; x: culong): Int	
+set	helpers/bignums.html#set,Int,int_2	bignums: set(z: Int; x: int): Int	
+set	helpers/bignums.html#set,Int,string,cint	bignums: set(z: Int; s: string; base: cint = 10): Int	
+toCLong	helpers/bignums.html#toCLong,Int	bignums: toCLong(x: Int): clong	
+toCDouble	helpers/bignums.html#toCDouble,Float	bignums: toCDouble(x: Float): cdouble	
+cmp	helpers/bignums.html#cmp,Int,Int	bignums: cmp(x, y: Int): cint	
+cmp	helpers/bignums.html#cmp,Int,culong	bignums: cmp(x: Int; y: culong): cint	
+cmp	helpers/bignums.html#cmp,Int,int_2	bignums: cmp(x: Int; y: int): cint	
+cmp	helpers/bignums.html#cmp,Float,Float	bignums: cmp(x, y: Float): cint	
+cmp	helpers/bignums.html#cmp,Float,culong	bignums: cmp(x: Float; y: culong): cint	
+cmp	helpers/bignums.html#cmp,Float,cdouble	bignums: cmp(x: Float; y: cdouble): cint	
+cmp	helpers/bignums.html#cmp,Float,int	bignums: cmp(x: Float; y: int): cint	
+`==`	helpers/bignums.html#==,Int,	bignums: `==`(x: Int; y: int | culong | Int): bool	
+`==`	helpers/bignums.html#==,,Int	bignums: `==`(x: int | culong; y: Int): bool	
+`==`	helpers/bignums.html#==,Float,	bignums: `==`(x: Float; y: int | float | culong | Float): bool	
+`==`	helpers/bignums.html#==,,Float	bignums: `==`(x: float | int | culong; y: Float): bool	
+`&lt;`	helpers/bignums.html#<,Int,	bignums: `&lt;`(x: Int; y: int | culong | Int): bool	
+`&lt;`	helpers/bignums.html#<,,Int	bignums: `&lt;`(x: int | culong; y: Int): bool	
+`&lt;=`	helpers/bignums.html#<=,Int,	bignums: `&lt;=`(x: Int; y: int | culong | Int): bool	
+`&lt;=`	helpers/bignums.html#<=,,Int	bignums: `&lt;=`(x: int | culong; y: Int): bool	
+add	helpers/bignums.html#add,Int,Int,Int	bignums: add(z, x, y: Int): Int	
+add	helpers/bignums.html#add,Int,Int,culong	bignums: add(z, x: Int; y: culong): Int	
+add	helpers/bignums.html#add,Int,Int,int_2	bignums: add(z, x: Int; y: int): Int	
+inc	helpers/bignums.html#inc,Int,	bignums: inc(z: Int; x: int | culong | Int)	
+`+`	helpers/bignums.html#+,Int,	bignums: `+`(x: Int; y: int | culong | Int): Int	
+`+`	helpers/bignums.html#+,,Int	bignums: `+`(x: int | culong; y: Int): Int	
+`+`	helpers/bignums.html#+,float,Int	bignums: `+`(x: float; y: Int): float	
+`+`	helpers/bignums.html#+,Int,float	bignums: `+`(x: Int; y: float): float	
+`+=`	helpers/bignums.html#+=,Int,	bignums: `+=`(z: Int; x: int | culong | Int)	
+sub	helpers/bignums.html#sub,Int,Int,Int	bignums: sub(z, x, y: Int): Int	
+sub	helpers/bignums.html#sub,Int,Int,culong	bignums: sub(z, x: Int; y: culong): Int	
+sub	helpers/bignums.html#sub,Int,culong,Int	bignums: sub(z: Int; x: culong; y: Int): Int	
+sub	helpers/bignums.html#sub,Int,Int,int_2	bignums: sub(z, x: Int; y: int): Int	
+sub	helpers/bignums.html#sub,Int,int,Int_3	bignums: sub(z: Int; x: int; y: Int): Int	
+dec	helpers/bignums.html#dec,Int,	bignums: dec(z: Int; x: int | culong | Int)	
+`-`	helpers/bignums.html#-,Int,	bignums: `-`(x: Int; y: int | culong | Int): Int	
+`-`	helpers/bignums.html#-,,Int	bignums: `-`(x: int | culong; y: Int): Int	
+`-`	helpers/bignums.html#-,float,Int	bignums: `-`(x: float; y: Int): float	
+`-`	helpers/bignums.html#-,Int,float	bignums: `-`(x: Int; y: float): float	
+`-=`	helpers/bignums.html#-=,Int,	bignums: `-=`(z: Int; x: int | culong | Int)	
+mul	helpers/bignums.html#mul,Int,Int,Int	bignums: mul(z, x, y: Int): Int	
+mul	helpers/bignums.html#mul,Int,Int,culong	bignums: mul(z, x: Int; y: culong): Int	
+mul	helpers/bignums.html#mul,Float,Float,Int	bignums: mul(z, x: Float; y: Int): Float	
+mul	helpers/bignums.html#mul,Int,Int,int_2	bignums: mul(z, x: Int; y: int): Int	
+`*`	helpers/bignums.html#*,Int,	bignums: `*`(x: Int; y: int | culong | Int): Int	
+`*`	helpers/bignums.html#*,,Int	bignums: `*`(x: int | culong; y: Int): Int	
+`*`	helpers/bignums.html#*,float,Int	bignums: `*`(x: float; y: Int): float	
+`*`	helpers/bignums.html#*,Int,float	bignums: `*`(x: Int; y: float): float	
+`*=`	helpers/bignums.html#*=,Int,	bignums: `*=`(z: Int; x: int | culong | Int)	
+`div`	helpers/bignums.html#div,Int,Int,Int	bignums: `div`(z, x, y: Int): Int	
+`div`	helpers/bignums.html#div,Int,Int,culong	bignums: `div`(z, x: Int; y: culong): Int	
+`div`	helpers/bignums.html#div,Int,Int,int_2	bignums: `div`(z, x: Int; y: int): Int	
+`div`	helpers/bignums.html#div,Int,	bignums: `div`(x: Int; y: int | culong | Int): Int	
+`div`	helpers/bignums.html#div,,Int	bignums: `div`(x: int | culong; y: Int): Int	
+`div`	helpers/bignums.html#div,Float,Float,Float	bignums: `div`(z, x, y: Float): Float	
+`div`	helpers/bignums.html#div,Float,Float,int	bignums: `div`(z, x: Float; y: int): Float	
+`div`	helpers/bignums.html#div,Float,Float,Int_2	bignums: `div`(z, x: Float; y: Int): Float	
+`div`	helpers/bignums.html#div,Float,Float,float_2	bignums: `div`(z, x: Float; y: float): Float	
+fdiv	helpers/bignums.html#fdiv,Int,Int,Int	bignums: fdiv(z, x, y: Int): Int	
+fdiv	helpers/bignums.html#fdiv,Int,Int,culong	bignums: fdiv(z, x: Int; y: culong): Int	
+fdiv	helpers/bignums.html#fdiv,Int,Int,int_2	bignums: fdiv(z, x: Int; y: int): Int	
+fdiv	helpers/bignums.html#fdiv,Int,	bignums: fdiv(x: Int; y: int | culong | Int): Int	
+fdiv	helpers/bignums.html#fdiv,,Int	bignums: fdiv(x: int | culong; y: Int): Int	
+`//`	helpers/bignums.html#//,Int,	bignums: `//`(x: Int; y: int | culong | Int): Int	
+`//`	helpers/bignums.html#//,,Int	bignums: `//`(x: int | culong; y: Int): Int	
+`/`	helpers/bignums.html#/,Float,	bignums: `/`(x: Float; y: Float | int | Int): Float	
+`/`	helpers/bignums.html#/,Float,float	bignums: `/`(x: Float; y: float): Float	
+`/`	helpers/bignums.html#/,float,Int	bignums: `/`(x: float; y: Int): float	
+`/`	helpers/bignums.html#/,Int,float	bignums: `/`(x: Int; y: float): float	
+`mod`	helpers/bignums.html#mod,Int,Int,Int	bignums: `mod`(z, x, y: Int): Int	
+`mod`	helpers/bignums.html#mod,Int,Int,culong	bignums: `mod`(z, x: Int; y: culong): Int	
+`mod`	helpers/bignums.html#mod,Int,Int,int_2	bignums: `mod`(z, x: Int; y: int): Int	
+`mod`	helpers/bignums.html#mod,Int,	bignums: `mod`(x: Int; y: int | culong | Int): Int	
+`mod`	helpers/bignums.html#mod,,Int	bignums: `mod`(x: int | culong; y: Int): Int	
+modInverse	helpers/bignums.html#modInverse,Int,Int,Int	bignums: modInverse(z, g, n: Int): bool	
+modInverse	helpers/bignums.html#modInverse,Int,Int	bignums: modInverse(g: Int; n: Int): Int	
+modInverse	helpers/bignums.html#modInverse,Int,	bignums: modInverse(g: Int; n: int | culong): Int	
+modInverse	helpers/bignums.html#modInverse,,Int	bignums: modInverse(g: int | culong; n: Int): Int	
+divMod	helpers/bignums.html#divMod,Int,Int,Int,Int	bignums: divMod(q, r, x, y: Int): tuple[q, r: Int]	
+divMod	helpers/bignums.html#divMod,Int,Int,Int,culong	bignums: divMod(q, r, x: Int; y: culong): tuple[q, r: Int]	
+divMod	helpers/bignums.html#divMod,Int,Int,Int,int_2	bignums: divMod(q, r, x: Int; y: int): tuple[q, r: Int]	
+divMod	helpers/bignums.html#divMod,Int,	bignums: divMod(x: Int; y: int | culong | Int): tuple[q, r: Int]	
+divMod	helpers/bignums.html#divMod,,Int	bignums: divMod(x: int | culong; y: Int): tuple[q, r: Int]	
+pow	helpers/bignums.html#pow,Int,Int,culong	bignums: pow(z, x: Int; y: culong): Int	
+pow	helpers/bignums.html#pow,Int,culong,culong	bignums: pow(z: Int; x, y: culong): Int	
+pow	helpers/bignums.html#pow,,culong	bignums: pow(x: culong | Int; y: culong): Int	
+pow	helpers/bignums.html#pow,int,culong	bignums: pow(x: int; y: culong): Int	
+pow	helpers/bignums.html#pow,float,Int	bignums: pow(x: float; y: Int): float	
+pow	helpers/bignums.html#pow,Int,float	bignums: pow(x: Int; y: float): float	
+`^`	helpers/bignums.html#^,,culong	bignums: `^`(x: int | culong | Int; y: culong): Int	
+exp	helpers/bignums.html#exp,Int,Int,culong,Int	bignums: exp(z, x: Int; y: culong; m: Int): Int	
+exp	helpers/bignums.html#exp,Int,Int,Int,Int	bignums: exp(z, x, y, m: Int): Int	
+exp	helpers/bignums.html#exp,Int,Int,Int	bignums: exp(x: Int; y: Int; m: Int): Int	
+exp	helpers/bignums.html#exp,Int,culong,Int	bignums: exp(x: Int; y: culong; m: Int): Int	
+exp	helpers/bignums.html#exp,Int,culong,	bignums: exp(x: Int; y: culong; m: int | culong): Int	
+exp	helpers/bignums.html#exp,,culong,Int	bignums: exp(x: int | culong; y: culong; m: Int): Int	
+sqrt	helpers/bignums.html#sqrt,Int,Int	bignums: sqrt(z, x: Int): Int	
+sqrt	helpers/bignums.html#sqrt,Int	bignums: sqrt(x: Int): Int	
+`and`	helpers/bignums.html#and,Int,Int,Int	bignums: `and`(z, x, y: Int): Int	
+`and`	helpers/bignums.html#and,Int,Int	bignums: `and`(x, y: Int): Int	
+`and`	helpers/bignums.html#and,Int,	bignums: `and`(x: Int; y: int | culong): Int	
+`and`	helpers/bignums.html#and,,Int	bignums: `and`(x: int | culong; y: Int): Int	
+`or`	helpers/bignums.html#or,Int,Int,Int	bignums: `or`(z, x, y: Int): Int	
+`or`	helpers/bignums.html#or,Int,Int	bignums: `or`(x, y: Int): Int	
+`or`	helpers/bignums.html#or,Int,	bignums: `or`(x: Int; y: int | culong): Int	
+`or`	helpers/bignums.html#or,,Int	bignums: `or`(x: int | culong; y: Int): Int	
+`xor`	helpers/bignums.html#xor,Int,Int,Int	bignums: `xor`(z, x, y: Int): Int	
+`xor`	helpers/bignums.html#xor,Int,Int	bignums: `xor`(x, y: Int): Int	
+`xor`	helpers/bignums.html#xor,Int,	bignums: `xor`(x: Int; y: int | culong): Int	
+`xor`	helpers/bignums.html#xor,,Int	bignums: `xor`(x: int | culong; y: Int): Int	
+`not`	helpers/bignums.html#not,Int,Int	bignums: `not`(z, x: Int): Int	
+`not`	helpers/bignums.html#not,Int	bignums: `not`(x: Int): Int	
+`shr`	helpers/bignums.html#shr,Int,Int,culong	bignums: `shr`(z, x: Int; y: culong): Int	
+`shr`	helpers/bignums.html#shr,Int,culong	bignums: `shr`(x: Int; y: culong): Int	
+`shl`	helpers/bignums.html#shl,Int,Int,culong	bignums: `shl`(z, x: Int; y: culong): Int	
+`shl`	helpers/bignums.html#shl,Int,culong	bignums: `shl`(x: Int; y: culong): Int	
+digits	helpers/bignums.html#digits,Int,range[]	bignums: digits(z: Int; base: range[(2.cint) .. (62.cint)] = 10): csize_t	
+`$`	helpers/bignums.html#$,Int,cint	bignums: `$`(z: Int; base: cint = 10): string	
+positive	helpers/bignums.html#positive,Int	bignums: positive(x: Int): bool	
+negative	helpers/bignums.html#negative,Int	bignums: negative(x: Int): bool	
+isZero	helpers/bignums.html#isZero,Int	bignums: isZero(x: Int): bool	
+odd	helpers/bignums.html#odd,Int	bignums: odd(z: Int): bool	
+even	helpers/bignums.html#even,Int	bignums: even(z: Int): bool	
+fac	helpers/bignums.html#fac,Int,Int	bignums: fac(z, x: Int): Int	
+fac	helpers/bignums.html#fac,Int,culong	bignums: fac(z: Int; x: culong): Int	
+fac	helpers/bignums.html#fac,Int,int_2	bignums: fac(z: Int; x: int): Int	
+fac	helpers/bignums.html#fac	bignums: fac(x: int | culong | Int): Int	
+abs	helpers/bignums.html#abs,Int,Int	bignums: abs(z, x: Int): Int	
+abs	helpers/bignums.html#abs,Int	bignums: abs(x: Int): Int	
+gcd	helpers/bignums.html#gcd,Int,Int,Int	bignums: gcd(z, x, y: Int): Int	
+gcd	helpers/bignums.html#gcd,Int,Int,culong	bignums: gcd(z, x: Int; y: culong): Int	
+gcd	helpers/bignums.html#gcd,Int,Int,int_2	bignums: gcd(z, x: Int; y: int): Int	
+gcd	helpers/bignums.html#gcd,Int,	bignums: gcd(x: Int; y: int | culong | Int): Int	
+gcd	helpers/bignums.html#gcd,,Int	bignums: gcd(x: int | culong; y: Int): Int	
+lcm	helpers/bignums.html#lcm,Int,Int,Int	bignums: lcm(z, x, y: Int): Int	
+lcm	helpers/bignums.html#lcm,Int,Int,culong	bignums: lcm(z, x: Int; y: culong): Int	
+lcm	helpers/bignums.html#lcm,Int,Int,int_2	bignums: lcm(z, x: Int; y: int): Int	
+lcm	helpers/bignums.html#lcm,Int,	bignums: lcm(x: Int; y: int | culong | Int): Int	
+lcm	helpers/bignums.html#lcm,,Int	bignums: lcm(x: int | culong; y: Int): Int	
+probablyPrime	helpers/bignums.html#probablyPrime,Int,cint	bignums: probablyPrime(x: Int; n: cint): cint	
+nextPrime	helpers/bignums.html#nextPrime,Int,Int	bignums: nextPrime(z, x: Int): Int	
+nextPrime	helpers/bignums.html#nextPrime,Int	bignums: nextPrime(x: Int): Int	
+clear	helpers/bignums.html#clear,Int	bignums: clear(z: Int)	
+clear	helpers/bignums.html#clear,Float	bignums: clear(z: Float)	
+clear	helpers/bignums.html#clear,Rat	bignums: clear(z: Rat)	

@@ -1,0 +1,3 @@
+writeBytecode	vm/bytecode.html#writeBytecode,string,seq[byte],string	bytecode: writeBytecode(dataSeg: string; codeSeg: seq[byte]; target: string;\n              compressed = false): bool	
+readBytecode	vm/bytecode.html#readBytecode,string	bytecode: readBytecode(origin: string): (string, seq[byte])	
+optimizeBytecode	vm/bytecode.html#optimizeBytecode,Translation	bytecode: optimizeBytecode(t: Translation): seq[byte]	
