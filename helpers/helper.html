@@ -144,7 +144,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dl class="item">
 <div id="getInfo,string,Value,SymbolDict">
 <dt><pre><span class="Keyword">proc</span> <a href="#getInfo%2Cstring%2CValue%2CSymbolDict"><span class="Identifier">getInfo</span></a><span class="Other">(</span><span class="Identifier">n</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">;</span> <span class="Identifier">v</span><span class="Other">:</span> <a href="../vm/values/types.html#Value"><span class="Identifier">Value</span></a><span class="Other">;</span> <span class="Identifier">aliases</span><span class="Other">:</span> <a href="../vm/values/types.html#SymbolDict"><span class="Identifier">SymbolDict</span></a><span class="Other">)</span><span class="Other">:</span> <a href="../vm/values/types.html#ValueDict"><span class="Identifier">ValueDict</span></a> {.
-    <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">ValueError</span><span class="Other">,</span> <span class="Identifier">RegexError</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
+    <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">ValueError</span><span class="Other">,</span> <span class="Identifier">Exception</span><span class="Other">,</span> <span class="Identifier">KeyError</span><span class="Other">,</span> <span class="Identifier">RegexError</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
 
@@ -153,7 +153,8 @@ window.addEventListener('DOMContentLoaded', main);
 </div>
 <div id="printInfo,string,Value,SymbolDict">
 <dt><pre><span class="Keyword">proc</span> <a href="#printInfo%2Cstring%2CValue%2CSymbolDict"><span class="Identifier">printInfo</span></a><span class="Other">(</span><span class="Identifier">n</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">;</span> <span class="Identifier">v</span><span class="Other">:</span> <a href="../vm/values/types.html#Value"><span class="Identifier">Value</span></a><span class="Other">;</span> <span class="Identifier">aliases</span><span class="Other">:</span> <a href="../vm/values/types.html#SymbolDict"><span class="Identifier">SymbolDict</span></a><span class="Other">;</span> <span class="Identifier">withExamples</span> <span class="Other">=</span> <span class="Identifier">false</span><span class="Other">)</span> {.
-    <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">ValueError</span><span class="Other">,</span> <span class="Identifier">IOError</span><span class="Other">,</span> <span class="Identifier">RegexError</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
+    <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">ValueError</span><span class="Other">,</span> <span class="Identifier">IOError</span><span class="Other">,</span> <span class="Identifier">Exception</span><span class="Other">,</span> <span class="Identifier">KeyError</span><span class="Other">,</span> <span class="Identifier">RegexError</span><span class="Other">]</span><span class="Other">,</span>
+    <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">WriteIOEffect</span><span class="Other">,</span> <span class="Identifier">RootEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
 
@@ -178,7 +179,7 @@ window.addEventListener('DOMContentLoaded', main);
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br/>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2022-10-21 15:34:54 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2022-10-21 16:14:19 UTC</small>
       </div>
     </div>
   </div>
