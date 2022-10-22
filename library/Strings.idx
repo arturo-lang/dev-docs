@@ -1,2 +1,1 @@
-replaceStrWith	library/Strings.html#replaceStrWith.t,string,Value,Value	Strings: replaceStrWith(str: var string; src: Value; dst: Value): untyped	
 defineSymbols	library/Strings.html#defineSymbols	Strings: defineSymbols()	

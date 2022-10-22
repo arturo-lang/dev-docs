@@ -151,8 +151,6 @@ isNothing	vm/values/value.html#isNothing.t,Value	value: isNothing(v: Value): boo
 asFloat	vm/values/value.html#asFloat,Value	value: asFloat(v: Value): float	
 asInt	vm/values/value.html#asInt,Value	value: asInt(v: Value): int	
 getArity	vm/values/value.html#getArity,Value	value: getArity(x: Value): int	
-safeMulI	vm/values/value.html#safeMulI,T,T	value: safeMulI[T: SomeInteger](x: var T; y: T)	
-safePow	vm/values/value.html#safePow,T,Natural	value: safePow[T: SomeNumber](x: T; y: Natural): T	
 valueAsString	vm/values/value.html#valueAsString,Value	value: valueAsString(v: Value): string	
 `+`	vm/values/value.html#+,Value,Value	value: `+`(x: Value; y: Value): Value	
 `+=`	vm/values/value.html#+=,Value,Value	value: `+=`(x: var Value; y: Value)	

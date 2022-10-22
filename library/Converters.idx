@@ -1,4 +1,1 @@
-parseFL	library/Converters.html#parseFL,string	Converters: parseFL(s: string): float	
-generateCustomObject	library/Converters.html#generateCustomObject,Prototype,	Converters: generateCustomObject(prot: Prototype; arguments: ValueArray | ValueDict): Value	
-convertedValueToType	library/Converters.html#convertedValueToType,Value,Value,ValueKind,Value	Converters: convertedValueToType(x, y: Value; tp: ValueKind; aFormat: Value = nil): Value	
 defineSymbols	library/Converters.html#defineSymbols	Converters: defineSymbols()	

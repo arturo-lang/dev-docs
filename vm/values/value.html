@@ -710,16 +710,6 @@ window.addEventListener('DOMContentLoaded', main);
     title="newWord(w: sink string): Value">newWord(w: sink string): Value</a></li>
 
   </ul>
-  <ul class="simple nested-toc-section">safeMulI
-      <li><a class="reference" href="#safeMulI%2CT%2CT"
-    title="safeMulI[T: SomeInteger](x: var T; y: T)">safeMulI[T: SomeInteger](x: var T; y: T)</a></li>
-
-  </ul>
-  <ul class="simple nested-toc-section">safePow
-      <li><a class="reference" href="#safePow%2CT%2CNatural"
-    title="safePow[T: SomeNumber](x: T; y: Natural): T">safePow[T: SomeNumber](x: T; y: Natural): T</a></li>
-
-  </ul>
   <ul class="simple nested-toc-section">sameValue
       <li><a class="reference" href="#sameValue%2CValue%2CValue"
     title="sameValue(x: Value; y: Value): bool">sameValue(x: Value; y: Value): bool</a></li>
@@ -1161,7 +1151,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#F0"><span class="Identifier">F0</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Floating</span><span class="Other">,</span> <span class="Identifier">f</span><span class="Other">:</span> <span class="FloatNumber">0.0</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant 0.0
 
 </dd>
 </div>
@@ -1169,7 +1159,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#F1"><span class="Identifier">F1</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Floating</span><span class="Other">,</span> <span class="Identifier">f</span><span class="Other">:</span> <span class="FloatNumber">1.0</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant 1.0
 
 </dd>
 </div>
@@ -1177,7 +1167,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#F1M"><span class="Identifier">F1M</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Floating</span><span class="Other">,</span> <span class="Identifier">f</span><span class="Other">:</span> <span class="FloatNumber">-1.0</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant -1.0
 
 </dd>
 </div>
@@ -1185,7 +1175,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#F2"><span class="Identifier">F2</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Floating</span><span class="Other">,</span> <span class="Identifier">f</span><span class="Other">:</span> <span class="FloatNumber">2.0</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant 2.0
 
 </dd>
 </div>
@@ -1193,7 +1183,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#I0"><span class="Identifier">I0</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Integer</span><span class="Other">,</span> <span class="Identifier">iKind</span><span class="Other">:</span> <span class="DecNumber">NormalInteger</span><span class="Other">,</span> <span class="Identifier">i</span><span class="Other">:</span> <span class="DecNumber">0</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant 0
 
 </dd>
 </div>
@@ -1201,7 +1191,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#I1"><span class="Identifier">I1</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Integer</span><span class="Other">,</span> <span class="Identifier">iKind</span><span class="Other">:</span> <span class="DecNumber">NormalInteger</span><span class="Other">,</span> <span class="Identifier">i</span><span class="Other">:</span> <span class="DecNumber">1</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant 1
 
 </dd>
 </div>
@@ -1209,7 +1199,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#I1M"><span class="Identifier">I1M</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Integer</span><span class="Other">,</span> <span class="Identifier">iKind</span><span class="Other">:</span> <span class="DecNumber">NormalInteger</span><span class="Other">,</span> <span class="Identifier">i</span><span class="Other">:</span> <span class="DecNumber">-1</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant -1
 
 </dd>
 </div>
@@ -1217,7 +1207,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#I2"><span class="Identifier">I2</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Integer</span><span class="Other">,</span> <span class="Identifier">iKind</span><span class="Other">:</span> <span class="DecNumber">NormalInteger</span><span class="Other">,</span> <span class="Identifier">i</span><span class="Other">:</span> <span class="DecNumber">2</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant 2
 
 </dd>
 </div>
@@ -1225,7 +1215,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#I3"><span class="Identifier">I3</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Integer</span><span class="Other">,</span> <span class="Identifier">iKind</span><span class="Other">:</span> <span class="DecNumber">NormalInteger</span><span class="Other">,</span> <span class="Identifier">i</span><span class="Other">:</span> <span class="DecNumber">3</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant 3
 
 </dd>
 </div>
@@ -1233,7 +1223,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#I4"><span class="Identifier">I4</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Integer</span><span class="Other">,</span> <span class="Identifier">iKind</span><span class="Other">:</span> <span class="DecNumber">NormalInteger</span><span class="Other">,</span> <span class="Identifier">i</span><span class="Other">:</span> <span class="DecNumber">4</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant 4
 
 </dd>
 </div>
@@ -1241,7 +1231,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#I5"><span class="Identifier">I5</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Integer</span><span class="Other">,</span> <span class="Identifier">iKind</span><span class="Other">:</span> <span class="DecNumber">NormalInteger</span><span class="Other">,</span> <span class="Identifier">i</span><span class="Other">:</span> <span class="DecNumber">5</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant 5
 
 </dd>
 </div>
@@ -1249,7 +1239,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#I6"><span class="Identifier">I6</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Integer</span><span class="Other">,</span> <span class="Identifier">iKind</span><span class="Other">:</span> <span class="DecNumber">NormalInteger</span><span class="Other">,</span> <span class="Identifier">i</span><span class="Other">:</span> <span class="DecNumber">6</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant 6
 
 </dd>
 </div>
@@ -1257,7 +1247,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#I7"><span class="Identifier">I7</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Integer</span><span class="Other">,</span> <span class="Identifier">iKind</span><span class="Other">:</span> <span class="DecNumber">NormalInteger</span><span class="Other">,</span> <span class="Identifier">i</span><span class="Other">:</span> <span class="DecNumber">7</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant 7
 
 </dd>
 </div>
@@ -1265,7 +1255,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#I8"><span class="Identifier">I8</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Integer</span><span class="Other">,</span> <span class="Identifier">iKind</span><span class="Other">:</span> <span class="DecNumber">NormalInteger</span><span class="Other">,</span> <span class="Identifier">i</span><span class="Other">:</span> <span class="DecNumber">8</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant 8
 
 </dd>
 </div>
@@ -1273,7 +1263,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#I9"><span class="Identifier">I9</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Integer</span><span class="Other">,</span> <span class="Identifier">iKind</span><span class="Other">:</span> <span class="DecNumber">NormalInteger</span><span class="Other">,</span> <span class="Identifier">i</span><span class="Other">:</span> <span class="DecNumber">9</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant 9
 
 </dd>
 </div>
@@ -1281,7 +1271,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#I10"><span class="Identifier">I10</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Integer</span><span class="Other">,</span> <span class="Identifier">iKind</span><span class="Other">:</span> <span class="DecNumber">NormalInteger</span><span class="Other">,</span> <span class="Identifier">i</span><span class="Other">:</span> <span class="DecNumber">10</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant 10
 
 </dd>
 </div>
@@ -1289,7 +1279,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#I11"><span class="Identifier">I11</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Integer</span><span class="Other">,</span> <span class="Identifier">iKind</span><span class="Other">:</span> <span class="DecNumber">NormalInteger</span><span class="Other">,</span> <span class="Identifier">i</span><span class="Other">:</span> <span class="DecNumber">11</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant 11
 
 </dd>
 </div>
@@ -1297,7 +1287,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#I12"><span class="Identifier">I12</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Integer</span><span class="Other">,</span> <span class="Identifier">iKind</span><span class="Other">:</span> <span class="DecNumber">NormalInteger</span><span class="Other">,</span> <span class="Identifier">i</span><span class="Other">:</span> <span class="DecNumber">12</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant 12
 
 </dd>
 </div>
@@ -1305,7 +1295,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#I13"><span class="Identifier">I13</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Integer</span><span class="Other">,</span> <span class="Identifier">iKind</span><span class="Other">:</span> <span class="DecNumber">NormalInteger</span><span class="Other">,</span> <span class="Identifier">i</span><span class="Other">:</span> <span class="DecNumber">13</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant 13
 
 </dd>
 </div>
@@ -1313,7 +1303,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#I14"><span class="Identifier">I14</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Integer</span><span class="Other">,</span> <span class="Identifier">iKind</span><span class="Other">:</span> <span class="DecNumber">NormalInteger</span><span class="Other">,</span> <span class="Identifier">i</span><span class="Other">:</span> <span class="DecNumber">14</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant 14
 
 </dd>
 </div>
@@ -1321,7 +1311,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#I15"><span class="Identifier">I15</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Integer</span><span class="Other">,</span> <span class="Identifier">iKind</span><span class="Other">:</span> <span class="DecNumber">NormalInteger</span><span class="Other">,</span> <span class="Identifier">i</span><span class="Other">:</span> <span class="DecNumber">15</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant 15
 
 </dd>
 </div>
@@ -1337,7 +1327,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#VEMPTYARR"><span class="Identifier">VEMPTYARR</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Block</span><span class="Other">,</span> <span class="Identifier">a</span><span class="Other">:</span> <span class="Operator">@</span><span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">data</span><span class="Other">:</span> <span class="Keyword">nil</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant []
 
 </dd>
 </div>
@@ -1345,7 +1335,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#VEMPTYDICT"><span class="Identifier">VEMPTYDICT</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Dictionary</span><span class="Other">,</span> <span class="Identifier">d</span><span class="Other">:</span> <span class="Identifier">initOrderedTable</span><span class="Other">(</span><span class="DecNumber">32</span><span class="Other">)</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant #[]
 
 </dd>
 </div>
@@ -1353,7 +1343,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#VEMPTYSTR"><span class="Identifier">VEMPTYSTR</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">String</span><span class="Other">,</span> <span class="Identifier">s</span><span class="Other">:</span> <span class="StringLit">&quot;&quot;</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant &quot;&quot;
 
 </dd>
 </div>
@@ -1361,7 +1351,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#VFALSE"><span class="Identifier">VFALSE</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Logical</span><span class="Other">,</span> <span class="Identifier">b</span><span class="Other">:</span> <span class="Identifier">False</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant False
 
 </dd>
 </div>
@@ -1369,7 +1359,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#VINTEGERT"><span class="Identifier">VINTEGERT</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Type</span><span class="Other">,</span> <span class="Identifier">tpKind</span><span class="Other">:</span> <span class="DecNumber">BuiltinType</span><span class="Other">,</span> <span class="Identifier">t</span><span class="Other">:</span> <span class="Identifier">Integer</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant <tt class="docutils literal"><span class="pre">:integer</span></tt>
 
 </dd>
 </div>
@@ -1377,7 +1367,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#VMAYBE"><span class="Identifier">VMAYBE</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Logical</span><span class="Other">,</span> <span class="Identifier">b</span><span class="Other">:</span> <span class="Identifier">Maybe</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant Maybe
 
 </dd>
 </div>
@@ -1385,7 +1375,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#VNOTHING"><span class="Identifier">VNOTHING</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Nothing</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant Nothing
 
 </dd>
 </div>
@@ -1393,7 +1383,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#VNULL"><span class="Identifier">VNULL</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Null</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant Null
 
 </dd>
 </div>
@@ -1401,7 +1391,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#VSTRINGT"><span class="Identifier">VSTRINGT</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Type</span><span class="Other">,</span> <span class="Identifier">tpKind</span><span class="Other">:</span> <span class="DecNumber">BuiltinType</span><span class="Other">,</span> <span class="Identifier">t</span><span class="Other">:</span> <span class="Identifier">String</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant <tt class="docutils literal"><span class="pre">:string</span></tt>
 
 </dd>
 </div>
@@ -1409,7 +1399,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="value.html#VTRUE"><span class="Identifier">VTRUE</span></a> <span class="Other">=</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">(</span><span class="Identifier">kind</span><span class="Other">:</span> <span class="DecNumber">Logical</span><span class="Other">,</span> <span class="Identifier">b</span><span class="Other">:</span> <span class="Identifier">True</span><span class="Other">,</span> <span class="Identifier">readonly</span><span class="Other">:</span> <span class="Identifier">true</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+constant True
 
 </dd>
 </div>
@@ -1435,6 +1425,8 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">proc</span> <a href="#%21%21%3D%2CValue"><span class="Identifier">`!!=`</span></a><span class="Other">(</span><span class="Identifier">x</span><span class="Other">:</span> <span class="Keyword">var</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
+<p>perform binary-not for given value and store the result back in it</p>
+<p><strong>Hint:</strong> In-place, mutation operation</p>
 
 
 </dd>
@@ -1443,7 +1435,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">proc</span> <a href="#%21%21%2CValue"><span class="Identifier">`!!`</span></a><span class="Other">(</span><span class="Identifier">x</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+perform binary-not for given value and return the result
 
 </dd>
 </div>
@@ -1454,6 +1446,8 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
+<p>perform the modulo operation between given values and store the result in the first one</p>
+<p><strong>Hint:</strong> In-place, mutating operation</p>
 
 
 </dd>
@@ -1465,7 +1459,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+perform the modulo operation between given values and return the result
 
 </dd>
 </div>
@@ -1473,6 +1467,8 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">proc</span> <a href="#%26%26%3D%2CValue%2CValue"><span class="Identifier">`&amp;&amp;=`</span></a><span class="Other">(</span><span class="Identifier">x</span><span class="Other">:</span> <span class="Keyword">var</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">;</span> <span class="Identifier">y</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
+<p>perform binary-and between given values and store the result in the first value</p>
+<p><strong>Hint:</strong> In-place, mutation operation</p>
 
 
 </dd>
@@ -1481,7 +1477,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">proc</span> <a href="#%26%26%2CValue%2CValue"><span class="Identifier">`&amp;&amp;`</span></a><span class="Other">(</span><span class="Identifier">x</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">;</span> <span class="Identifier">y</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+perform binary-and between given values and return the result
 
 </dd>
 </div>
@@ -1492,6 +1488,8 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
+<p>multiply given values and store the result in the first one</p>
+<p><strong>Hint:</strong> In-place, mutating operation</p>
 
 
 </dd>
@@ -1503,7 +1501,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+multiply given values and return the result
 
 </dd>
 </div>
@@ -1514,6 +1512,8 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
+<p>add given values and store the result in the first value</p>
+<p><strong>Hint:</strong> In-place, mutating operation</p>
 
 
 </dd>
@@ -1525,7 +1525,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+add given values and return the result
 
 </dd>
 </div>
@@ -1536,6 +1536,8 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
+<p>subtract given values and store the result in the first value</p>
+<p><strong>Hint:</strong> In-place, mutating operation</p>
 
 
 </dd>
@@ -1547,7 +1549,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+subtract given values and return the result
 
 </dd>
 </div>
@@ -1558,6 +1560,8 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
+<p>perform the divmod operation between given values and store the result in the first one</p>
+<p><strong>Hint:</strong> In-place, mutating operation</p>
 
 
 </dd>
@@ -1569,7 +1573,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+perform the divmod operation between given values and return the result as a <em>tuple</em> Block value
 
 </dd>
 </div>
@@ -1580,6 +1584,8 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
+<p>divide (floating-point division) given values and store the result in the first one</p>
+<p><strong>Hint:</strong> In-place, mutating operation</p>
 
 
 </dd>
@@ -1591,7 +1597,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+divide (floating-point division) given values and return the result
 
 </dd>
 </div>
@@ -1602,6 +1608,8 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
+<p>divide (integer division) given values and store the result in the first one</p>
+<p><strong>Hint:</strong> In-place, mutating operation</p>
 
 
 </dd>
@@ -1613,7 +1621,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+divide (integer division) given values and return the result
 
 </dd>
 </div>
@@ -1622,6 +1630,8 @@ window.addEventListener('DOMContentLoaded', main);
                                      <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
+<p>perform binary-left-shift between given values and store the result in the first value</p>
+<p><strong>Hint:</strong> In-place, mutation operation</p>
 
 
 </dd>
@@ -1631,7 +1641,7 @@ window.addEventListener('DOMContentLoaded', main);
                                        <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+perform binary-left-shift between given values and return the result
 
 </dd>
 </div>
@@ -1640,6 +1650,8 @@ window.addEventListener('DOMContentLoaded', main);
                                      <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
+<p>perform binary-right-shift between given values and store the result in the first value</p>
+<p><strong>Hint:</strong> In-place, mutation operation</p>
 
 
 </dd>
@@ -1649,7 +1661,7 @@ window.addEventListener('DOMContentLoaded', main);
                                        <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+perform binary-right-shift between given values and return the result
 
 </dd>
 </div>
@@ -1660,6 +1672,8 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
+<p>perform the power operation between given values and store the result in the first value</p>
+<p><strong>Hint:</strong> In-place, mutation operation</p>
 
 
 </dd>
@@ -1668,6 +1682,8 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">proc</span> <a href="#%5E%5E%3D%2CValue%2CValue"><span class="Identifier">`^^=`</span></a><span class="Other">(</span><span class="Identifier">x</span><span class="Other">:</span> <span class="Keyword">var</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">;</span> <span class="Identifier">y</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
+<p>perform binary-xor between given values and store the result in the first value</p>
+<p><strong>Hint:</strong> In-place, mutation operation</p>
 
 
 </dd>
@@ -1676,7 +1692,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">proc</span> <a href="#%5E%5E%2CValue%2CValue"><span class="Identifier">`^^`</span></a><span class="Other">(</span><span class="Identifier">x</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">;</span> <span class="Identifier">y</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+perform binary-xor between given values and return the result
 
 </dd>
 </div>
@@ -1687,7 +1703,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+perform the power operation between given values 
 
 </dd>
 </div>
@@ -1695,6 +1711,8 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">proc</span> <a href="#%7C%7C%3D%2CValue%2CValue"><span class="Identifier">`||=`</span></a><span class="Other">(</span><span class="Identifier">x</span><span class="Other">:</span> <span class="Keyword">var</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">;</span> <span class="Identifier">y</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
+<p>perform binary-or between given values and store the result in the first value</p>
+<p><strong>Hint:</strong> In-place, mutation operation</p>
 
 
 </dd>
@@ -1703,7 +1721,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">proc</span> <a href="#%7C%7C%2CValue%2CValue"><span class="Identifier">`||`</span></a><span class="Other">(</span><span class="Identifier">x</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">;</span> <span class="Identifier">y</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+perform binary-or between given values and return the result
 
 </dd>
 </div>
@@ -1711,6 +1729,8 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#asFloat%2CValue"><span class="Identifier">asFloat</span></a><span class="Other">(</span><span class="Identifier">v</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">float</span> {.<span class="Identifier">enforceNoRaises</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
+<p>get numeric value forcefully as a float</p>
+<p><strong>Hint:</strong> We have to make sure the value is either an Integer or a Floating value</p>
 
 
 </dd>
@@ -1719,6 +1739,8 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#asInt%2CValue"><span class="Identifier">asInt</span></a><span class="Other">(</span><span class="Identifier">v</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">int</span> {.<span class="Identifier">enforceNoRaises</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
+<p>get numeric value forcefully as an int</p>
+<p><strong>Hint:</strong> We have to make sure the value is either an Integer or a Floating value</p>
 
 
 </dd>
@@ -1732,7 +1754,7 @@ window.addEventListener('DOMContentLoaded', main);
                                         <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+convert given quantity value <tt class="docutils literal"><span class="pre">nm</span></tt> from <tt class="docutils literal"><span class="pre">fromU</span></tt> unit to <tt class="docutils literal"><span class="pre">toU</span></tt> 
 
 </dd>
 </div>
@@ -1741,7 +1763,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">Exception</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+convert given temperature value <tt class="docutils literal"><span class="pre">v</span></tt> from <tt class="docutils literal"><span class="pre">src</span></tt> unit to <tt class="docutils literal"><span class="pre">tgt</span></tt>
 
 </dd>
 </div>
@@ -1749,6 +1771,8 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">proc</span> <a href="#copyValue%2CValue"><span class="Identifier">copyValue</span></a><span class="Other">(</span><span class="Identifier">v</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
+<p>copy given value (deep copy) and return the result</p>
+<p><strong>Hint</strong>: extensively use for pointer disambiguation, <tt class="docutils literal"><span class="pre">new</span></tt> and value copying, in general (when needed)</p>
 
 
 </dd>
@@ -1758,7 +1782,7 @@ window.addEventListener('DOMContentLoaded', main);
                                   <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+calculate factorial of given value
 
 </dd>
 </div>
@@ -1766,7 +1790,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#getArity%2CValue"><span class="Identifier">getArity</span></a><span class="Other">(</span><span class="Identifier">x</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">int</span> {.<span class="Identifier">enforceNoRaises</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+get arity of given Function value
 
 </dd>
 </div>
@@ -1774,7 +1798,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#hash%2CValue"><span class="Identifier">hash</span></a><span class="Other">(</span><span class="Identifier">v</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">Hash</span> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+calculate the hash for given value
 
 </dd>
 </div>
@@ -1783,7 +1807,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Attribute value from string
 
 </dd>
 </div>
@@ -1792,7 +1816,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create AttributeLabel value from string
 
 </dd>
 </div>
@@ -1800,7 +1824,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newBigInteger%2Cint"><span class="Identifier">newBigInteger</span></a><span class="Other">(</span><span class="Identifier">i</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Integer (BigInteger) value from int
 
 </dd>
 </div>
@@ -1809,7 +1833,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Binary value from ByteArray
 
 </dd>
 </div>
@@ -1818,7 +1842,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">inline</span><span class="Other">,</span> <span class="Identifier">enforceNoRaises</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Block value from ValueArray
 
 </dd>
 </div>
@@ -1830,7 +1854,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">inline</span><span class="Other">,</span> <span class="Identifier">enforceNoRaises</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Function (BuiltinFunction) value with given details
 
 </dd>
 </div>
@@ -1839,7 +1863,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Bytecode value from Translation
 
 </dd>
 </div>
@@ -1847,7 +1871,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newChar%2Cchar"><span class="Identifier">newChar</span></a><span class="Other">(</span><span class="Identifier">c</span><span class="Other">:</span> <span class="Identifier">char</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Char value from char
 
 </dd>
 </div>
@@ -1855,7 +1879,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newChar%2CRune"><span class="Identifier">newChar</span></a><span class="Other">(</span><span class="Identifier">c</span><span class="Other">:</span> <span class="Identifier">Rune</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span class="Identifier">enforceNoRaises</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Char value from Rune
 
 </dd>
 </div>
@@ -1863,7 +1887,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newChar%2Cstring"><span class="Identifier">newChar</span></a><span class="Other">(</span><span class="Identifier">c</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Char value from string
 
 </dd>
 </div>
@@ -1871,7 +1895,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newColor%2Cstring"><span class="Identifier">newColor</span></a><span class="Other">(</span><span class="Identifier">l</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">ValueError</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Color value from string
 
 </dd>
 </div>
@@ -1879,7 +1903,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newColor%2CVColor"><span class="Identifier">newColor</span></a><span class="Other">(</span><span class="Identifier">l</span><span class="Other">:</span> <a href="custom/vcolor.html#VColor"><span class="Identifier">VColor</span></a><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span class="Identifier">enforceNoRaises</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Color value from VColor
 
 </dd>
 </div>
@@ -1887,7 +1911,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newColor%2CRGB"><span class="Identifier">newColor</span></a><span class="Other">(</span><span class="Identifier">rgb</span><span class="Other">:</span> <a href="custom/vcolor.html#RGB"><span class="Identifier">RGB</span></a><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Color value from RGB
 
 </dd>
 </div>
@@ -1895,7 +1919,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newComplex%2CVComplex"><span class="Identifier">newComplex</span></a><span class="Other">(</span><span class="Identifier">com</span><span class="Other">:</span> <a href="custom/vcomplex.html#VComplex"><span class="Identifier">VComplex</span></a><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Complex value from VComplex
 
 </dd>
 </div>
@@ -1903,7 +1927,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newComplex%2Cfloat%2Cfloat"><span class="Identifier">newComplex</span></a><span class="Other">(</span><span class="Identifier">fre</span><span class="Other">:</span> <span class="Identifier">float</span><span class="Other">;</span> <span class="Identifier">fim</span><span class="Other">:</span> <span class="Identifier">float</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Complex value from real + imaginary parts (float)
 
 </dd>
 </div>
@@ -1911,7 +1935,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newComplex%2CValue%2CValue"><span class="Identifier">newComplex</span></a><span class="Other">(</span><span class="Identifier">fre</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">;</span> <span class="Identifier">fim</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Complex value from real + imaginary parts (Value)
 
 </dd>
 </div>
@@ -1919,7 +1943,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">proc</span> <a href="#newDatabase"><span class="Identifier">newDatabase</span></a><span class="Other">(</span><span class="Identifier">db</span><span class="Other">:</span> <span class="Identifier">sqlite</span><span class="Other">.</span><span class="Identifier">DbConn</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Database value from DbConn
 
 </dd>
 </div>
@@ -1928,7 +1952,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Date value from DateTime
 
 </dd>
 </div>
@@ -1937,7 +1961,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Dictionary value from ValueDict
 
 </dd>
 </div>
@@ -1946,7 +1970,7 @@ window.addEventListener('DOMContentLoaded', main);
                                     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Floating value from float
 
 </dd>
 </div>
@@ -1954,7 +1978,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newFloating%2Cint"><span class="Identifier">newFloating</span></a><span class="Other">(</span><span class="Identifier">f</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span class="Identifier">enforceNoRaises</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Floating value from int
 
 </dd>
 </div>
@@ -1962,7 +1986,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">proc</span> <a href="#newFloating%2Cstring"><span class="Identifier">newFloating</span></a><span class="Other">(</span><span class="Identifier">f</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">ValueError</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Floating value from string
 
 </dd>
 </div>
@@ -1973,7 +1997,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Function (UserFunction) value with given parameters, <tt class="docutils literal"><span class="pre">main</span></tt> body, etc
 
 </dd>
 </div>
@@ -1982,7 +2006,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">enforceNoRaises</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Inline value from ValueArray
 
 </dd>
 </div>
@@ -1998,7 +2022,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newInteger%2Cint_2"><span class="Identifier">newInteger</span></a><span class="Other">(</span><span class="Identifier">i</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span class="Identifier">enforceNoRaises</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Integer value from int
 
 </dd>
 </div>
@@ -2006,7 +2030,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newInteger%2Cint64"><span class="Identifier">newInteger</span></a><span class="Other">(</span><span class="Identifier">i</span><span class="Other">:</span> <span class="Identifier">int64</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span class="Identifier">enforceNoRaises</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Integer value from int64
 
 </dd>
 </div>
@@ -2015,7 +2039,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">ValueError</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Integer value from string
 
 </dd>
 </div>
@@ -2023,7 +2047,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newIntegerBlock%2Csinkseq%5BT%5D"><span class="Identifier">newIntegerBlock</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">a</span><span class="Other">:</span> <span class="Identifier">sink</span> <span class="Identifier">seq</span><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span class="Identifier">enforceNoRaises</span>.}</pre></dt>
 <dd>
 
-
+create Block value from an array of ints
 
 </dd>
 </div>
@@ -2032,7 +2056,7 @@ window.addEventListener('DOMContentLoaded', main);
                                        <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Label value from string
 
 </dd>
 </div>
@@ -2041,7 +2065,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Literal value from string
 
 </dd>
 </div>
@@ -2066,7 +2090,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">proc</span> <a href="#newLogical%2Cint"><span class="Identifier">newLogical</span></a><span class="Other">(</span><span class="Identifier">i</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span class="Identifier">enforceNoRaises</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Logical value from int
 
 </dd>
 </div>
@@ -2075,7 +2099,7 @@ window.addEventListener('DOMContentLoaded', main);
                                     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Logical value from string
 
 </dd>
 </div>
@@ -2083,7 +2107,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newNewline%2Cint"><span class="Identifier">newNewline</span></a><span class="Other">(</span><span class="Identifier">l</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span class="Identifier">enforceNoRaises</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Newline value with given line number
 
 </dd>
 </div>
@@ -2094,7 +2118,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Object value from ValueArray with given prototype and initializer function
 
 </dd>
 </div>
@@ -2105,7 +2129,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Object value from ValueDict with given prototype and initializer function, using another object <tt class="docutils literal"><span class="pre">o</span></tt> as a parent object
 
 </dd>
 </div>
@@ -2114,7 +2138,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">inline</span><span class="Other">,</span> <span class="Identifier">enforceNoRaises</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Object value from ValueDict with given prototype
 
 </dd>
 </div>
@@ -2123,7 +2147,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Path value from ValueArray
 
 </dd>
 </div>
@@ -2132,7 +2156,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create PathLabel value from ValueArray
 
 </dd>
 </div>
@@ -2141,7 +2165,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Quantity value from numerica value <tt class="docutils literal"><span class="pre">nm</span></tt> (Value) + unit <tt class="docutils literal"><span class="pre">name</span></tt> (UnitName)
 
 </dd>
 </div>
@@ -2150,7 +2174,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Quantity value from numerica value <tt class="docutils literal"><span class="pre">nm</span></tt> (Value) + <tt class="docutils literal"><span class="pre">unit</span></tt> (VQuantity)
 
 </dd>
 </div>
@@ -2158,7 +2182,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newRational%2Cfloat"><span class="Identifier">newRational</span></a><span class="Other">(</span><span class="Identifier">n</span><span class="Other">:</span> <span class="Identifier">float</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Rational value from float
 
 </dd>
 </div>
@@ -2166,7 +2190,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newRational%2Cint"><span class="Identifier">newRational</span></a><span class="Other">(</span><span class="Identifier">n</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Rational value from int
 
 </dd>
 </div>
@@ -2174,7 +2198,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newRational%2Cint%2Cint"><span class="Identifier">newRational</span></a><span class="Other">(</span><span class="Identifier">num</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">;</span> <span class="Identifier">den</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Rational value from numerator + denominator (int)
 
 </dd>
 </div>
@@ -2183,7 +2207,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Rational value from numerator + denominator (Value)
 
 </dd>
 </div>
@@ -2192,7 +2216,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Rational value from VRational
 
 </dd>
 </div>
@@ -2201,7 +2225,7 @@ window.addEventListener('DOMContentLoaded', main);
                                         <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Regex value from VRegex
 
 </dd>
 </div>
@@ -2210,7 +2234,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">StudyError</span><span class="Other">,</span> <span class="Identifier">ValueError</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Regex value from string
 
 </dd>
 </div>
@@ -2219,7 +2243,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">enforceNoRaises</span>.}</pre></dt>
 <dd>
 
-
+create String value from cstring
 
 </dd>
 </div>
@@ -2228,7 +2252,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">enforceNoRaises</span>.}</pre></dt>
 <dd>
 
-
+create String value from string
 
 </dd>
 </div>
@@ -2237,7 +2261,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Block value from an array of cstrings
 
 </dd>
 </div>
@@ -2246,7 +2270,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Block value from an array of strings
 
 </dd>
 </div>
@@ -2254,7 +2278,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">proc</span> <a href="#newStringDictionary%2CTable%5Bstring%2Cstring%5D"><span class="Identifier">newStringDictionary</span></a><span class="Other">(</span><span class="Identifier">a</span><span class="Other">:</span> <span class="Identifier">Table</span><span class="Other">[</span><span class="Identifier">string</span><span class="Other">,</span> <span class="Identifier">string</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Dictionary value from a string-string Table
 
 </dd>
 </div>
@@ -2263,7 +2287,7 @@ window.addEventListener('DOMContentLoaded', main);
                          <span class="Identifier">collapseBlocks</span> <span class="Other">=</span> <span class="Identifier">false</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Dictionary value from a string-seq[string] TableRef
 
 </dd>
 </div>
@@ -2271,7 +2295,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newSymbol%2Csinkstring"><span class="Identifier">newSymbol</span></a><span class="Other">(</span><span class="Identifier">m</span><span class="Other">:</span> <span class="Identifier">sink</span> <span class="Identifier">string</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">ValueError</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Symbol value from string
 
 </dd>
 </div>
@@ -2280,7 +2304,7 @@ window.addEventListener('DOMContentLoaded', main);
                                     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Symbol value from VSymbol
 
 </dd>
 </div>
@@ -2288,7 +2312,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newSymbolLiteral%2Cstring"><span class="Identifier">newSymbolLiteral</span></a><span class="Other">(</span><span class="Identifier">m</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">ValueError</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create SymbolLiteral value from string
 
 </dd>
 </div>
@@ -2297,7 +2321,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create SymbolLiteral value from VSymbol
 
 </dd>
 </div>
@@ -2305,7 +2329,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">proc</span> <a href="#newType%2Cstring"><span class="Identifier">newType</span></a><span class="Other">(</span><span class="Identifier">t</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Type value from string
 
 </dd>
 </div>
@@ -2314,7 +2338,7 @@ window.addEventListener('DOMContentLoaded', main);
                                     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Type (BuiltinType) value from ValueKind
 
 </dd>
 </div>
@@ -2323,7 +2347,7 @@ window.addEventListener('DOMContentLoaded', main);
     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Type (UserType) value from string
 
 </dd>
 </div>
@@ -2331,7 +2355,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#newVersion%2Cstring"><span class="Identifier">newVersion</span></a><span class="Other">(</span><span class="Identifier">v</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">)</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">ValueError</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+create Version value from string
 
 </dd>
 </div>
@@ -2340,23 +2364,7 @@ window.addEventListener('DOMContentLoaded', main);
                                       <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
-
-</dd>
-</div>
-<div id="safeMulI,T,T">
-<dt><pre><span class="Keyword">proc</span> <a href="#safeMulI%2CT%2CT"><span class="Identifier">safeMulI</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeInteger</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">x</span><span class="Other">:</span> <span class="Keyword">var</span> <span class="Identifier">T</span><span class="Other">;</span> <span class="Identifier">y</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">)</span> {.<span class="Identifier">inline</span><span class="Other">,</span> <span class="Identifier">noSideEffect</span>.}</pre></dt>
-<dd>
-
-
-
-</dd>
-</div>
-<div id="safePow,T,Natural">
-<dt><pre><span class="Keyword">func</span> <a href="#safePow%2CT%2CNatural"><span class="Identifier">safePow</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">:</span> <span class="Identifier">SomeNumber</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">x</span><span class="Other">:</span> <span class="Identifier">T</span><span class="Other">;</span> <span class="Identifier">y</span><span class="Other">:</span> <span class="Identifier">Natural</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">T</span></pre></dt>
-<dd>
-
-
+create Word value from string
 
 </dd>
 </div>
@@ -2364,7 +2372,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">func</span> <a href="#sameValue%2CValue%2CValue"><span class="Identifier">sameValue</span></a><span class="Other">(</span><span class="Identifier">x</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">;</span> <span class="Identifier">y</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">bool</span> {.<span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">KeyError</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+check if the given values are same
 
 </dd>
 </div>
@@ -2373,6 +2381,8 @@ window.addEventListener('DOMContentLoaded', main);
                                        <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">ValueError</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
+<p>get numeric value forcefully as a string</p>
+<p><strong>Hint:</strong> We have to make sure the value is either an Integer, Floating, Rational or Complex value</p>
 
 
 </dd>
@@ -2386,7 +2396,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">template</span> <a href="#isNothing.t%2CValue"><span class="Identifier">isNothing</span></a><span class="Other">(</span><span class="Identifier">v</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">bool</span></pre></dt>
 <dd>
 
-
+check if given value is Nothing
 
 </dd>
 </div>
@@ -2394,7 +2404,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">template</span> <a href="#isNull.t%2CValue"><span class="Identifier">isNull</span></a><span class="Other">(</span><span class="Identifier">v</span><span class="Other">:</span> <a href="types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">bool</span></pre></dt>
 <dd>
 
-
+check if given value is Null
 
 </dd>
 </div>
@@ -2429,7 +2439,7 @@ window.addEventListener('DOMContentLoaded', main);
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br/>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2022-10-22 11:45:22 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2022-10-22 13:12:37 UTC</small>
       </div>
     </div>
   </div>
