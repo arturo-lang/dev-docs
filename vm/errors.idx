@@ -7,12 +7,10 @@ AssertionError	vm/errors.html#AssertionError	errors: AssertionError
 SyntaxError	vm/errors.html#SyntaxError	errors: SyntaxError	
 ProgramError	vm/errors.html#ProgramError	errors: ProgramError	
 CompilerError	vm/errors.html#CompilerError	errors: CompilerError	
-Alternative	vm/errors.html#Alternative	errors: Alternative	
 CurrentFile	vm/errors.html#CurrentFile	errors: CurrentFile	
 CurrentPath	vm/errors.html#CurrentPath	errors: CurrentPath	
 CurrentLine	vm/errors.html#CurrentLine	errors: CurrentLine	
 ExecStack	vm/errors.html#ExecStack	errors: ExecStack	
-getLineError	vm/errors.html#getLineError	errors: getLineError(): string	
 panic	vm/errors.html#panic,string,string	errors: panic(context: string; error: string; throw = true)	
 showVMErrors	vm/errors.html#showVMErrors,ref.Exception	errors: showVMErrors(e: ref Exception)	
 CompilerError_ScriptNotExists	vm/errors.html#CompilerError_ScriptNotExists,string	errors: CompilerError_ScriptNotExists(name: string)	

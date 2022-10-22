@@ -131,11 +131,6 @@ window.addEventListener('DOMContentLoaded', main);
     title="showInPlaceError(varname: string)">showInPlaceError(varname: string)</a></li>
 
   </ul>
-  <ul class="simple nested-toc-section">suggestAlternative
-      <li><a class="reference" href="#suggestAlternative%2Cstring%2CValueDict"
-    title="suggestAlternative(s: string; reference: ValueDict = Syms): seq[string]">suggestAlternative(s: string; reference: ValueDict = Syms): seq[string]</a></li>
-
-  </ul>
 
   </ul>
 </li>
@@ -216,7 +211,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="globals.html#Aliases"><span class="Identifier">Aliases</span></a><span class="Other">:</span> <a href="values/types.html#SymbolDict"><span class="Identifier">SymbolDict</span></a></pre></dt>
 <dd>
 
-
+The symbol aliases: all the symbols with all their associated variables they point to
 
 </dd>
 </div>
@@ -224,7 +219,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="globals.html#Arities"><span class="Identifier">Arities</span></a><span class="Other">:</span> <span class="Identifier">Table</span><span class="Other">[</span><span class="Identifier">string</span><span class="Other">,</span> <span class="Identifier">int</span><span class="Other">]</span></pre></dt>
 <dd>
 
-
+The arity table: a simple association of function names with the arity of the function they represent
 
 </dd>
 </div>
@@ -232,7 +227,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="globals.html#Libraries"><span class="Identifier">Libraries</span></a><span class="Other">:</span> <span class="Identifier">seq</span><span class="Other">[</span><a href="values/types.html#BuiltinAction"><span class="Identifier">BuiltinAction</span></a><span class="Other">]</span></pre></dt>
 <dd>
 
-
+The list of all builtin libraries to be imported at startup
 
 </dd>
 </div>
@@ -240,7 +235,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="globals.html#Syms"><span class="Identifier">Syms</span></a><span class="Other">:</span> <a href="values/types.html#ValueDict"><span class="Identifier">ValueDict</span></a></pre></dt>
 <dd>
 
-
+The symbol table: all the variables with their associated values
 
 </dd>
 </div>
@@ -265,15 +260,6 @@ Checks if a symbol name exists in the symbol table<ul class="simple"><li>if it d
 <dd>
 
 Show error in case <tt class="docutils literal"><span class="pre"><span class="Identifier">ensureInPlace</span></span></tt> fails
-
-</dd>
-</div>
-<div id="suggestAlternative,string,ValueDict">
-<dt><pre><span class="Keyword">func</span> <a href="#suggestAlternative%2Cstring%2CValueDict"><span class="Identifier">suggestAlternative</span></a><span class="Other">(</span><span class="Identifier">s</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">;</span> <span class="Identifier">reference</span><span class="Other">:</span> <a href="values/types.html#ValueDict"><span class="Identifier">ValueDict</span></a> <span class="Other">=</span> <span class="Identifier">Syms</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">seq</span><span class="Other">[</span><span class="Identifier">string</span><span class="Other">]</span> {.
-    <span class="Identifier">inline</span><span class="Other">,</span> <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
-<dd>
-
-
 
 </dd>
 </div>
@@ -313,9 +299,8 @@ Checks if a symbol name exists in given dictionary<ul class="simple"><li>if it d
 <dt><pre><span class="Keyword">template</span> <a href="#GetSym.t%2Cstring"><span class="Identifier">GetSym</span></a><span class="Other">(</span><span class="Identifier">s</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">untyped</span></pre></dt>
 <dd>
 
-Get value for given symbol in table<dl class="docutils"><dt>Hint: if the key doesn't exist, it will throw an error</dt>
-<dd>so, we have to make sure we know it exists beforehand</dd>
-</dl>
+<p>Get value for given symbol in table</p>
+<p><strong>Hint:</strong> if the key doesn't exist, it will throw an error; so, we have to make sure we know it exists beforehand</p>
 
 
 </dd>
@@ -324,7 +309,9 @@ Get value for given symbol in table<dl class="docutils"><dt>Hint: if the key doe
 <dt><pre><span class="Keyword">template</span> <a href="#InPlaced.t"><span class="Identifier">InPlaced</span></a><span class="Other">(</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">untyped</span></pre></dt>
 <dd>
 
-Get access to InPlaced symbol with Hint: always after having called <tt class="docutils literal"><span class="pre"><span class="Identifier">ensureInPlace</span></span></tt> first!
+<p>Get access to InPlaced symbol</p>
+<p><strong>Hint:</strong> always after having called <tt class="docutils literal"><span class="pre"><span class="Identifier">ensureInPlace</span></span></tt> first!</p>
+
 
 </dd>
 </div>
@@ -332,9 +319,8 @@ Get access to InPlaced symbol with Hint: always after having called <tt class="d
 <dt><pre><span class="Keyword">template</span> <a href="#RawInPlaced.t"><span class="Identifier">RawInPlaced</span></a><span class="Other">(</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">untyped</span></pre></dt>
 <dd>
 
-Get InPlaced symbol without any checks<dl class="docutils"><dt>Hint: if the key doesn't exist, it will throw an error</dt>
-<dd>so, we have to make sure we know it exists beforehand</dd>
-</dl>
+<p>Get InPlaced symbol without any checks</p>
+<p><strong>Hint:</strong> if the key doesn't exist, it will throw an error; so, we have to make sure we know it exists beforehand</p>
 
 
 </dd>
@@ -381,7 +367,7 @@ Checks if a symbol name exists in the symbol table
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br/>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2022-10-21 16:14:18 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2022-10-22 11:45:22 UTC</small>
       </div>
     </div>
   </div>

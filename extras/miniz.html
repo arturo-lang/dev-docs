@@ -98,7 +98,6 @@ window.addEventListener('DOMContentLoaded', main);
     </select>
   </div>
   <ul class="simple simple-toc" id="toc-list">
-<li><a class="reference" id="public-library_toc" href="#public-library">Public Library</a></li>
 <li>
   <a class="reference reference-toplevel" href="#7" id="57">Types</a>
   <ul class="simple simple-toc-section">
@@ -190,8 +189,8 @@ window.addEventListener('DOMContentLoaded', main);
   m_version_made_by*: mz_uint16
   m_version_needed*: mz_uint16
   m_bit_flag*: mz_uint16
-  m_method*: mz_uint16       ## ifndef MINIZ_NO_TIME
-  m_time*: time_t            ## endif
+  m_method*: mz_uint16
+  m_time*: time_t
   m_crc32*: mz_uint32
   m_comp_size*: mz_uint64
   m_uncomp_size*: mz_uint64
@@ -1176,8 +1175,7 @@ window.addEventListener('DOMContentLoaded', main);
   <div class="nine columns" id="content">
   <div id="tocRoot"></div>
   
-  <p class="module-desc">define tinfl_init(r) do { (r)-&gt;m_state = 0; } MZ_MACRO_END
-<h1><a class="toc-backref" id="public-library" href="#public-library">Public Library</a></h1></p>
+  <p class="module-desc"></p>
   <div class="section" id="7">
 <h1><a class="toc-backref" href="#7">Types</a></h1>
 <dl class="item">
@@ -1421,8 +1419,8 @@ window.addEventListener('DOMContentLoaded', main);
   <span class="Identifier">m_version_made_by</span><span class="Operator">*</span><span class="Other">:</span> <a href="miniz.html#mz_uint16"><span class="Identifier">mz_uint16</span></a>
   <span class="Identifier">m_version_needed</span><span class="Operator">*</span><span class="Other">:</span> <a href="miniz.html#mz_uint16"><span class="Identifier">mz_uint16</span></a>
   <span class="Identifier">m_bit_flag</span><span class="Operator">*</span><span class="Other">:</span> <a href="miniz.html#mz_uint16"><span class="Identifier">mz_uint16</span></a>
-  <span class="Identifier">m_method</span><span class="Operator">*</span><span class="Other">:</span> <a href="miniz.html#mz_uint16"><span class="Identifier">mz_uint16</span></a>       <span class="Comment">## ifndef MINIZ_NO_TIME</span>
-  <span class="Identifier">m_time</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">time_t</span>            <span class="Comment">## endif</span>
+  <span class="Identifier">m_method</span><span class="Operator">*</span><span class="Other">:</span> <a href="miniz.html#mz_uint16"><span class="Identifier">mz_uint16</span></a>
+  <span class="Identifier">m_time</span><span class="Operator">*</span><span class="Other">:</span> <span class="Identifier">time_t</span>
   <span class="Identifier">m_crc32</span><span class="Operator">*</span><span class="Other">:</span> <a href="miniz.html#mz_uint32"><span class="Identifier">mz_uint32</span></a>
   <span class="Identifier">m_comp_size</span><span class="Operator">*</span><span class="Other">:</span> <a href="miniz.html#mz_uint64"><span class="Identifier">mz_uint64</span></a>
   <span class="Identifier">m_uncomp_size</span><span class="Operator">*</span><span class="Other">:</span> <a href="miniz.html#mz_uint64"><span class="Identifier">mz_uint64</span></a>
@@ -3625,7 +3623,7 @@ yield each path to each file in the archive
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br/>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2022-10-21 16:14:13 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2022-10-22 11:45:20 UTC</small>
       </div>
     </div>
   </div>

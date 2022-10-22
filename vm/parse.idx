@@ -1,9 +1,2 @@
-Parser	vm/parse.html#Parser	parse: Parser	
-AddToken	vm/parse.html#AddToken.t,untyped	parse: AddToken(token: untyped): untyped	
-LastToken	vm/parse.html#LastToken.t	parse: LastToken(): untyped	
-ReplaceLastToken	vm/parse.html#ReplaceLastToken.t,untyped	parse: ReplaceLastToken(with: untyped): untyped	
-stripTrailingNewlines	vm/parse.html#stripTrailingNewlines.t	parse: stripTrailingNewlines(): untyped	
-getContext	vm/parse.html#getContext,Parser,int	parse: getContext(p: var Parser; curPos: int): string	
-parseBlock	vm/parse.html#parseBlock,Parser,int,bool	parse: parseBlock(p: var Parser; level: int; isDeferred: bool = true): Value	
 parseDataBlock	vm/parse.html#parseDataBlock,Value	parse: parseDataBlock(blk: Value): Value	
 doParse	vm/parse.html#doParse,string,bool	parse: doParse(input: string; isFile: bool = true): Value	

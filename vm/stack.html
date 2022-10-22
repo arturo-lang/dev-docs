@@ -119,9 +119,7 @@ window.addEventListener('DOMContentLoaded', main);
 <li>
   <a class="reference reference-toplevel" href="#10" id="60">Consts</a>
   <ul class="simple simple-toc-section">
-      <li><a class="reference" href="#AttrsSize"
-    title="AttrsSize = 10">AttrsSize</a></li>
-  <li><a class="reference" href="#StackSize"
+      <li><a class="reference" href="#StackSize"
     title="StackSize = 100000">StackSize</a></li>
 
   </ul>
@@ -244,7 +242,7 @@ window.addEventListener('DOMContentLoaded', main);
   <div class="nine columns" id="content">
   <div id="tocRoot"></div>
   
-  <p class="module-desc">Stack implementation for the VMMain stackAttributes stack</p>
+  <p class="module-desc">Stack implementation for the VM</p>
   <div class="section" id="6">
 <h1><a class="toc-backref" href="#6">Imports</a></h1>
 <dl class="item">
@@ -257,7 +255,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="stack.html#Attrs"><span class="Identifier">Attrs</span></a><span class="Other">:</span> <span class="Identifier">OrderedTable</span><span class="Other">[</span><span class="Identifier">string</span><span class="Other">,</span> <a href="values/types.html#Value"><span class="Identifier">Value</span></a><span class="Other">]</span></pre></dt>
 <dd>
 
-
+The attributes table
 
 </dd>
 </div>
@@ -265,7 +263,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="stack.html#SP"><span class="Identifier">SP</span></a><span class="Other">:</span> <span class="Identifier">int</span></pre></dt>
 <dd>
 
-
+The main stack pointer
 
 </dd>
 </div>
@@ -273,7 +271,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><a href="stack.html#Stack"><span class="Identifier">Stack</span></a><span class="Other">:</span> <span class="Identifier">seq</span><span class="Other">[</span><a href="values/types.html#Value"><span class="Identifier">Value</span></a><span class="Other">]</span></pre></dt>
 <dd>
 
-
+The main stack
 
 </dd>
 </div>
@@ -282,19 +280,11 @@ window.addEventListener('DOMContentLoaded', main);
 <div class="section" id="10">
 <h1><a class="toc-backref" href="#10">Consts</a></h1>
 <dl class="item">
-<div id="AttrsSize">
-<dt><pre><a href="stack.html#AttrsSize"><span class="Identifier">AttrsSize</span></a> <span class="Other">=</span> <span class="DecNumber">10</span></pre></dt>
-<dd>
-
-
-
-</dd>
-</div>
 <div id="StackSize">
 <dt><pre><a href="stack.html#StackSize"><span class="Identifier">StackSize</span></a> <span class="Other">=</span> <span class="DecNumber">100000</span></pre></dt>
 <dd>
 
-
+The initial stack size
 
 </dd>
 </div>
@@ -308,6 +298,8 @@ window.addEventListener('DOMContentLoaded', main);
                                     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
+<p>get attribute <tt class="docutils literal"><span class="pre">attr</span></tt> from the attributes table</p>
+<p><strong>Hint:</strong> Returns <tt class="docutils literal"><span class="pre">VNULL</span></tt> if attribute doesn't exist</p>
 
 
 </dd>
@@ -316,7 +308,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">proc</span> <a href="#getAttrsDict"><span class="Identifier">getAttrsDict</span></a><span class="Other">(</span><span class="Other">)</span><span class="Other">:</span> <a href="values/types.html#Value"><span class="Identifier">Value</span></a> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
-
+get the attributes table as a Dictionary value
 
 </dd>
 </div>
@@ -325,6 +317,8 @@ window.addEventListener('DOMContentLoaded', main);
                                     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
+<p>pop attribute <tt class="docutils literal"><span class="pre">attr</span></tt> from the attributes table</p>
+<p><strong>Hint:</strong> Returns <tt class="docutils literal"><span class="pre">nil</span></tt> if attribute doesn't exist</p>
 
 
 </dd>
@@ -338,6 +332,8 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">macro</span> <a href="#checkAttr.m%2Cuntyped"><span class="Identifier">checkAttr</span></a><span class="Other">(</span><span class="Identifier">name</span><span class="Other">:</span> <span class="Identifier">untyped</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">untyped</span></pre></dt>
 <dd>
 
+<p>check if attribute <tt class="docutils literal"><span class="pre">name</span></tt> exists in the attributes table</p>
+<p><strong>Hint:</strong> To be normally used with <tt class="docutils literal"><span class="pre">if</span></tt> statements (as a condition)</p>
 
 
 </dd>
@@ -351,7 +347,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">template</span> <a href="#createAttrsStack.t"><span class="Identifier">createAttrsStack</span></a><span class="Other">(</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+initialize the attributes table
 
 </dd>
 </div>
@@ -359,7 +355,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">template</span> <a href="#createMainStack.t"><span class="Identifier">createMainStack</span></a><span class="Other">(</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+initialize the main stack
 
 </dd>
 </div>
@@ -367,7 +363,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">template</span> <a href="#emptyAttrs.t"><span class="Identifier">emptyAttrs</span></a><span class="Other">(</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+empty the attributes table
 
 </dd>
 </div>
@@ -375,6 +371,8 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">template</span> <a href="#emptyStack.t"><span class="Identifier">emptyStack</span></a><span class="Other">(</span><span class="Other">)</span></pre></dt>
 <dd>
 
+<p>empty the stack</p>
+<p><strong>Hint:</strong> This doesn't involve deleting any elements; all this does is to reset the stack pointer to zero</p>
 
 
 </dd>
@@ -383,7 +381,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">template</span> <a href="#hadAttr.t%2Cstring"><span class="Identifier">hadAttr</span></a><span class="Other">(</span><span class="Identifier">attr</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">bool</span></pre></dt>
 <dd>
 
-
+check if attribute <tt class="docutils literal"><span class="pre">attr</span></tt> exists in the attributes table and pop it, if it does
 
 </dd>
 </div>
@@ -391,7 +389,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">template</span> <a href="#peek.t%2Cint"><span class="Identifier">peek</span></a><span class="Other">(</span><span class="Identifier">pos</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">)</span><span class="Other">:</span> <a href="values/types.html#Value"><span class="Identifier">Value</span></a></pre></dt>
 <dd>
 
-
+return last <tt class="docutils literal"><span class="pre">pos</span></tt> value from the stack, without popping it
 
 </dd>
 </div>
@@ -399,7 +397,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">template</span> <a href="#peekRange.t%2Cint%2Cint"><span class="Identifier">peekRange</span></a><span class="Other">(</span><span class="Identifier">posFrom</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">;</span> <span class="Identifier">posTo</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">)</span><span class="Other">:</span> <a href="values/types.html#ValueArray"><span class="Identifier">ValueArray</span></a></pre></dt>
 <dd>
 
-
+return a range of values from the stack, using <tt class="docutils literal"><span class="pre">posFrom</span></tt> and <tt class="docutils literal"><span class="pre">posTo</span></tt> as index delimiters, without popping them
 
 </dd>
 </div>
@@ -407,7 +405,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">template</span> <a href="#pop.t"><span class="Identifier">pop</span></a><span class="Other">(</span><span class="Other">)</span><span class="Other">:</span> <a href="values/types.html#Value"><span class="Identifier">Value</span></a></pre></dt>
 <dd>
 
-
+pop last value from the stack
 
 </dd>
 </div>
@@ -415,6 +413,8 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">template</span> <a href="#popN.t%2Cint"><span class="Identifier">popN</span></a><span class="Other">(</span><span class="Identifier">n</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">)</span></pre></dt>
 <dd>
 
+<p>simulate popping <tt class="docutils literal"><span class="pre">n</span></tt> values from the stack</p>
+<p><strong>Hint</strong>: This doesn't return any value whatsoever; all it does is decrease the stack pointer accordingly</p>
 
 
 </dd>
@@ -423,7 +423,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">template</span> <a href="#push.t%2CValue"><span class="Identifier">push</span></a><span class="Other">(</span><span class="Identifier">v</span><span class="Other">:</span> <a href="values/types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span></pre></dt>
 <dd>
 
-
+push given value onto the stack
 
 </dd>
 </div>
@@ -431,7 +431,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">template</span> <a href="#push.t%2CValueArray%2Cint%2Cint"><span class="Identifier">push</span></a><span class="Other">(</span><span class="Identifier">v</span><span class="Other">:</span> <a href="values/types.html#ValueArray"><span class="Identifier">ValueArray</span></a><span class="Other">;</span> <span class="Identifier">a</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">;</span> <span class="Identifier">b</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">;</span> <span class="Identifier">reversed</span> <span class="Other">=</span> <span class="Identifier">false</span><span class="Other">;</span> <span class="Identifier">doMove</span> <span class="Other">=</span> <span class="Identifier">false</span><span class="Other">)</span></pre></dt>
 <dd>
 
-
+push values from given array onto the stack, using <tt class="docutils literal"><span class="pre">a</span></tt> and <tt class="docutils literal"><span class="pre">b</span></tt> as index delimiters
 
 </dd>
 </div>
@@ -439,7 +439,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">template</span> <a href="#pushAttr.t%2Cstring%2CValue"><span class="Identifier">pushAttr</span></a><span class="Other">(</span><span class="Identifier">label</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">;</span> <span class="Identifier">v</span><span class="Other">:</span> <a href="values/types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span></pre></dt>
 <dd>
 
-
+set attribute <tt class="docutils literal"><span class="pre">label</span></tt> to given value
 
 </dd>
 </div>
@@ -447,7 +447,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">template</span> <a href="#squeeze.t%2Cint%2CValue"><span class="Identifier">squeeze</span></a><span class="Other">(</span><span class="Identifier">pos</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">;</span> <span class="Identifier">v</span><span class="Other">:</span> <a href="values/types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span></pre></dt>
 <dd>
 
-
+forcefully insert given value at given position in the stack (<tt class="docutils literal"><span class="pre">pos</span></tt> being the distance from the top of the stack)
 
 </dd>
 </div>
@@ -455,7 +455,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">template</span> <a href="#sTop.t"><span class="Identifier">sTop</span></a><span class="Other">(</span><span class="Other">)</span><span class="Other">:</span> <a href="values/types.html#Value"><span class="Identifier">Value</span></a></pre></dt>
 <dd>
 
-
+get top-most value from the stack
 
 </dd>
 </div>
@@ -463,7 +463,7 @@ window.addEventListener('DOMContentLoaded', main);
 <dt><pre><span class="Keyword">template</span> <a href="#sTopsFrom.t%2Cint"><span class="Identifier">sTopsFrom</span></a><span class="Other">(</span><span class="Identifier">start</span><span class="Other">:</span> <span class="Identifier">int</span><span class="Other">)</span><span class="Other">:</span> <a href="values/types.html#ValueArray"><span class="Identifier">ValueArray</span></a></pre></dt>
 <dd>
 
-
+return a range of values from the stack, using <tt class="docutils literal"><span class="pre">start</span></tt> as a starting index, without popping them
 
 </dd>
 </div>
@@ -477,7 +477,7 @@ window.addEventListener('DOMContentLoaded', main);
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br/>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2022-10-21 16:14:19 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2022-10-22 11:45:22 UTC</small>
       </div>
     </div>
   </div>

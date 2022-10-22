@@ -2,7 +2,6 @@ Syms	vm/globals.html#Syms	globals: Syms
 Aliases	vm/globals.html#Aliases	globals: Aliases	
 Arities	vm/globals.html#Arities	globals: Arities	
 Libraries	vm/globals.html#Libraries	globals: Libraries	
-suggestAlternative	vm/globals.html#suggestAlternative,string,ValueDict	globals: suggestAlternative(s: string; reference: ValueDict = Syms): seq[string]	
 GetKey	vm/globals.html#GetKey.t,ValueDict,string	globals: GetKey(dict: ValueDict; key: string): untyped	
 GetArrayIndex	vm/globals.html#GetArrayIndex.t,ValueArray,int	globals: GetArrayIndex(arr: ValueArray; indx: int): untyped	
 SetArrayIndex	vm/globals.html#SetArrayIndex.t,ValueArray,int,Value	globals: SetArrayIndex(arr: ValueArray; indx: int; v: Value): untyped	

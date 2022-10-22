@@ -1,8 +1,7 @@
 StackSize	vm/stack.html#StackSize	stack: StackSize	
-AttrsSize	vm/stack.html#AttrsSize	stack: AttrsSize	
 Stack	vm/stack.html#Stack	stack: Stack	
-Attrs	vm/stack.html#Attrs	stack: Attrs	
 SP	vm/stack.html#SP	stack: SP	
+Attrs	vm/stack.html#Attrs	stack: Attrs	
 push	vm/stack.html#push.t,Value	stack: push(v: Value)	
 push	vm/stack.html#push.t,ValueArray,int,int	stack: push(v: ValueArray; a: int; b: int; reversed = false; doMove = false)	
 pop	vm/stack.html#pop.t	stack: pop(): Value	

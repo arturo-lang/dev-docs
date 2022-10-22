@@ -1,12 +1,6 @@
-Memoizer	vm/exec.html#Memoizer	exec: Memoizer	
-CurrentDump	vm/exec.html#CurrentDump	exec: CurrentDump	
-setFunctionArity	vm/exec.html#setFunctionArity,string,Value	exec: setFunctionArity(funName: string; fun: Value)	
 doExec	vm/exec.html#doExec.t,Translation,Value	exec: doExec(input: Translation; args: Value = nil): ValueDict	
 callFunction	vm/exec.html#callFunction.t,Value,string	exec: callFunction(f: Value; fnName: string = &quot;&lt;closure&gt;&quot;): untyped	
-callByName	vm/exec.html#callByName.t,string	exec: callByName(symIndx: string): untyped	
 execIsolated	vm/exec.html#execIsolated.t,Translation	exec: execIsolated(evaled: Translation): untyped	
-getMemoized	vm/exec.html#getMemoized.t,string,Value	exec: getMemoized(fn: string; v: Value): Value	
-setMemoized	vm/exec.html#setMemoized.t,string,Value,Value	exec: setMemoized(fn: string; v: Value; res: Value)	
 execBlock	vm/exec.html#execBlock,Value,Value,staticbool,Translation,staticbool,staticbool,staticbool,Value,Value,bool,staticbool,Value,staticbool	exec: execBlock(blk: Value; args: Value = nil; hasArgs: static bool = false;\n          evaluated: Translation = nil; hasEval: static bool = false;\n          execInParent: static bool = false; isFuncBlock: static bool = false;\n          imports: Value = nil; exports: Value = nil; exportable: bool = false;\n          inTryBlock: static bool = false; memoized: Value = nil;\n          isMemoized: static bool = false)	
 execDictionaryBlock	vm/exec.html#execDictionaryBlock,Value	exec: execDictionaryBlock(blk: Value): ValueDict	
 execInternal	vm/exec.html#execInternal.t,string	exec: execInternal(path: string): untyped	

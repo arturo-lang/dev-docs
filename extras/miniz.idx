@@ -270,4 +270,3 @@ close	extras/miniz.html#close,Zip	miniz: close(zip: var Zip)
 pairs	extras/miniz.html#pairs.i,Zip	miniz: pairs(zip: var Zip): (int, string)	
 extract_file	extras/miniz.html#extract_file,Zip,string,string	miniz: extract_file(zip: var Zip; path: string; destDir: string = &quot;&quot;): string	
 extract_file_to_string	extras/miniz.html#extract_file_to_string,Zip,string	miniz: extract_file_to_string(zip: var Zip; path: string): string	
-Public Library	extras/miniz.html#public-library	 Public Library	

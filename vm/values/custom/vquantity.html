@@ -309,8 +309,10 @@ window.addEventListener('DOMContentLoaded', main);
 </div>
 <div id="getQuantityMultiplier,UnitName,UnitName">
 <dt><pre><span class="Keyword">proc</span> <a href="#getQuantityMultiplier%2CUnitName%2CUnitName"><span class="Identifier">getQuantityMultiplier</span></a><span class="Other">(</span><span class="Identifier">src</span><span class="Other">:</span> <a href="vquantity.html#UnitName"><span class="Identifier">UnitName</span></a><span class="Other">;</span> <span class="Identifier">tgt</span><span class="Other">:</span> <a href="vquantity.html#UnitName"><span class="Identifier">UnitName</span></a><span class="Other">;</span> <span class="Identifier">isCurrency</span> <span class="Other">=</span> <span class="Identifier">false</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">float</span> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span>
-    <span class="Identifier">ValueError</span><span class="Other">,</span> <span class="Identifier">Exception</span><span class="Other">,</span> <span class="Identifier">OSError</span><span class="Other">,</span> <span class="Identifier">IOError</span><span class="Other">,</span> <span class="Identifier">JsonParsingError</span><span class="Other">,</span> <span class="Identifier">KeyError</span><span class="Other">]</span><span class="Other">,</span>
-    <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">,</span> <span class="Identifier">TimeEffect</span><span class="Other">,</span> <span class="Identifier">ReadIOEffect</span><span class="Other">,</span> <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
+    <span class="Identifier">ValueError</span><span class="Other">,</span> <span class="Identifier">Exception</span><span class="Other">,</span> <span class="Identifier">OSError</span><span class="Other">,</span> <span class="Identifier">LibraryError</span><span class="Other">,</span> <span class="Identifier">SslError</span><span class="Other">,</span> <span class="Identifier">IOError</span><span class="Other">,</span>
+    <span class="Identifier">JsonParsingError</span><span class="Other">,</span> <span class="Identifier">KeyError</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">,</span> <span class="Identifier">TimeEffect</span><span class="Other">,</span> <span class="Identifier">ReadIOEffect</span><span class="Other">,</span>
+                                        <span class="Identifier">ReadDirEffect</span><span class="Other">,</span> <span class="Identifier">ReadEnvEffect</span><span class="Other">,</span>
+                                        <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
 
@@ -319,8 +321,10 @@ window.addEventListener('DOMContentLoaded', main);
 </div>
 <div id="getQuantityMultiplier,VQuantity,VQuantity">
 <dt><pre><span class="Keyword">proc</span> <a href="#getQuantityMultiplier%2CVQuantity%2CVQuantity"><span class="Identifier">getQuantityMultiplier</span></a><span class="Other">(</span><span class="Identifier">src</span><span class="Other">:</span> <a href="vquantity.html#VQuantity"><span class="Identifier">VQuantity</span></a><span class="Other">;</span> <span class="Identifier">tgt</span><span class="Other">:</span> <a href="vquantity.html#VQuantity"><span class="Identifier">VQuantity</span></a><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">float</span> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span>
-    <span class="Identifier">ValueError</span><span class="Other">,</span> <span class="Identifier">Exception</span><span class="Other">,</span> <span class="Identifier">OSError</span><span class="Other">,</span> <span class="Identifier">IOError</span><span class="Other">,</span> <span class="Identifier">JsonParsingError</span><span class="Other">,</span> <span class="Identifier">KeyError</span><span class="Other">]</span><span class="Other">,</span>
-    <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">,</span> <span class="Identifier">TimeEffect</span><span class="Other">,</span> <span class="Identifier">ReadIOEffect</span><span class="Other">,</span> <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
+    <span class="Identifier">ValueError</span><span class="Other">,</span> <span class="Identifier">Exception</span><span class="Other">,</span> <span class="Identifier">OSError</span><span class="Other">,</span> <span class="Identifier">LibraryError</span><span class="Other">,</span> <span class="Identifier">SslError</span><span class="Other">,</span> <span class="Identifier">IOError</span><span class="Other">,</span>
+    <span class="Identifier">JsonParsingError</span><span class="Other">,</span> <span class="Identifier">KeyError</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">,</span> <span class="Identifier">TimeEffect</span><span class="Other">,</span> <span class="Identifier">ReadIOEffect</span><span class="Other">,</span>
+                                        <span class="Identifier">ReadDirEffect</span><span class="Other">,</span> <span class="Identifier">ReadEnvEffect</span><span class="Other">,</span>
+                                        <span class="Identifier">WriteIOEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
 
@@ -377,7 +381,7 @@ window.addEventListener('DOMContentLoaded', main);
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br/>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2022-10-21 16:14:17 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2022-10-22 11:45:22 UTC</small>
       </div>
     </div>
   </div>
