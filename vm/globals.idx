@@ -2,6 +2,7 @@ Syms	vm/globals.html#Syms	globals: Syms
 Aliases	vm/globals.html#Aliases	globals: Aliases	
 Arities	vm/globals.html#Arities	globals: Arities	
 Libraries	vm/globals.html#Libraries	globals: Libraries	
+DictSyms	vm/globals.html#DictSyms	globals: DictSyms	
 GetKey	vm/globals.html#GetKey.t,ValueDict,string	globals: GetKey(dict: ValueDict; key: string): untyped	
 GetArrayIndex	vm/globals.html#GetArrayIndex.t,ValueArray,int	globals: GetArrayIndex(arr: ValueArray; indx: int): untyped	
 SetArrayIndex	vm/globals.html#SetArrayIndex.t,ValueArray,int,Value	globals: SetArrayIndex(arr: ValueArray; indx: int; v: Value): untyped	
@@ -9,6 +10,7 @@ SymExists	vm/globals.html#SymExists.t,string	globals: SymExists(s: string): unty
 FetchSym	vm/globals.html#FetchSym,string,staticbool	globals: FetchSym(s: string; unsafe: static bool = false): Value	
 GetSym	vm/globals.html#GetSym.t,string	globals: GetSym(s: string): untyped	
 SetSym	vm/globals.html#SetSym.t,string,Value,staticbool	globals: SetSym(s: string; v: Value; safe: static bool = false): untyped	
+SetDictSym	vm/globals.html#SetDictSym.t,string,Value,staticbool	globals: SetDictSym(s: string; v: Value; safe: static bool = false): untyped	
 RawInPlaced	vm/globals.html#RawInPlaced.t	globals: RawInPlaced(): untyped	
 InPlaced	vm/globals.html#InPlaced.t	globals: InPlaced(): untyped	
 showInPlaceError	vm/globals.html#showInPlaceError,string	globals: showInPlaceError(varname: string)	

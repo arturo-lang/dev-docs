@@ -107,29 +107,19 @@ window.addEventListener('DOMContentLoaded', main);
 <li>
   <a class="reference reference-toplevel" href="#12" id="62">Procs</a>
   <ul class="simple simple-toc-section">
-      <ul class="simple nested-toc-section">doExec
-      <li><a class="reference" href="#doExec%2CValueArray%2CByteArray%2CValue"
-    title="doExec(cnst: ValueArray; it: ByteArray; args: Value = nil): ValueDict">doExec(cnst: ValueArray; it: ByteArray; args: Value = nil): ValueDict</a></li>
+      <ul class="simple nested-toc-section">execDictionary
+      <li><a class="reference" href="#execDictionary%2CValue"
+    title="execDictionary(blk: Value): ValueDict">execDictionary(blk: Value): ValueDict</a></li>
 
   </ul>
-  <ul class="simple nested-toc-section">execBlock
-      <li><a class="reference" href="#execBlock%2CValue%2CValue%2Cstaticbool%2CTranslation%2Cstaticbool%2Cstaticbool%2Cstaticbool%2CValue%2CValue%2Cbool%2Cstaticbool%2CValue%2Cstaticbool"
-    title="execBlock(blk: Value; args: Value = nil; hasArgs: static bool = false;
-          evaluated: Translation = nil; hasEval: static bool = false;
-          execInParent: static bool = false; isFuncBlock: static bool = false;
-          imports: Value = nil; exports: Value = nil; exportable: bool = false;
-          inTryBlock: static bool = false; memoized: Value = nil;
-          isMemoized: static bool = false)">execBlock(blk: Value; args: Value = nil; hasArgs: static bool = false;
-          evaluated: Translation = nil; hasEval: static bool = false;
-          execInParent: static bool = false; isFuncBlock: static bool = false;
-          imports: Value = nil; exports: Value = nil; exportable: bool = false;
-          inTryBlock: static bool = false; memoized: Value = nil;
-          isMemoized: static bool = false)</a></li>
+  <ul class="simple nested-toc-section">execFunction
+      <li><a class="reference" href="#execFunction%2CValue%2CHash"
+    title="execFunction(fun: Value; fid: Hash)">execFunction(fun: Value; fid: Hash)</a></li>
 
   </ul>
-  <ul class="simple nested-toc-section">execDictionaryBlock
-      <li><a class="reference" href="#execDictionaryBlock%2CValue"
-    title="execDictionaryBlock(blk: Value): ValueDict">execDictionaryBlock(blk: Value): ValueDict</a></li>
+  <ul class="simple nested-toc-section">ExecLoop
+      <li><a class="reference" href="#ExecLoop%2CValueArray%2CVBinary"
+    title="ExecLoop(cnst: ValueArray; it: VBinary)">ExecLoop(cnst: ValueArray; it: VBinary)</a></li>
 
   </ul>
 
@@ -148,24 +138,29 @@ window.addEventListener('DOMContentLoaded', main);
     title="callInternal(fname: string; getValue: bool; args: varargs[Value]): untyped">callInternal(fname: string; getValue: bool; args: varargs[Value]): untyped</a></li>
 
   </ul>
-  <ul class="simple nested-toc-section">doExec
-      <li><a class="reference" href="#doExec.t%2CTranslation%2CValue"
-    title="doExec(input: Translation; args: Value = nil): ValueDict">doExec(input: Translation; args: Value = nil): ValueDict</a></li>
-
-  </ul>
   <ul class="simple nested-toc-section">execInternal
       <li><a class="reference" href="#execInternal.t%2Cstring"
-    title="execInternal(path: string): untyped">execInternal(path: string): untyped</a></li>
+    title="execInternal(path: string)">execInternal(path: string)</a></li>
 
   </ul>
-  <ul class="simple nested-toc-section">execIsolated
-      <li><a class="reference" href="#execIsolated.t%2CTranslation"
-    title="execIsolated(evaled: Translation): untyped">execIsolated(evaled: Translation): untyped</a></li>
+  <ul class="simple nested-toc-section">execUnscoped
+      <li><a class="reference" href="#execUnscoped.t"
+    title="execUnscoped(input: Translation or Value)">execUnscoped(input: Translation or Value)</a></li>
+
+  </ul>
+  <ul class="simple nested-toc-section">finalizeLeakless
+      <li><a class="reference" href="#finalizeLeakless.t"
+    title="finalizeLeakless(): untyped">finalizeLeakless(): untyped</a></li>
 
   </ul>
   <ul class="simple nested-toc-section">handleBranching
       <li><a class="reference" href="#handleBranching.t%2Cuntyped%2Cuntyped"
     title="handleBranching(tryDoing, finalize: untyped): untyped">handleBranching(tryDoing, finalize: untyped): untyped</a></li>
+
+  </ul>
+  <ul class="simple nested-toc-section">prepareLeakless
+      <li><a class="reference" href="#prepareLeakless.t%2CValueArray"
+    title="prepareLeakless(protected: ValueArray): untyped">prepareLeakless(protected: ValueArray): untyped</a></li>
 
   </ul>
 
@@ -189,40 +184,45 @@ window.addEventListener('DOMContentLoaded', main);
   <div class="section" id="6">
 <h1><a class="toc-backref" href="#6">Imports</a></h1>
 <dl class="item">
-<a class="reference external" href="bytecode.html">bytecode</a>, <a class="reference external" href="errors.html">errors</a>, <a class="reference external" href="eval.html">eval</a>, <a class="reference external" href="globals.html">globals</a>, <a class="reference external" href="parse.html">parse</a>, <a class="reference external" href="profiler.html">profiler</a>, <a class="reference external" href="stack.html">stack</a>, <a class="reference external" href="values/value.html">values/value</a>, <a class="reference external" href="values/custom/vlogical.html">values/custom/vlogical</a>
+<a class="reference external" href="bytecode.html">bytecode</a>, <a class="reference external" href="errors.html">errors</a>, <a class="reference external" href="eval.html">eval</a>, <a class="reference external" href="globals.html">globals</a>, <a class="reference external" href="parse.html">parse</a>, <a class="reference external" href="profiler.html">profiler</a>, <a class="reference external" href="stack.html">stack</a>, <a class="reference external" href="values/value.html">values/value</a>, <a class="reference external" href="values/custom/vbinary.html">values/custom/vbinary</a>, <a class="reference external" href="values/custom/vlogical.html">values/custom/vlogical</a>
 </dl></div>
 <div class="section" id="12">
 <h1><a class="toc-backref" href="#12">Procs</a></h1>
 <dl class="item">
-<div id="doExec,ValueArray,ByteArray,Value">
-<dt><pre><span class="Keyword">proc</span> <a href="#doExec%2CValueArray%2CByteArray%2CValue"><span class="Identifier">doExec</span></a><span class="Other">(</span><span class="Identifier">cnst</span><span class="Other">:</span> <a href="values/types.html#ValueArray"><span class="Identifier">ValueArray</span></a><span class="Other">;</span> <span class="Identifier">it</span><span class="Other">:</span> <a href="../helpers/bytes.html#ByteArray"><span class="Identifier">ByteArray</span></a><span class="Other">;</span> <span class="Identifier">args</span><span class="Other">:</span> <a href="values/types.html#Value"><span class="Identifier">Value</span></a> <span class="Other">=</span> <span class="Keyword">nil</span><span class="Other">)</span><span class="Other">:</span> <a href="values/types.html#ValueDict"><span class="Identifier">ValueDict</span></a> {.
-    <span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">Exception</span><span class="Other">,</span> <span class="Identifier">KeyError</span><span class="Other">]</span><span class="Other">,</span> <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span></span>.}</pre></dt>
-<dd>
-
-
-
-</dd>
-</div>
-<div id="execBlock,Value,Value,staticbool,Translation,staticbool,staticbool,staticbool,Value,Value,bool,staticbool,Value,staticbool">
-<dt><pre><span class="Keyword">proc</span> <a href="#execBlock%2CValue%2CValue%2Cstaticbool%2CTranslation%2Cstaticbool%2Cstaticbool%2Cstaticbool%2CValue%2CValue%2Cbool%2Cstaticbool%2CValue%2Cstaticbool"><span class="Identifier">execBlock</span></a><span class="Other">(</span><span class="Identifier">blk</span><span class="Other">:</span> <a href="values/types.html#Value"><span class="Identifier">Value</span></a><span class="Other">;</span> <span class="Identifier">args</span><span class="Other">:</span> <a href="values/types.html#Value"><span class="Identifier">Value</span></a> <span class="Other">=</span> <span class="Keyword">nil</span><span class="Other">;</span> <span class="Identifier">hasArgs</span><span class="Other">:</span> <span class="Identifier">static</span> <span class="Identifier">bool</span> <span class="Other">=</span> <span class="Identifier">false</span><span class="Other">;</span>
-               <span class="Identifier">evaluated</span><span class="Other">:</span> <a href="values/types.html#Translation"><span class="Identifier">Translation</span></a> <span class="Other">=</span> <span class="Keyword">nil</span><span class="Other">;</span> <span class="Identifier">hasEval</span><span class="Other">:</span> <span class="Identifier">static</span> <span class="Identifier">bool</span> <span class="Other">=</span> <span class="Identifier">false</span><span class="Other">;</span>
-               <span class="Identifier">execInParent</span><span class="Other">:</span> <span class="Identifier">static</span> <span class="Identifier">bool</span> <span class="Other">=</span> <span class="Identifier">false</span><span class="Other">;</span>
-               <span class="Identifier">isFuncBlock</span><span class="Other">:</span> <span class="Identifier">static</span> <span class="Identifier">bool</span> <span class="Other">=</span> <span class="Identifier">false</span><span class="Other">;</span> <span class="Identifier">imports</span><span class="Other">:</span> <a href="values/types.html#Value"><span class="Identifier">Value</span></a> <span class="Other">=</span> <span class="Keyword">nil</span><span class="Other">;</span>
-               <span class="Identifier">exports</span><span class="Other">:</span> <a href="values/types.html#Value"><span class="Identifier">Value</span></a> <span class="Other">=</span> <span class="Keyword">nil</span><span class="Other">;</span> <span class="Identifier">exportable</span><span class="Other">:</span> <span class="Identifier">bool</span> <span class="Other">=</span> <span class="Identifier">false</span><span class="Other">;</span>
-               <span class="Identifier">inTryBlock</span><span class="Other">:</span> <span class="Identifier">static</span> <span class="Identifier">bool</span> <span class="Other">=</span> <span class="Identifier">false</span><span class="Other">;</span> <span class="Identifier">memoized</span><span class="Other">:</span> <a href="values/types.html#Value"><span class="Identifier">Value</span></a> <span class="Other">=</span> <span class="Keyword">nil</span><span class="Other">;</span>
-               <span class="Identifier">isMemoized</span><span class="Other">:</span> <span class="Identifier">static</span> <span class="Identifier">bool</span> <span class="Other">=</span> <span class="Identifier">false</span><span class="Other">)</span></pre></dt>
-<dd>
-
-Execute an unevaluated Block value or pre-evaluated Translation with given arguments and manage the call stack
-
-</dd>
-</div>
-<div id="execDictionaryBlock,Value">
-<dt><pre><span class="Keyword">proc</span> <a href="#execDictionaryBlock%2CValue"><span class="Identifier">execDictionaryBlock</span></a><span class="Other">(</span><span class="Identifier">blk</span><span class="Other">:</span> <a href="values/types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span><span class="Other">:</span> <a href="values/types.html#ValueDict"><span class="Identifier">ValueDict</span></a> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">Exception</span><span class="Other">,</span> <span class="Identifier">KeyError</span><span class="Other">]</span><span class="Other">,</span>
+<div id="execDictionary,Value">
+<dt><pre><span class="Keyword">proc</span> <a href="#execDictionary%2CValue"><span class="Identifier">execDictionary</span></a><span class="Other">(</span><span class="Identifier">blk</span><span class="Other">:</span> <a href="values/types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span><span class="Other">:</span> <a href="values/types.html#ValueDict"><span class="Identifier">ValueDict</span></a> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">KeyError</span><span class="Other">,</span> <span class="Identifier">Exception</span><span class="Other">]</span><span class="Other">,</span>
     <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span></span>.}</pre></dt>
 <dd>
 
 Execute given Block value and return a Dictionary
+
+</dd>
+</div>
+<div id="execFunction,Value,Hash">
+<dt><pre><span class="Keyword">proc</span> <a href="#execFunction%2CValue%2CHash"><span class="Identifier">execFunction</span></a><span class="Other">(</span><span class="Identifier">fun</span><span class="Other">:</span> <a href="values/types.html#Value"><span class="Identifier">Value</span></a><span class="Other">;</span> <span class="Identifier">fid</span><span class="Other">:</span> <span class="Identifier">Hash</span><span class="Other">)</span> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">KeyError</span><span class="Other">,</span> <span class="Identifier">Exception</span><span class="Other">]</span><span class="Other">,</span>
+    <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span></span>.}</pre></dt>
+<dd>
+
+<p>Execute given Function value with scoping</p>
+<p>This means:</p>
+<ul class="simple"><li>All symbols declared inside will NOT be available in the outer scope</li>
+<li>Symbols re-assigned inside will NOT overwrite the value in the outer scope</li>
+<li>Symbols declared in <tt class="docutils literal"><span class="pre"><span class="Operator">.</span><span class="Identifier">exports</span></span></tt> will not abide by this rule</li>
+<li>If the whole function is marked as <tt class="docutils literal"><span class="pre"><span class="Operator">.</span><span class="Identifier">exportable</span></span></tt>, then none of the symbols will abide by this rule and it will behave pretty much like <tt class="docutils literal"><span class="pre"><span class="Identifier">execLeakless</span></span></tt></li>
+</ul>
+
+
+</dd>
+</div>
+<div id="ExecLoop,ValueArray,VBinary">
+<dt><pre><span class="Keyword">proc</span> <a href="#ExecLoop%2CValueArray%2CVBinary"><span class="Identifier">ExecLoop</span></a><span class="Other">(</span><span class="Identifier">cnst</span><span class="Other">:</span> <a href="values/types.html#ValueArray"><span class="Identifier">ValueArray</span></a><span class="Other">;</span> <span class="Identifier">it</span><span class="Other">:</span> <a href="values/custom/vbinary.html#VBinary"><span class="Identifier">VBinary</span></a><span class="Other">)</span> {.<span><span class="Other pragmadots">...</span></span><span class="pragmawrap"><span class="Identifier">raises</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">Exception</span><span class="Other">,</span> <span class="Identifier">KeyError</span><span class="Other">]</span><span class="Other">,</span>
+    <span class="Identifier">tags</span><span class="Other">:</span> <span class="Other">[</span><span class="Identifier">RootEffect</span><span class="Other">]</span></span>.}</pre></dt>
+<dd>
+
+<p>The main execution loop.</p>
+<p>It takes an array of constants, our data (<tt class="docutils literal"><span class="pre">cnst</span></tt>) and array of bytes, our instructions/bytecode (<tt class="docutils literal"><span class="pre">it</span></tt>), goes through them and executes them one-by-one</p>
+<p><strong>Hint:</strong> Not to be called directly! Better use one of the helpers above!</p>
+
 
 </dd>
 </div>
@@ -235,7 +235,7 @@ Execute given Block value and return a Dictionary
 <dt><pre><span class="Keyword">template</span> <a href="#callFunction.t%2CValue%2Cstring"><span class="Identifier">callFunction</span></a><span class="Other">(</span><span class="Identifier">f</span><span class="Other">:</span> <a href="values/types.html#Value"><span class="Identifier">Value</span></a><span class="Other">;</span> <span class="Identifier">fnName</span><span class="Other">:</span> <span class="Identifier">string</span> <span class="Other">=</span> <span class="StringLit">&quot;&lt;closure&gt;&quot;</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">untyped</span></pre></dt>
 <dd>
 
-Take a Function value, whether a user or a built-in one, and execute it.
+Take a Function value, whether a user or a built-in one, and execute it
 
 </dd>
 </div>
@@ -247,27 +247,34 @@ Call function by name, directly and - optionally - return the result
 
 </dd>
 </div>
-<div id="doExec.t,Translation,Value">
-<dt><pre><span class="Keyword">template</span> <a href="#doExec.t%2CTranslation%2CValue"><span class="Identifier">doExec</span></a><span class="Other">(</span><span class="Identifier">input</span><span class="Other">:</span> <a href="values/types.html#Translation"><span class="Identifier">Translation</span></a><span class="Other">;</span> <span class="Identifier">args</span><span class="Other">:</span> <a href="values/types.html#Value"><span class="Identifier">Value</span></a> <span class="Other">=</span> <span class="Keyword">nil</span><span class="Other">)</span><span class="Other">:</span> <a href="values/types.html#ValueDict"><span class="Identifier">ValueDict</span></a></pre></dt>
-<dd>
-
-Same as <tt class="docutils literal"><span class="pre">doExec(input.constants, input.instructions, args)</span></tt>
-
-</dd>
-</div>
 <div id="execInternal.t,string">
-<dt><pre><span class="Keyword">template</span> <a href="#execInternal.t%2Cstring"><span class="Identifier">execInternal</span></a><span class="Other">(</span><span class="Identifier">path</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">untyped</span></pre></dt>
+<dt><pre><span class="Keyword">template</span> <a href="#execInternal.t%2Cstring"><span class="Identifier">execInternal</span></a><span class="Other">(</span><span class="Identifier">path</span><span class="Other">:</span> <span class="Identifier">string</span><span class="Other">)</span></pre></dt>
 <dd>
 
 Execute internal script using given path
 
 </dd>
 </div>
-<div id="execIsolated.t,Translation">
-<dt><pre><span class="Keyword">template</span> <a href="#execIsolated.t%2CTranslation"><span class="Identifier">execIsolated</span></a><span class="Other">(</span><span class="Identifier">evaled</span><span class="Other">:</span> <a href="values/types.html#Translation"><span class="Identifier">Translation</span></a><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">untyped</span></pre></dt>
+<div id="execUnscoped.t">
+<dt><pre><span class="Keyword">template</span> <a href="#execUnscoped.t"><span class="Identifier">execUnscoped</span></a><span class="Other">(</span><span class="Identifier">input</span><span class="Other">:</span> <a href="values/types.html#Translation"><span class="Identifier">Translation</span></a> <span class="Keyword">or</span> <a href="values/types.html#Value"><span class="Identifier">Value</span></a><span class="Other">)</span></pre></dt>
 <dd>
 
-Same as <tt class="docutils literal"><span class="pre">execBlock(evaled)</span></tt>
+<p>Execute given bytecode without scoping</p>
+<p>This means:</p>
+<ul class="simple"><li>Symbols declared inside will be available in the outer scope</li>
+<li>Symbols re-assigned inside will overwrite the value in the outer scope (if it exists)</li>
+</ul>
+
+
+</dd>
+</div>
+<div id="finalizeLeakless.t">
+<dt><pre><span class="Keyword">template</span> <a href="#finalizeLeakless.t"><span class="Identifier">finalizeLeakless</span></a><span class="Other">(</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">untyped</span></pre></dt>
+<dd>
+
+<p>Finalize leak-less block execution</p>
+<p><strong>Hint:</strong> To be used in the Iterators module</p>
+
 
 </dd>
 </div>
@@ -276,6 +283,16 @@ Same as <tt class="docutils literal"><span class="pre">execBlock(evaled)</span><
 <dd>
 
 Wrapper for code that may throw <em>Break</em> or <em>Continue</em> signals, or other errors that are to be caught
+
+</dd>
+</div>
+<div id="prepareLeakless.t,ValueArray">
+<dt><pre><span class="Keyword">template</span> <a href="#prepareLeakless.t%2CValueArray"><span class="Identifier">prepareLeakless</span></a><span class="Other">(</span><span class="Identifier">protected</span><span class="Other">:</span> <a href="values/types.html#ValueArray"><span class="Identifier">ValueArray</span></a><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">untyped</span></pre></dt>
+<dd>
+
+<p>Prepare for leak-less block execution</p>
+<p><strong>Hint:</strong> To be used in the Iterators module</p>
+
 
 </dd>
 </div>
@@ -289,7 +306,7 @@ Wrapper for code that may throw <em>Break</em> or <em>Continue</em> signals, or 
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br/>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2022-10-22 13:12:39 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2022-10-28 16:34:30 UTC</small>
       </div>
     </div>
   </div>

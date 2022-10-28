@@ -128,7 +128,7 @@ newColor	vm/values/value.html#newColor,VColor	value: newColor(l: VColor): Value
 newColor	vm/values/value.html#newColor,RGB	value: newColor(rgb: RGB): Value	
 newColor	vm/values/value.html#newColor,string	value: newColor(l: string): Value	
 newDate	vm/values/value.html#newDate,sinkDateTime	value: newDate(dt: sink DateTime): Value	
-newBinary	vm/values/value.html#newBinary,ByteArray	value: newBinary(n: ByteArray = @[]): Value	
+newBinary	vm/values/value.html#newBinary,VBinary	value: newBinary(n: VBinary = @[]): Value	
 newDictionary	vm/values/value.html#newDictionary,sinkValueDict	value: newDictionary(d: sink ValueDict = initOrderedTable()): Value	
 newObject	vm/values/value.html#newObject,sinkValueDict,sinkPrototype	value: newObject(o: sink ValueDict = initOrderedTable(); proto: sink Prototype): Value	
 newObject	vm/values/value.html#newObject,ValueArray,Prototype,proc(Value,Prototype),ValueDict	value: newObject(args: ValueArray; prot: Prototype;\n          initializer: proc (self: Value; prot: Prototype);\n          o: ValueDict = initOrderedTable()): Value	

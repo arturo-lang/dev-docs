@@ -1,9 +1,10 @@
-doExec	vm/exec.html#doExec.t,Translation,Value	exec: doExec(input: Translation; args: Value = nil): ValueDict	
 callFunction	vm/exec.html#callFunction.t,Value,string	exec: callFunction(f: Value; fnName: string = &quot;&lt;closure&gt;&quot;): untyped	
-execIsolated	vm/exec.html#execIsolated.t,Translation	exec: execIsolated(evaled: Translation): untyped	
-execBlock	vm/exec.html#execBlock,Value,Value,staticbool,Translation,staticbool,staticbool,staticbool,Value,Value,bool,staticbool,Value,staticbool	exec: execBlock(blk: Value; args: Value = nil; hasArgs: static bool = false;\n          evaluated: Translation = nil; hasEval: static bool = false;\n          execInParent: static bool = false; isFuncBlock: static bool = false;\n          imports: Value = nil; exports: Value = nil; exportable: bool = false;\n          inTryBlock: static bool = false; memoized: Value = nil;\n          isMemoized: static bool = false)	
-execDictionaryBlock	vm/exec.html#execDictionaryBlock,Value	exec: execDictionaryBlock(blk: Value): ValueDict	
-execInternal	vm/exec.html#execInternal.t,string	exec: execInternal(path: string): untyped	
 callInternal	vm/exec.html#callInternal.t,string,bool,varargs[Value]	exec: callInternal(fname: string; getValue: bool; args: varargs[Value]): untyped	
+prepareLeakless	vm/exec.html#prepareLeakless.t,ValueArray	exec: prepareLeakless(protected: ValueArray): untyped	
+finalizeLeakless	vm/exec.html#finalizeLeakless.t	exec: finalizeLeakless(): untyped	
 handleBranching	vm/exec.html#handleBranching.t,untyped,untyped	exec: handleBranching(tryDoing, finalize: untyped): untyped	
-doExec	vm/exec.html#doExec,ValueArray,ByteArray,Value	exec: doExec(cnst: ValueArray; it: ByteArray; args: Value = nil): ValueDict	
+execUnscoped	vm/exec.html#execUnscoped.t	exec: execUnscoped(input: Translation or Value)	
+execInternal	vm/exec.html#execInternal.t,string	exec: execInternal(path: string)	
+execDictionary	vm/exec.html#execDictionary,Value	exec: execDictionary(blk: Value): ValueDict	
+execFunction	vm/exec.html#execFunction,Value,Hash	exec: execFunction(fun: Value; fid: Hash)	
+ExecLoop	vm/exec.html#ExecLoop,ValueArray,VBinary	exec: ExecLoop(cnst: ValueArray; it: VBinary)	

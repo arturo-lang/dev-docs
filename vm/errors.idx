@@ -2,16 +2,18 @@ ReturnTriggered	vm/errors.html#ReturnTriggered	errors: ReturnTriggered
 BreakTriggered	vm/errors.html#BreakTriggered	errors: BreakTriggered	
 ContinueTriggered	vm/errors.html#ContinueTriggered	errors: ContinueTriggered	
 VMError	vm/errors.html#VMError	errors: VMError	
-RuntimeError	vm/errors.html#RuntimeError	errors: RuntimeError	
-AssertionError	vm/errors.html#AssertionError	errors: AssertionError	
-SyntaxError	vm/errors.html#SyntaxError	errors: SyntaxError	
-ProgramError	vm/errors.html#ProgramError	errors: ProgramError	
-CompilerError	vm/errors.html#CompilerError	errors: CompilerError	
+RuntimeError	vm/errors.html#RuntimeError	VMErrorKind.RuntimeError	
+AssertionError	vm/errors.html#AssertionError	VMErrorKind.AssertionError	
+SyntaxError	vm/errors.html#SyntaxError	VMErrorKind.SyntaxError	
+ProgramError	vm/errors.html#ProgramError	VMErrorKind.ProgramError	
+CompilerError	vm/errors.html#CompilerError	VMErrorKind.CompilerError	
+UndefinedError	vm/errors.html#UndefinedError	VMErrorKind.UndefinedError	
+VMErrorKind	vm/errors.html#VMErrorKind	errors: VMErrorKind	
 CurrentFile	vm/errors.html#CurrentFile	errors: CurrentFile	
 CurrentPath	vm/errors.html#CurrentPath	errors: CurrentPath	
 CurrentLine	vm/errors.html#CurrentLine	errors: CurrentLine	
 ExecStack	vm/errors.html#ExecStack	errors: ExecStack	
-panic	vm/errors.html#panic,string,string	errors: panic(context: string; error: string; throw = true)	
+panic	vm/errors.html#panic,VMErrorKind,string	errors: panic(context: VMErrorKind; error: string; throw = true)	
 showVMErrors	vm/errors.html#showVMErrors,ref.Exception	errors: showVMErrors(e: ref Exception)	
 CompilerError_ScriptNotExists	vm/errors.html#CompilerError_ScriptNotExists,string	errors: CompilerError_ScriptNotExists(name: string)	
 CompilerError_UnrecognizedOption	vm/errors.html#CompilerError_UnrecognizedOption,string	errors: CompilerError_UnrecognizedOption(name: string)	

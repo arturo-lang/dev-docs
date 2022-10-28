@@ -28,8 +28,8 @@ opConstD	vm/opcodes.html#opConstD	OpCode.opConstD
 opConstN	vm/opcodes.html#opConstN	OpCode.opConstN	
 opEol	vm/opcodes.html#opEol	OpCode.opEol	
 opEolX	vm/opcodes.html#opEolX	OpCode.opEolX	
-RSRV1	vm/opcodes.html#RSRV1	OpCode.RSRV1	
-RSRV2	vm/opcodes.html#RSRV2	OpCode.RSRV2	
+opDStore	vm/opcodes.html#opDStore	OpCode.opDStore	
+opDStoreX	vm/opcodes.html#opDStoreX	OpCode.opDStoreX	
 opPush0	vm/opcodes.html#opPush0	OpCode.opPush0	
 opPush1	vm/opcodes.html#opPush1	OpCode.opPush1	
 opPush2	vm/opcodes.html#opPush2	OpCode.opPush2	
@@ -173,7 +173,7 @@ opJoin	vm/opcodes.html#opJoin	OpCode.opJoin
 opReverse	vm/opcodes.html#opReverse	OpCode.opReverse	
 opInc	vm/opcodes.html#opInc	OpCode.opInc	
 opDec	vm/opcodes.html#opDec	OpCode.opDec	
-RSRV3	vm/opcodes.html#RSRV3	OpCode.RSRV3	
+RSRV1	vm/opcodes.html#RSRV1	OpCode.RSRV1	
 opNop	vm/opcodes.html#opNop	OpCode.opNop	
 opPop	vm/opcodes.html#opPop	OpCode.opPop	
 opDup	vm/opcodes.html#opDup	OpCode.opDup	

@@ -1,0 +1,9 @@
+Byte	vm/values/custom/vbinary.html#Byte	vbinary: Byte	
+VBinary	vm/values/custom/vbinary.html#VBinary	vbinary: VBinary	
+`and`	vm/values/custom/vbinary.html#and,VBinary,VBinary	vbinary: `and`(a: VBinary; b: VBinary): VBinary	
+`or`	vm/values/custom/vbinary.html#or,VBinary,VBinary	vbinary: `or`(a: VBinary; b: VBinary): VBinary	
+`xor`	vm/values/custom/vbinary.html#xor,VBinary,VBinary	vbinary: `xor`(a: VBinary; b: VBinary): VBinary	
+`not`	vm/values/custom/vbinary.html#not,VBinary	vbinary: `not`(a: VBinary): VBinary	
+`$`	vm/values/custom/vbinary.html#$,VBinary	vbinary: `$`(a: VBinary): string	
+substitute	vm/values/custom/vbinary.html#substitute,VBinary,VBinary,VBinary	vbinary: substitute(a: VBinary; needle: VBinary; replacement: VBinary): VBinary	
+numberToBinary	vm/values/custom/vbinary.html#numberToBinary	vbinary: numberToBinary(i: int | float): VBinary	
